@@ -1153,13 +1153,277 @@ individual structure members using pointer notation.
 
 ## Chapter 12 
 
+1. Write a program using pointers to read in an array of
+integers and print its elements in reverse order.
 
+
+
+2. We know that the roots of a quadratic
+equation of the form
+	ax 2 + bx + c = 0
+are given by the following equations:
+	x1 = -b + sqrt(b*b-4*a*c)/2*a
+	x2 = -b - sqrt(b*b-4*a*c)/2*a
+Write a function to calculate the roots. The function
+must use two pointer parameters, one to receive the
+coefficients a, b, and c, and the other to send the
+roots to the calling function.
+
+
+
+3. Write a function that receives a sorted array of
+integers and an integer value, and inserts the value
+in its correct place.
+
+4. Write a function using pointers to add two matrices
+and to return the resultant matrix to the calling
+function.
+
+
+
+5. Using pointers, write a function that receives a
+character string and a character as argument and
+deletes all occurrences of this character in the string.
+The function should return the corrected string with
+no holes.
+
+
+
+6. Write a function day_name that receives a number
+n and returns a pointer to a character string
+containing the name of the corresponding day. The
+day names should be kept in a static table of
+character strings local to the function.
+
+
+
+7. Write a program to read in an
+array of names and to sort them in alphabetical
+order. Use sort function that receives pointers to the
+functions strcmp and swap.sort in turn should call
+these functions via the pointers.
+
+
+
+8. Given an array of sorted list of integer numbers,
+write a function to search for a particular item, using
+the method of binary search. And also show how this
+function may be used in a program. Use pointers and
+pointer arithmetic.
+(Hint: In binary search, the target value is compared
+with the array’s middle element. Since the table is
+sorted, if the required value is smaller, we know that
+all values greater than the middle element can be
+ignored. That is, in one attempt, we eliminate one
+half the list. This search can be applied recursively
+till the target value is found.)
+
+
+
+9. Write a function (using a pointer parameter) that
+reverses the elements of a given array.
+
+
+
+10. Write a function (using pointer
+parameters) that compares two integer arrays to see
+whether they are identical. The function returns 1 if
+they are identical, 0 otherwise.
+
+
+
+11. Write a C program to insert a substring into another
+string by using function and pointers.
+
+12. Write a C program that uses the pointer increment
+operations to demonstrate the scale factor.
+
+13. Write a C program that displays the
+addresses and values pointed by an array of
+pointers.
+
+
+
+14. Write a C program that uses pointers to
+demonstrate initialization of structure members.
 
 ## Chapter 13 
 
+1. Write a program to copy the contents of one file into
+another.
 
+
+
+2. Two files DATA1 and DATA2 contain sorted lists of
+integers. Write a program to produce a third file
+DATA which holds a single sorted, merged list of
+these two lists. Use command line arguments to
+specify the file names.
+
+
+
+3. Write a program that compares two files and returns
+0 if they are equal and 1 is they are not.
+
+
+
+4. Write a program that appends one file at the end of
+another.
+
+
+
+5. Write a program that reads a file containing integers
+and appends at its end the sum of all the integers.
+
+
+
+6. Write a program that prompts the user
+for two files, one containing a line of text known as
+source file and other, an empty file known as target
+file and then copies the contents of source file into
+target file.
+Modify the program so that a specified character is
+deleted from the source file as it is copied to the
+target file.
+
+
+
+7. Write a program that requests for a file name and
+an integer, known as offset value. The program then
+reads the file starting from the location specified by
+the offset value and prints the contents on the
+screen.
+Note: If the offset value is a positive integer, then
+printing skips that many lines. If it is a negative
+number, it prints that many lines from the end of
+the file. An appropriate error message should be
+printed, if anything goes wrong.
+
+
+
+8. Write a program to create a sequential file that
+could store details about five products. Details
+include product code, cost and number of items
+available and are provided through keyboard.
+
+
+
+9. Write a program to read the file
+created in Exercise 13.8 and compute and print the
+total value of all the five products.
+
+
+
+10. Rewrite the program developed in Exercise 13.8 to
+store the details in a random access file and print
+the details of alternate products from the file.
+Modify the program so that it can output the details
+of a product when its code is specified interactively.
+
+
+
+11. Write a C program that uses file
+handling methods to store records of mixed data in
+a file.
+
+12. Write a C program that uses getw function to read
+integer values from one file. Subsequently, it uses
+the putw function to write the integer values in
+reverse order in another file.
+
+
+
+13. Write a C program that reads characters from a file
+and prints their ASCII codes.
+
+
+
+14.Write a C program that concatenates the contents
+of two files and writes then in the third file.
+
+
+
+15. Write a C program that uses fscanf
+function to read integer values from a file, computes
+the square of each integer value and places the
+resultant values in a different file.
 
 ## Chapter 14 
+
+1. In Worked-Out Problem 14.4, we have used print()
+in recursive mode. Rewrite this function using
+iterative technique in for loop.
+
+2. Write a menu driven program to create a linked list
+of a class of students and perform the following
+operations:
+(a) Write out the contents of the list.
+(b) Edit the details of a specified student.
+9c) Count the number of students above a specified
+age and weight.
+Make use of the header file defined in Review
+Question 14.8.
+
+
+
+3. Write recursive and non-recursive functions for
+reversing the elements in a linear list. Compare the
+relative efficiencies of them.
+
+4. Write an interactive program to create linear linked
+lists of customer names and their telephone
+numbers. The program should be menu driven and
+include features for add ing a new customer and
+deleting an existing customer.
+
+5. Modify the above program so that the list is always
+maintained in the alphabetical order of customer
+names.
+
+6. Develop a program to combine two sorted lists to
+produce a third sorted lists which contains one
+occurrence of each of the elements in the original
+lists.
+
+7. Write a program to create a circular linked list so
+that the input order of data item is maintained. Add
+function to carry out the following operations on
+circular linked list.
+a. Count the number of nodes
+b. Write out contents
+c. Locate and write the contents of a given node
+
+8. Write a program to construct an ordered doubly
+linked list and write out the contents of a specified
+node.
+
+9. Write a function that would traverse a linear singly
+linked list in reverse and write out the contents in
+reverse order.
+
+10. Given two ordered singly linked lists, write a
+function that will merge them into a third ordered
+list.
+
+11. Write a function that takes a pointer to the first
+node in a linked list as a parameter and returns a
+pointer to the last node. NULL should be returned if
+the list is empty.
+
+12. Write a function that counts and returns the total
+number of nodes in a linked list.
+
+13. Write a function that takes a specified node of a
+linked list and makes it as its last node.
+
+14. Write a function that computers and
+returns the length of a circular list.
+
+15. Write functions to implement the following tasks
+for a doubly linked list.
+a. To insert a node.
+b. To delete a node.
+c. To find a specified node.
 
 
 
