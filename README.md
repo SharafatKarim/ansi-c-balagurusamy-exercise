@@ -4,8 +4,6 @@ Excersise solutions for the book "ANSI C" by E. Balagurusamy (eight edition).
 # Index
 - [Chapter 2](#chapter-2) 
 
-- [Chapter 3](#chapter-3) 
-
 - [Chapter 4](#chapter-4) 
 
 - [Chapter 5](#chapter-5) 
@@ -50,10 +48,6 @@ Execute your program for the following values:
 (a) a = 250, b = 85, c = 25
 (b) a = 300, b = 70, c = 70
 Comment on the output in each case.
-
-
-
-## Chapter 3 
 
 
 
