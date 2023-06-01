@@ -341,7 +341,155 @@ after 10 years at arate of interest of 8.75%.
 
 ## Chapter 6 
 
+1. Write a program to determine whether a given number is ‘odd’ or ‘even’ and print the message
+NUMBER IS EVEN or NUMBER IS ODD
+(a) without using else option and
+(b) with else option.
 
+2. Write a program to find the number of and sum of all integers greater than 100 and less than 200 that
+are divisible by 7.
+
+3. A set of two linear equations with two unknowns x1 and x2 is given below:
+ax 1 + bx 2 = m
+cx 1 + dx 2 = n
+The set has a unique solution
+	x1 = (m*d - b*n) / (a*d - c*d)
+	x2 = (n*a - m*c) / (a*d - c*b)
+provided the denominator ad – cb is not equal to zero.
+Write a program that will read the values of constants a, b, c, d, m, and n and compute the values of x 1 and x 2. An appropriate message should be printed if ad – cb = 0.
+
+4. Given a list of marks ranging from 0 to 100, write a program to compute and print the number of
+students:
+(a) who have obtained more than 80 marks,
+(b) who have obtained more than 60 marks,
+(c) who have obtained more than 40 marks,
+(d) who have obtained 40 or less marks,
+(e) in the range 81 to 100,
+(f) in the range 61 to 80,
+(g) in the range 41 to 60, and
+(h) in the range 0 to 40.
+The program should use a minimum number of if statements.
+
+5. Admission to a professional course is subject to the following conditions:
+(a) Marks in Mathematics >= 60
+(b) Marks in Physics >= 50
+(c) Marks in Chemistry >= 40
+(d) Total in all three subjects >= 200
+or
+Total in Mathematics and Physics >= 150 Given the marks in the three subjects, write a
+program to process the applications to list the eligible candidates.
+
+6. Write a program to print a two-dimensional Square Root Table as shown below, to provide the square
+root of any number from 0 to 9.9. For example, the value x will give the square root of 3.2 and y the
+square root of 3.9.
+
+7. Shown below is a Floyd’s triangle.
+1
+2 3
+4 5 6
+7 8 9 10
+11 .. .. .. 15
+.
+.
+79 .. .. .. .. .. .. 91
+(a) Write a program to print this triangle.
+(b) Modify the program to produce the following
+form of Floyd’s triangle.
+1
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
+
+8. A cloth showroom has announced the following seasonal discounts on purchase of items:
+
+Write a program using switch and if statements to compute the net amount to be paid by a customer.
+
+
+
+9. Write a program that will read the value of x and evaluate the following function
+		    1  for x>0
+		y=  0  for x=0
+		   -1  for x<0
+ using
+(a) nested if statements,
+(b) else if statements, and
+(c) conditional operator ? :
+
+10. Write a program to compute the real roots of a quadratic equation
+				ax 2 + bx + c = 0
+The roots are given by the equations
+		x1 = -b + sqrt ( b*b - 4*a*c) / 2*a
+		x2 = -b - sqrt (b*b + 4*a*c) / 2*a
+The program should request for the values of the
+constants a, b and c and print the values of x 1 and x 2.
+ Use the following rules:
+(a) No solution, if both a and b are zero
+(b) There is only one root, if a = 0 (x = –c/b)
+(c) There are no real roots, if b 2 – 4 ac is negative
+(d) Otherwise, there are two real roots
+Test your program with appropriate data so that all logical paths are working as per your design.
+Incorporate appropriate output messages.
+
+11. Write a program to read three integer values from the keyboard and displays the output stating that
+they are the sides of right-angled triangle.
+
+12. An electricity board charges the following rates for the use of electricity:
+For the first 200 units: 80 P per unit
+For the next 100 units: 90 P per unit
+Beyond 300 units: Rs 1.00 per unit
+All users are charged a minimum of Rs. 100 as meter charge. If the total amount is more than Rs.400, 
+then an additional surcharge of 15% of total amount is charged.
+Write a program to read the names of users and number of units consumed and print out the
+charges with names.
+
+
+
+13. Write a program to compute and display the sum of all integers that are divisible by 6 but not divisible
+by 4 and lie between 0 and 100. The program should also count and display the number of such
+values.
+
+
+
+14. Write an interactive program that could read a positive integer number and decide whether the
+number is a prime number and display the output accordingly.
+Modify the program to count all the prime numbers that lie between 100 and 200.
+NOTE : A prime number is a positive integer that is divisible only by 1 or by itself.
+
+
+
+15. Write a program to read a double-type value x that represents angle in radians and a character-type
+variable T that represents the type of trigonometric function and display the value of
+(a) sin(x), if s or S is assigned to T,
+(b) cos (x), if c or C is assigned to T, and
+(c) tan (x), if t or T is assigned to T
+using (i) if......else statement , and (ii) switch statement.
+
+16. Write a C program to input the numeric week day value (starting from Monday as 1) and display the
+corresponding name of the week day.
+
+
+
+17. Write a C program to input two numbers a and b and display whether
+(a) a is greater than b
+(b) b is greater than b
+(c) or, a and b are equal
+
+
+
+18. Write a C program to input the total percentage of marks of a student and display its Division using
+below rules:
+(a) Greater than or equal to 80 percent - “First Division”
+(b) Greater than or equal to 60 percent and less than 80 per cent - “Second Division”
+(c) Less than 60 percent - “Third Division"
+
+19. Using Switch case block, input the name of the month from the user and display the corresponding
+number of days in that month.
+
+
+
+20. Write a C program that inputs a string and counts the number of capital and small alphabets in that
+string.
 
 ## Chapter 7 
 
