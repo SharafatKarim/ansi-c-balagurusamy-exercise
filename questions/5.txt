@@ -1,0 +1,91 @@
+1. Given the string “WORDPROCESSING”, write a program to read the string from the terminal and
+display the same in the following formats:
+(a) WORD PROCESSING
+(b) WORD
+PROCESSING
+(c) W.P
+
+2. Write a program to read the values of x and y and
+print the results of the following expressions in one
+line:
+(a) (x+y) / (x-y)
+(b) (x+y) /2
+(c) (x+y)(x–y)
+
+3. Write a program to read the following numbers, round them off to the nearest integers and print out
+the results in integer form: 35.7 50.21 – 23.73 – 46.45
+
+4. Write a program that reads 4 floating point values in the range, 0.0 to 20.0, and prints a horizontal bar
+chart to represent these values using the character * as the fill character. For the purpose of the chart,
+the values may be rounded off to the nearest integer. For example, the value 4.36 should be
+represented as follows.
+            *      *      *       *
+            *      *     *        *         4.36
+            *      *     *        *
+ Note that the actual values are shown at the end of each bar.
+
+5. Write an interactive program to demonstrate the process of multiplication. The program should ask
+the user to enter two two-digit integers and print the product of integers as shown below.
+                      45
+                  x   37
+    ________________________
+     7 x 45 is       315
+     3 x 45 is       135
+     ______________________
+     Add them       1665
+            _______________
+
+6. Write a program to read three integers from the keyboard using one scanf statement and output
+them on one line using:
+(a) three printf statements,
+(b) only one printf with conversion specifiers, and
+(c) only one printf without conversion specifiers.
+
+
+7. Write a program that prints the value 10.45678 in exponential format with the following specifications:
+(a) correct to two decimal places;
+(b) correct to four decimal places; and
+(c) correct to eight decimal places.
+
+
+8. Write a program to print the value 345.6789 in fixed-point format with the following specifications:
+(a) correct to two decimal places;
+(b) correct to five decimal places; and
+(c) correct to zero decimal places.
+
+
+9. Write a program to read the name ANIL KUMAR GUPTA in three parts using the scanf statement and
+to display the same in the following format using the printf statement.
+(a) ANIL K. GUPTA
+(b) A.K. GUPTA
+(c) GUPTA A.K.
+
+
+10. Write a program to read and display the following table of data.
+          Name            Code             Price
+          Fan             67831            1234.50
+          Motor           450              5786.70
+The name and code must be left-justified and price must be right justified.
+
+11. Write a C program to print inventory stock report using some sample data. The report should show
+item code, quantity and inventory location as formatted output.
+
+
+12. Write a C program to display the Pascal’s triangle.
+
+13. Write a C program to input a currency value in Dollars and display its equivalent Euro and
+INR amounts. You may use current exchange rate for conversion purpose.
+
+
+14. Write a C program to display the following pattern.
+            5 4 3 2 1
+              4 3 2 1
+                3 2 1
+                  2 1
+                    1
+
+15. Write a C program to input an investment amount and compute its fixed deposit cumulative return
+after 10 years at arate of interest of 8.75%.
+
+
+
