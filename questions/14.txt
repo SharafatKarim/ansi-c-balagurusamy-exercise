@@ -1,0 +1,88 @@
+1. In Worked-Out Problem 14.4, we have used print()
+in recursive mode. Rewrite this function using
+iterative technique in for loop.
+
+
+2. Write a menu driven program to create a linked list
+of a class of students and perform the following
+operations:
+(a) Write out the contents of the list.
+(b) Edit the details of a specified student.
+9c) Count the number of students above a specified
+age and weight.
+Make use of the header file defined in Review
+Question 14.8.
+
+
+
+3. Write recursive and non-recursive functions for
+reversing the elements in a linear list. Compare the
+relative efficiencies of them.
+
+
+4. Write an interactive program to create linear linked
+lists of customer names and their telephone
+numbers. The program should be menu driven and
+include features for add ing a new customer and
+deleting an existing customer.
+
+
+5. Modify the above program so that the list is always
+maintained in the alphabetical order of customer
+names.
+
+
+6. Develop a program to combine two sorted lists to
+produce a third sorted lists which contains one
+occurrence of each of the elements in the original
+lists.
+
+
+7. Write a program to create a circular linked list so
+that the input order of data item is maintained. Add
+function to carry out the following operations on
+circular linked list.
+a. Count the number of nodes
+b. Write out contents
+c. Locate and write the contents of a given node
+
+
+8. Write a program to construct an ordered doubly
+linked list and write out the contents of a specified
+node.
+
+
+9. Write a function that would traverse a linear singly
+linked list in reverse and write out the contents in
+reverse order.
+
+
+10. Given two ordered singly linked lists, write a
+function that will merge them into a third ordered
+list.
+
+
+11. Write a function that takes a pointer to the first
+node in a linked list as a parameter and returns a
+pointer to the last node. NULL should be returned if
+the list is empty.
+
+
+12. Write a function that counts and returns the total
+number of nodes in a linked list.
+
+
+13. Write a function that takes a specified node of a
+linked list and makes it as its last node.
+
+
+14. Write a function that computers and
+returns the length of a circular list.
+
+
+15. Write functions to implement the following tasks
+for a doubly linked list.
+a. To insert a node.
+b. To delete a node.
+c. To find a specified node.
+
