@@ -1,1 +1,5 @@
 /.venv
+*.exe
+*.out
+*.so
+/.vscode
