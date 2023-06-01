@@ -33,6 +33,14 @@ Excersise solutions for the book "ANSI C" by E. Balagurusamy (eight edition).
 ---
 ## Chapter 2 
 
+1. Write a program to display the equation of a line in
+the form
+ax + by = c
+for a = 5, b = 8 and c = 18.
+
+2. Write a C program that uses an in-built function to
+draw a 3D bar.
+
 
 
 ## Chapter 3 
