@@ -41,6 +41,16 @@ for a = 5, b = 8 and c = 18.
 2. Write a C program that uses an in-built function to
 draw a 3D bar.
 
+3. Write a program to output the following multiplication table
+
+4. Given the values of three variables a, b and c, write
+a program to compute and display the value of x,
+where x = a / ( b - c ) 
+Execute your program for the following values:
+(a) a = 250, b = 85, c = 25
+(b) a = 300, b = 70, c = 70
+Comment on the output in each case.
+
 
 
 ## Chapter 3 
