@@ -4,8 +4,6 @@ Excersise solutions for the book "ANSI C" by E. Balagurusamy (eight edition).
 # Index
 - [Chapter 2](#chapter-2) 
 
-- [Chapter 3](#chapter-3) 
-
 - [Chapter 4](#chapter-4) 
 
 - [Chapter 5](#chapter-5) 
@@ -50,55 +48,6 @@ Execute your program for the following values:
 (a) a = 250, b = 85, c = 25
 (b) a = 300, b = 70, c = 70
 Comment on the output in each case.
-
-
-
-## Chapter 3 
-
-1. Write a program to determine and print the sum of the following harmonic series for a given value of n:
-                        1+ 1/2 +1/3 +....+ 1/n
-The value of n should be given interactively through the terminal.
-
-2. The price of one kg of rice is Rs. 16.75 and one kg of sugar is Rs. 15. Write a program to get these values
-from the user and display the prices as follows:
-      *** LIST OF ITEMS***
-      Item          Price
-      Rich          Rs 16.75
-      Sugar         Rs 15.00
-
-3. Write program to count and print the number of negative and positive numbers in a given set of numbers.
-Test your program with a suitable set of numbers. Use scanf to read the numbers. Readingshould be 
-terminated when the value 0 is
-encountered.
-
-4. Write a program to do the following:
-(a) Declare x and y as integer variables and z as a short integer variable.
-(b) Assign two 6 digit numbers to x and y
-(c) Assign the sum of x and y to z
-(d) Output the values of x, y and z
-Comment on the output.
-
-5. Write a program to illustrate the use of typedef declaration in a program.
-
-6. Write a program to illustrate the use of symbolicconstants in a real-life application.
-
-7. Write a C program to input an integer and print its table.
-
-8. Write a C program to print the square of a number.
-
-9. Write a C program to input an integer between 0 and 128 and print its ASCII character.
-
-10. Write a C program to input the value of days and convert it into years, weeks and days.
-
-11. Write a C program to input the distance travelled by a car and the fuel consumed. Next,
-compute the mileage of the car.
-
-12. Write a C program to input the amount value and break it into the smallest possible 
-Indian currency notes.
-
-
-
-
 
 
 
