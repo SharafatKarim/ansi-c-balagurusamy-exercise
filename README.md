@@ -663,7 +663,108 @@ The program should use scanf to read the values and terminate when the sum excee
 
 ## Chapter 9 
 
+1. Write a program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.
 
+
+
+2. Write a program to do the following:
+(a) To output the question “Who is the inventor of C ?”
+(b) To accept an answer.
+(c) To print out “Good” and then stop, if the answer is correct.
+(d) To output the message ‘try again’, if the answer is wrong.
+(e) To display the correct answer when the answer is wrong even at the third attempt and stop.
+
+3. Write a program to extract a portion of a character string and print the extracted string. Assume that m characters are extracted, starting with the nth character.
+
+4. Write a program which will read a text and count all occurrences of a particular word.
+
+
+
+5. Write a program which will read a string and rewrite it in the alphabetical order. For example, the word STRING should be written as GINRST.
+
+
+
+6. Write a program to replace a particular word by another word in a given string. For example, the word “PASCAL” should be replaced by “C” in the text “It is good to program in PASCAL language.”
+
+
+
+7. A Maruti car dealer maintains a record of
+sales of various vehicles in the following form:
+	Vehicle types	Month of sacles 		Price
+	MARUTI-800		02/01				210000
+	MARUTI-DX         07/01				265000
+	GYPSY             04/02				315750
+	MARUTI-VAN        08/02				240000
+Write a program to read this data into a table of strings and output the details of a particular vehicle sold during a specified period. The program should request the user to input the vehicle type and the period 
+(starting month, ending month).
+
+
+
+8. Write a program that reads a string from the keyboard and determines whether the string is a palindrome or not. (A string is a palindrome if it can be read from left and right with the same meaning. For example, Madam and Anna are palindrome strings. Ignore capitalization).
+
+
+
+9. Write program that reads the cost of an item in the form RRRR.PP (Where RRRR denotes Rupees and PP denotes Paise) and converts the value to a string of words that expresses the numeric value in words.
+For example, if we input 125.75, the output should be “ONE HUNDRED TWENTY FIVE AND PAISE SEVENTY FIVE”.
+
+
+
+10. Develop a program that will read and store the details of a list of students in the format
+	Roll No	Name			Marks obtained
+	......      ......            .........
+	......	......		.........
+	......	......		.........
+and produce the following output list:
+(a) Alphabetical list of names, roll numbers and
+marks obtained.
+(b) List sorted on roll numbers.
+(c) List sorted on marks (rank-wise list)
+
+
+
+11. Write a program to read two strings and compare them using the function strncm p ( ) and print a message that the first string is equal, less, or
+greater than the second one.
+
+
+
+12. Write a program to read a line of text from the keyboard and print out the number of occurrences of a given substring using the function strstr ( ).
+
+
+
+13. Write a program that will copy m consecutive characters from a string s1 beginning at position n into another string s2.
+
+
+
+14. Write a program to create a directory of students with roll numbers. The program should display the roll number for a specified name and vice-versa.
+
+
+
+15. Given a string
+	char str [ ] = “123456789” ;
+Write a program that displays the following:
+			1
+		    2 3 2
+		  3 4 5 4 3
+		4 5 6 7 6 5 4
+	    5 6 7 8 9 8 7 6 5
+
+16. Write a C program to compare two strings without using any string function.
+
+
+
+17. Write a C program to find the largest and smallest sized word in a string.
+
+
+
+18. Write a C program to replace all the white spaces in a string with double white spaces.
+
+
+
+19. Write a C program to enter multiple strings and display them in lexicographical order.
+
+
+
+20. Write a C program to concatenate two strings without using any string function.
 
 ## Chapter 10 
 
