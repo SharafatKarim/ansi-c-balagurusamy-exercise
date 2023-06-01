@@ -1,0 +1,104 @@
+1. Write a program that reads a floating-point number and then displays the right-most digit of the integral
+part of the number.
+
+2. Modify the above program to display the two right most digits of the integral part of the number.
+
+3. Given an integer number, write a program that displays the number as follows:
+First line                : all digits
+Second line               : all except first digit
+Third line                : all except first two digits
+.........
+Last line                 : The last digit
+For example, the number 5678 will be displayed as
+              5 6 7 8
+              6 7 8
+              7 8 
+              8
+              
+4. The straight-line method of computing the yearly depreciation of the value of an item is given by
+                  Depreciation = (Purchase Price - Salvage Value) / Years of Service
+Write a program to determine the salvage value of an item when the purchase price, years of service,
+and the annual depreciation are given.
+
+5. Write a program that will read a real number from the keyboard and print the following output in one
+line:
+Smallest integer                           The given                   Lergest integer
+not less than                               number                     not greater than
+the number                                                             the number
+
+
+6. The total distance travelled by a vehicle in t seconds is given by
+distance = ut + ( a t*2 ) / 2
+Where u is the initial velocity (metres per second), a is the acceleration (metres per second 2 ). Write a
+program to evaluate the distance travelled at regular intervals of time, given the values of u and a.
+The program should provide the flexibility to the user to select his own time intervals and repeat the
+calculations for different values of u and a .
+
+
+7. In inventory management, the Economic Order Quantity for a single item is given by
+         EOQ = sqrt((2*setup costs) / (demand rate * holding cost per unit time))
+  and the optimal Time Between Orders
+         TBO = sqrt ((2* setup costs) / (demand rate * holding cost per unit time))
+  Write a program to compute EOQ and TBO, given demand rate (items per unit time), setup costs (per
+order), and the holding cost (per item per unit time).
+
+8. For a certain electrical circuit with an inductance L and resistance R, the damped natural
+frequency is given by
+            Frequency = sqrt ((1 / L*C )- (R*R / 4*C*C)
+It is desired to study the variation of this frequency with C (capacitance). Write a program to calculate
+the frequency for different values of C starting from 0.01 to 0.1 in steps of 0.01.
+
+9. Write a program to read a four digit integer and print the sum of its digits.
+Hint: Use / and % operators.
+
+
+10. Given three values, write a program to read three values from keyboard and print out the largest of
+them without using if statement.
+
+11. Write a program to read two integer values m and n and to decide and print whether m is a multiple of n.
+
+12. Write a program to read three values using scanf statement and print the following results:
+(a) Sum of the values
+(b) Average of the three values
+(c) Largest of the three
+(d) Smallest of the three
+
+13. The cost of one type of mobile service is Rs. 250 plus Rs. 1.25 for each call made over and above 100
+  calls. Write a program to read customer codes and calls made and print the bill for each customer.
+  
+14. Write a program to print a table of sin and cos functions for the interval from 0 to 180
+degrees in increments of 15 a shown here.
+
+15. Write a program to compute the values of square roots and squares of the numbers 0 to 100 in steps
+10 and print the output in a tabular form as shown below.
+
+16. Write a program to illustrate the use of cast operator in a real life situation.
+
+17. Write a C program to shift the given data by two bits to the left.
+
+18. Write a C program to compute the value of the expression x=a-b/3+c*2-1.
+
+19. Write a C program to input a date value and determine whether the entered day, month, and
+year values are valid.
+
+20. Write a C program to input the sides of a triangle and determine whether the triangle is isoceles or
+not.
+
+21. Write a C program that reads two numbers and performs their division. If the division is not
+possible, then an error messgage, ‘Division not possible’ is displayed.
+
+22. Input the value of 4 variables a, b, c and d and compute the resultant value of following
+expressions:
+(a + b) * (c / d)
+(a + b) * c / d
+a + (b * c) / d
+
+
+
+
+
+
+
+
+                  
+                  
