@@ -174,6 +174,7 @@ Where u is the initial velocity (metres per second), a is the acceleration (metr
 program to evaluate the distance travelled at regular intervals of time, given the values of u and a.
 The program should provide the flexibility to the user to select his own time intervals and repeat the
 calculations for different values of u and a .
+- [sadman](solutions/sadman/4/6.c)
 
 7. In inventory management, the Economic Order Quantity for a single item is given by
          EOQ = sqrt((2*setup costs) / (demand rate * holding cost per unit time))
@@ -181,56 +182,72 @@ calculations for different values of u and a .
          TBO = sqrt ((2* setup costs) / (demand rate * holding cost per unit time))
   Write a program to compute EOQ and TBO, given demand rate (items per unit time), setup costs (per
 order), and the holding cost (per item per unit time).
+- [sadman](solutions/sadman/4/7.c)
 
 8. For a certain electrical circuit with an inductance L and resistance R, the damped natural
 frequency is given by
             Frequency = sqrt ((1 / L*C )- (R*R / 4*C*C)
 It is desired to study the variation of this frequency with C (capacitance). Write a program to calculate
 the frequency for different values of C starting from 0.01 to 0.1 in steps of 0.01.
+- [sadman](solutions/sadman/4/8.c)
 
 9. Write a program to read a four digit integer and print the sum of its digits.
 Hint: Use / and % operators.
+- [sadman](solutions/sadman/4/9.c)
 
 10. Given three values, write a program to read three values from keyboard and print out the largest of
 them without using if statement.
+- [sadman](solutions/sadman/4/10.c)
 
 11. Write a program to read two integer values m and n and to decide and print whether m is a multiple of n.
+- [sadman](solutions/sadman/4/11.c)
 
 12. Write a program to read three values using scanf statement and print the following results:
 (a) Sum of the values
 (b) Average of the three values
 (c) Largest of the three
 (d) Smallest of the three
+- [sadman](solutions/sadman/4/12.c)
 
 13. The cost of one type of mobile service is Rs. 250 plus Rs. 1.25 for each call made over and above 100
   calls. Write a program to read customer codes and calls made and print the bill for each customer.
+- [sadman](solutions/sadman/4/13.c)
 
 14. Write a program to print a table of sin and cos functions for the interval from 0 to 180
 degrees in increments of 15 a shown here.
+- [sadman](solutions/sadman/4/14.c)
 
 15. Write a program to compute the values of square roots and squares of the numbers 0 to 100 in steps
 10 and print the output in a tabular form as shown below.
+- [sadman](solutions/sadman/4/15.c)
 
 16. Write a program to illustrate the use of cast operator in a real life situation.
+- [sadman](solutions/sadman/4/16.c)
 
 17. Write a C program to shift the given data by two bits to the left.
+- [sadman](solutions/sadman/4/17.c)
 
 18. Write a C program to compute the value of the expression x=a-b/3+c*2-1.
+- [sadman](solutions/sadman/4/18.c)
 
 19. Write a C program to input a date value and determine whether the entered day, month, and
 year values are valid.
+- [sadman](solutions/sadman/4/19.c)
 
 20. Write a C program to input the sides of a triangle and determine whether the triangle is isoceles or
 not.
+- [sadman](solutions/sadman/4/20.c)
 
 21. Write a C program that reads two numbers and performs their division. If the division is not
 possible, then an error messgage, ‘Division not possible’ is displayed.
+- [sadman](solutions/sadman/4/21.c)
 
 22. Input the value of 4 variables a, b, c and d and compute the resultant value of following
 expressions:
 (a + b) * (c / d)
 (a + b) * c / d
 a + (b * c) / d
+- [sadman](solutions/sadman/4/22.c)
 
 ## Chapter 5 
 
