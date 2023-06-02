@@ -137,8 +137,10 @@ Indian currency notes.
 
 1. Write a program that reads a floating-point number and then displays the right-most digit of the integral
 part of the number.
+- [sadman](solutions/sadman/4/1.c)
 
 2. Modify the above program to display the two right most digits of the integral part of the number.
+- [sadman](solutions/sadman/4/2.c)
 
 3. Given an integer number, write a program that displays the number as follows:
 First line                : all digits
@@ -151,17 +153,20 @@ For example, the number 5678 will be displayed as
               6 7 8
               7 8 
               8
+- [sadman](solutions/sadman/4/3.c)
 
 4. The straight-line method of computing the yearly depreciation of the value of an item is given by
                   Depreciation = (Purchase Price - Salvage Value) / Years of Service
 Write a program to determine the salvage value of an item when the purchase price, years of service,
 and the annual depreciation are given.
+- [sadman](solutions/sadman/4/4.c)
 
 5. Write a program that will read a real number from the keyboard and print the following output in one
 line:
 Smallest integer                           The given                   Lergest integer
 not less than                               number                     not greater than
 the number                                                             the number
+- [sadman](solutions/sadman/4/5.c)
 
 6. The total distance travelled by a vehicle in t seconds is given by
 distance = ut + ( a t*2 ) / 2
