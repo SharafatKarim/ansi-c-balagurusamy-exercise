@@ -1,8 +1,6 @@
 1. Write a program using pointers to read in an array of
 integers and print its elements in reverse order.
 
-
-
 2. We know that the roots of a quadratic
 equation of the form
 	ax 2 + bx + c = 0
@@ -14,18 +12,13 @@ must use two pointer parameters, one to receive the
 coefficients a, b, and c, and the other to send the
 roots to the calling function.
 
-
-
 3. Write a function that receives a sorted array of
 integers and an integer value, and inserts the value
 in its correct place.
 
-
 4. Write a function using pointers to add two matrices
 and to return the resultant matrix to the calling
 function.
-
-
 
 5. Using pointers, write a function that receives a
 character string and a character as argument and
@@ -33,24 +26,17 @@ deletes all occurrences of this character in the string.
 The function should return the corrected string with
 no holes.
 
-
-
-
 6. Write a function day_name that receives a number
 n and returns a pointer to a character string
 containing the name of the corresponding day. The
 day names should be kept in a static table of
 character strings local to the function.
 
-
-
 7. Write a program to read in an
 array of names and to sort them in alphabetical
 order. Use sort function that receives pointers to the
 functions strcmp and swap.sort in turn should call
 these functions via the pointers.
-
-
 
 8. Given an array of sorted list of integer numbers,
 write a function to search for a particular item, using
@@ -65,33 +51,23 @@ ignored. That is, in one attempt, we eliminate one
 half the list. This search can be applied recursively
 till the target value is found.)
 
-
-
 9. Write a function (using a pointer parameter) that
 reverses the elements of a given array.
-
-
 
 10. Write a function (using pointer
 parameters) that compares two integer arrays to see
 whether they are identical. The function returns 1 if
 they are identical, 0 otherwise.
 
-
-
 11. Write a C program to insert a substring into another
 string by using function and pointers.
-
 
 12. Write a C program that uses the pointer increment
 operations to demonstrate the scale factor.
 
-
 13. Write a C program that displays the
 addresses and values pointed by an array of
 pointers.
-
-
 
 14. Write a C program that uses pointers to
 demonstrate initialization of structure members.

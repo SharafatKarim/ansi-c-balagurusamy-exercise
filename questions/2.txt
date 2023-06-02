@@ -1,7 +1,9 @@
 1. Write a program to display the equation of a line in the form ax + by = c
 for a = 5, b = 8 and c = 18.
 
+
 2. Write a C program that uses an in-built function to draw a 3D bar.
+
 
 3. Write a program to output the following multiplication table
 
@@ -15,7 +17,6 @@ Comment on the output in each case.
 5. Write a C program that reads the value of distance travelled by a car and the time taken for the same.
 Next, compute the speed at which the car travelled.
 
-
 6. Write a C program to print the current system date.
 
 7. Given two integers 20 and 10, write a program that uses a function add( ) to add these two numbers
@@ -26,16 +27,15 @@ the following form:
 
 8. Modify the above program to provide border lines to the address.
 
-
 9. Write a program using one print statement to print the pattern of asterisks as shown below:
-
+```
         *
         *  *
         *  *  *
-        *  *  *  *
-        
-10. Write a program that will print the following figure using suitable characters.
+        *  *  *  * 
+```
 
+10. Write a program that will print the following figure using suitable characters.
 
 11. Area of a triangle is given by the formula
          A = sqrt(s*(s-a)*(S-b)*(s-c))
@@ -47,7 +47,6 @@ the triangle given the values of a, b and c.
        sum                 Difference=
        Product=            Division=
 
-
 13. Distance between two points (x 1, y 1) and (x 2, y 2) is governed by the formula
 D2 = (x 2 – x 1)2 + (y 2 – y 1)2
 Write a program to compute D given the coordinates of the points.
@@ -57,13 +56,3 @@ perimeter and area of the circle. (Hint: use the formula given in the Ex. 2.11)
 
 15. The line joining the points (2,2) and (5,6) which lie on the circumference of a circle is the diameter of
 the circle. Write a program to compute the area of the circle.
-
-
-
-
-
-
-
-
- 
-
