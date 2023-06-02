@@ -14,7 +14,8 @@ For example, the number 5678 will be displayed as
               6 7 8
               7 8 
               8
-              
+        
+
 4. The straight-line method of computing the yearly depreciation of the value of an item is given by
                   Depreciation = (Purchase Price - Salvage Value) / Years of Service
 Write a program to determine the salvage value of an item when the purchase price, years of service,
@@ -26,14 +27,12 @@ Smallest integer                           The given                   Lergest i
 not less than                               number                     not greater than
 the number                                                             the number
 
-
 6. The total distance travelled by a vehicle in t seconds is given by
 distance = ut + ( a t*2 ) / 2
 Where u is the initial velocity (metres per second), a is the acceleration (metres per second 2 ). Write a
 program to evaluate the distance travelled at regular intervals of time, given the values of u and a.
 The program should provide the flexibility to the user to select his own time intervals and repeat the
 calculations for different values of u and a .
-
 
 7. In inventory management, the Economic Order Quantity for a single item is given by
          EOQ = sqrt((2*setup costs) / (demand rate * holding cost per unit time))
@@ -51,7 +50,6 @@ the frequency for different values of C starting from 0.01 to 0.1 in steps of 0.
 9. Write a program to read a four digit integer and print the sum of its digits.
 Hint: Use / and % operators.
 
-
 10. Given three values, write a program to read three values from keyboard and print out the largest of
 them without using if statement.
 
@@ -65,7 +63,7 @@ them without using if statement.
 
 13. The cost of one type of mobile service is Rs. 250 plus Rs. 1.25 for each call made over and above 100
   calls. Write a program to read customer codes and calls made and print the bill for each customer.
-  
+
 14. Write a program to print a table of sin and cos functions for the interval from 0 to 180
 degrees in increments of 15 a shown here.
 
@@ -92,13 +90,3 @@ expressions:
 (a + b) * (c / d)
 (a + b) * c / d
 a + (b * c) / d
-
-
-
-
-
-
-
-
-                  
-                  

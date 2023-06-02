@@ -61,12 +61,13 @@ the following form:
 8. Modify the above program to provide border lines to the address.
 
 9. Write a program using one print statement to print the pattern of asterisks as shown below:
-
-*
+```
+        *
         *  *
         *  *  *
-        *  *  *  *
-        
+        *  *  *  * 
+```
+
 10. Write a program that will print the following figure using suitable characters.
 
 11. Area of a triangle is given by the formula
@@ -88,16 +89,6 @@ perimeter and area of the circle. (Hint: use the formula given in the Ex. 2.11)
 
 15. The line joining the points (2,2) and (5,6) which lie on the circumference of a circle is the diameter of
 the circle. Write a program to compute the area of the circle.
-
-
-
-
-
-
-
-
-
-
 
 ## Chapter 3 
 
@@ -142,12 +133,6 @@ compute the mileage of the car.
 12. Write a C program to input the amount value and break it into the smallest possible 
 Indian currency notes.
 
-
-
-
-
-
-
 ## Chapter 4 
 
 1. Write a program that reads a floating-point number and then displays the right-most digit of the integral
@@ -166,7 +151,7 @@ For example, the number 5678 will be displayed as
               6 7 8
               7 8 
               8
-              
+
 4. The straight-line method of computing the yearly depreciation of the value of an item is given by
                   Depreciation = (Purchase Price - Salvage Value) / Years of Service
 Write a program to determine the salvage value of an item when the purchase price, years of service,
@@ -214,7 +199,7 @@ them without using if statement.
 
 13. The cost of one type of mobile service is Rs. 250 plus Rs. 1.25 for each call made over and above 100
   calls. Write a program to read customer codes and calls made and print the bill for each customer.
-  
+
 14. Write a program to print a table of sin and cos functions for the interval from 0 to 180
 degrees in increments of 15 a shown here.
 
@@ -241,14 +226,6 @@ expressions:
 (a + b) * (c / d)
 (a + b) * c / d
 a + (b * c) / d
-
-
-
-
-
-
-
-
 
 ## Chapter 5 
 
@@ -335,10 +312,6 @@ INR amounts. You may use current exchange rate for conversion purpose.
 15. Write a C program to input an investment amount and compute its fixed deposit cumulative return
 after 10 years at arate of interest of 8.75%.
 
-
-
-
-
 ## Chapter 6 
 
 1. Write a program to determine whether a given number is ‘odd’ or ‘even’ and print the message
@@ -402,10 +375,7 @@ form of Floyd’s triangle.
 1 0 1 0 1
 
 8. A cloth showroom has announced the following seasonal discounts on purchase of items:
-
-Write a program using switch and if statements to compute the net amount to be paid by a customer.
-
-
+Write a program using switch and if statements to compute the net amount to be paid by a customer
 
 9. Write a program that will read the value of x and evaluate the following function
 		    1  for x>0
@@ -443,20 +413,14 @@ then an additional surcharge of 15% of total amount is charged.
 Write a program to read the names of users and number of units consumed and print out the
 charges with names.
 
-
-
 13. Write a program to compute and display the sum of all integers that are divisible by 6 but not divisible
 by 4 and lie between 0 and 100. The program should also count and display the number of such
 values.
-
-
 
 14. Write an interactive program that could read a positive integer number and decide whether the
 number is a prime number and display the output accordingly.
 Modify the program to count all the prime numbers that lie between 100 and 200.
 NOTE : A prime number is a positive integer that is divisible only by 1 or by itself.
-
-
 
 15. Write a program to read a double-type value x that represents angle in radians and a character-type
 variable T that represents the type of trigonometric function and display the value of
@@ -468,14 +432,10 @@ using (i) if......else statement , and (ii) switch statement.
 16. Write a C program to input the numeric week day value (starting from Monday as 1) and display the
 corresponding name of the week day.
 
-
-
 17. Write a C program to input two numbers a and b and display whether
 (a) a is greater than b
 (b) b is greater than b
 (c) or, a and b are equal
-
-
 
 18. Write a C program to input the total percentage of marks of a student and display its Division using
 below rules:
@@ -485,8 +445,6 @@ below rules:
 
 19. Using Switch case block, input the name of the month from the user and display the corresponding
 number of days in that month.
-
-
 
 20. Write a C program that inputs a string and counts the number of capital and small alphabets in that
 string.
@@ -533,25 +491,19 @@ so on.)
 		5 5 5 5 5					  *
 - [sharafat](solutions/sharafat/7/5.c)
 
-
-- [sharafat](solutions/sharafat/7/6.c)
-
 6. Write a program to read the age of 100 persons and count the number of persons in the age group 50 to
 60. Use for and continue statements.
-- [sharafat](solutions/sharafat/7/7.c)
+- [sharafat](solutions/sharafat/7/6.c)
 
 7. Rewrite the program of case study 7.4 (plotting of two curves) using else...if constructs instead of
 continue statements.
-- [sharafat](solutions/sharafat/7/8.c)
-
-
-- [sharafat](solutions/sharafat/7/9.c)
+- [sharafat](solutions/sharafat/7/7.c)
 
 8. Write a program to print a table of values of the function
 y = exp (-x)
 for x varying from 0.0 to 10.0 in steps of 0.10. The table should appear as follows:
 				Table for Y = EXP(–X)
-- [sharafat](solutions/sharafat/7/10.c)
+- [sharafat](solutions/sharafat/7/8.c)
 
 9. Write a program using for and if statement to display the capital letter S in a grid of 15 rows and
 18 columns as shown below.
@@ -561,8 +513,6 @@ for x varying from 0.0 to 10.0 in steps of 0.10. The table should appear as foll
 * * * *
 * * * *
 * * * *
-- [sharafat](solutions/sharafat/7/11.c)
-
 * * * * * - - - - - - - - - - - - - - - - * * * *
 - - - - - - - - - - - - - - - - - - - - - - * * * *
 - - - - - - - - - - - - - - - - - - - - - * * * *
@@ -572,26 +522,20 @@ for x varying from 0.0 to 10.0 in steps of 0.10. The table should appear as foll
 * * * * - - - - - - - - — - - - - - - - * * * *
 * * * - - - - - - - - - - - - - - - - - * * * *
 * * - - - - - - - - - - - - - - - - - - - * * * *
-- [sharafat](solutions/sharafat/7/12.c)
-
-
-- [sharafat](solutions/sharafat/7/13.c)
+- [sharafat](solutions/sharafat/7/9.c)
 
 10. Write a program to compute the value of Euler’s number e, that is used as the base of natural
 logarithms. Use the following formula.
 		e = 1 + 1/1! + 1 /2! + 1 /3! + . . . . . + 1/n!
 Use a suitable loop construct. The loop must terminate when the difference between two
 successive values of e is less than 0.00001.
-- [sharafat](solutions/sharafat/7/14.c)
+- [sharafat](solutions/sharafat/7/10.c)
 
 11. Write programs to evaluate the following functions to 0.0001% accuracy.
 (a) sinx = x – x 3 /3! + x 5 /5! – x 7 /7! + . . . . . .
 (b) cosx = 1 – x 2 /2! + x 4 /4! – x 6 /6! + . . . . .
 (c) SUM = 1 + (1/2) 2 + (1/3) 3 + (1/4) 4 + … …
-- [sharafat](solutions/sharafat/7/15.c)
-
-
-- [sharafat](solutions/sharafat/7/16.c)
+- [sharafat](solutions/sharafat/7/11.c)
 
 12. The present value (popularly known as book value) of an item is given by the relationship.
 			P = pow( (c*(1–d)),n)
@@ -602,7 +546,7 @@ successive values of e is less than 0.00001.
 If P is considered the scrap value at the end of useful life of the item, write a program to compute
 the useful life in years given the original cost, depreciation rate, and the scrap value.
 The program should request the user to input the data interactively.
-- [sharafat](solutions/sharafat/7/17.c)
+- [sharafat](solutions/sharafat/7/12.c)
 
 13. Write a program to print a square of size 5 by using the character N as shown below:
 	 (a)								(b)
@@ -611,17 +555,12 @@ The program should request the user to input the data interactively.
  		n n n n n							n       n 
 		n n n n n 							n       n
 		n n n n n							n n n n n
-- [sharafat](solutions/sharafat/7/18.c)
-
-
-- [sharafat](solutions/sharafat/7/19.c)
+- [sharafat](solutions/sharafat/7/13.c)
 
 14. Write a program to graph the function
 			y = sin (x)
 in the interval 0 to 180 degrees in steps of 15 degrees. Use the concepts discussed in the Case Study 4 in Chapter 7.
-- [sharafat](solutions/sharafat/7/20.c)
-
-
+- [sharafat](solutions/sharafat/7/14.c)
 
 15. Modify the program of Exercise 7.16 to print the character S instead of N at the center of the square as shown below.
 				n n n n n 							
@@ -629,13 +568,14 @@ in the interval 0 to 180 degrees in steps of 15 degrees. Use the concepts discus
  				n n s n n							
 				n n n n n 						
 				n n n n n
+- [sharafat](solutions/sharafat/7/15.c)
 
 16. Given a set of 10 two-digit integers containing both positive and negative values, write a program using for loop to compute the sum of all positive values and print the sum and the number of values added.
 The program should use scanf to read the values and terminate when the sum exceeds 999. Do not use goto statement.
-
-
+- [sharafat](solutions/sharafat/7/16.c)
 
 17. Write a C program to display a coloured line.
+- [sharafat](solutions/sharafat/7/17.c)
 
 18. Write a C program to display the following pattern.
 			1
@@ -643,6 +583,7 @@ The program should use scanf to read the values and terminate when the sum excee
 		    2 3 4
 		   C D E F
 		  5 6 7 8 9
+- [sharafat](solutions/sharafat/7/18.c)
 
 19. Write a C program to display the following pattern:
 			1
@@ -650,12 +591,14 @@ The program should use scanf to read the values and terminate when the sum excee
 		  1 2 3 2 1
 		    1	2 1
 			1
+- [sharafat](solutions/sharafat/7/19.c)
 
 20. Write a C program to display the following pattern:
 		1
 		0 1
 		1 0 1
 		0 1 0 1
+- [sharafat](solutions/sharafat/7/20.c)
 
 ## Chapter 8 
 
@@ -673,16 +616,13 @@ Write a program to read the table elements into a two-dimensional array temperat
 
 3. An election is contested by 5 candidates. The candidates are numbered 1 to 5 and the voting is done by marking the candidate number on the ballot paper. Write a program to read the ballots and count the votes cast for each candidate using an array variable count . In case, a number read is outside the range 1 to 5, the ballot should be considered as a ‘spoilt ballot’ and the program should also count the number of spoilt ballots.
 
-
-
 4. The following set of numbers is popularly known as Pascal’s triangle.
 					1
 				   1  2  1
 			       1  3   3  1
 			    1   4   6   4   1
 			_   _  _  _  _  _  _  _  _
-		_  _  _  _  _  _   _  _  _   _  _  _
-					
+		_  _  _  _  _  _   _  _  _   _  _  _				
 If we denote rows by i and columns by j, then any element
  (except the boundary elements) in the triangle is given by
 	p ij = p i–1 ,j–1 + p i–1 ,j
@@ -694,17 +634,11 @@ Write a program to read the data and determine the following:
 (b) The highest marks in each subject and the Roll No. of the student who secured it.
 (c) The student who obtained the highest total marks.
 
-
-
 6. Given are two one-dimensional arrays A and B which are sorted in ascending order. Write a program to merge them into a single sorted array that contains every item from arrays A and B, in ascending order.
-
-
 
 7. Two matrices that have the same number of rows and columns can be multiplied to produce a third matrix. Consider the following two matrices.
 The product of A and B is a third matrix C of size n¥ n where each element of C is given by the following equation.
 Write a program that will read the values of elements of A and B and produce the product matrix C.
-
-
 
 8. Write a program that fills a five-by-five matrix as follows:
 • Upper left triangle with +1s
@@ -713,8 +647,6 @@ Write a program that will read the values of elements of A and B and produce the
 Display the contents of the matrix using not more than two printf statements.
 
 9. Selection sort is based on the following idea: Selecting the largest array element and swapping it with the last array element leaves an unsorted list whose size is 1 less than the size of the original list. If we repeat this step again on the unsorted list we will have an ordered list of size 2 and an unordered list size n–2 . When we repeat this until the size of the unsorted list becomes one, the result will be a sorted list. Write a program to implement this algorithm.
-
-
 
 10. Develop a program to implement the binary search algorithm. This technique compares the search key value with the value of the element that is midway in a “sorted” list. Then;
 (a) If they match, the search is over.
@@ -725,11 +657,7 @@ Use the sorted list created in Exercise 8.9 or use any other sorted list.
 
 11. Write a program that will compute the length of a given character string.
 
-
-
 12. Write a program that will count the number occurrences of a specified character in a given line of text. Test your program.
-
-
 
 13. Write a program to read a matrix of size m ¥ n and print its transpose.
 
@@ -740,25 +668,15 @@ Sum = (1 × first digit) + (2 × second digit) + (3 ×third digit) + - - - - + (
 Check digit is the remainder when sum is divided by
 11. Write a program that reads a given ISBN number and checks whether it represents a valid ISBN.
 
-
-
 15. Write a program to read two matrices A and B and print the following:
 (a) A + B; and
 (b) A – B.
 
-
-
 16. Write a C program to compute the sum of elements of two one-dimensional arrays and store the corresponding result in another array.
-
-
 
 17. Write a C program to identify and count all the odd numbers in an array and calculate their sum.
 
-
-
 18. Write a C program to input an amount in Indian currency and deduce the minimum currency denomination for that amount.
-
-
 
 19. Write a C program to input a Roman number and compute its decimal equivalent.
 
@@ -767,8 +685,6 @@ Check digit is the remainder when sum is divided by
 ## Chapter 9 
 
 1. Write a program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.
-
-
 
 2. Write a program to do the following:
 (a) To output the question “Who is the inventor of C ?”
@@ -781,15 +697,9 @@ Check digit is the remainder when sum is divided by
 
 4. Write a program which will read a text and count all occurrences of a particular word.
 
-
-
 5. Write a program which will read a string and rewrite it in the alphabetical order. For example, the word STRING should be written as GINRST.
 
-
-
 6. Write a program to replace a particular word by another word in a given string. For example, the word “PASCAL” should be replaced by “C” in the text “It is good to program in PASCAL language.”
-
-
 
 7. A Maruti car dealer maintains a record of
 sales of various vehicles in the following form:
@@ -801,16 +711,10 @@ sales of various vehicles in the following form:
 Write a program to read this data into a table of strings and output the details of a particular vehicle sold during a specified period. The program should request the user to input the vehicle type and the period 
 (starting month, ending month).
 
-
-
 8. Write a program that reads a string from the keyboard and determines whether the string is a palindrome or not. (A string is a palindrome if it can be read from left and right with the same meaning. For example, Madam and Anna are palindrome strings. Ignore capitalization).
-
-
 
 9. Write program that reads the cost of an item in the form RRRR.PP (Where RRRR denotes Rupees and PP denotes Paise) and converts the value to a string of words that expresses the numeric value in words.
 For example, if we input 125.75, the output should be “ONE HUNDRED TWENTY FIVE AND PAISE SEVENTY FIVE”.
-
-
 
 10. Develop a program that will read and store the details of a list of students in the format
 	Roll No	Name			Marks obtained
@@ -823,24 +727,14 @@ marks obtained.
 (b) List sorted on roll numbers.
 (c) List sorted on marks (rank-wise list)
 
-
-
 11. Write a program to read two strings and compare them using the function strncm p ( ) and print a message that the first string is equal, less, or
 greater than the second one.
 
-
-
 12. Write a program to read a line of text from the keyboard and print out the number of occurrences of a given substring using the function strstr ( ).
-
-
 
 13. Write a program that will copy m consecutive characters from a string s1 beginning at position n into another string s2.
 
-
-
 14. Write a program to create a directory of students with roll numbers. The program should display the roll number for a specified name and vice-versa.
-
-
 
 15. Given a string
 	char str [ ] = “123456789” ;
@@ -853,19 +747,11 @@ Write a program that displays the following:
 
 16. Write a C program to compare two strings without using any string function.
 
-
-
 17. Write a C program to find the largest and smallest sized word in a string.
-
-
 
 18. Write a C program to replace all the white spaces in a string with double white spaces.
 
-
-
 19. Write a C program to enter multiple strings and display them in lexicographical order.
-
-
 
 20. Write a C program to concatenate two strings without using any string function.
 
@@ -882,8 +768,6 @@ Write a program that displays the following:
 	P = (.....(((a 0 x+a 1 )x+a 2 )x+a 3 )x+...+a n)
 Write a function to evaluate the polynomial, using an array variable. Test it using a main program.
 
-
-
 5. The Fibonacci numbers are defined recursively as follows:
 				F1 = 1
 				F2 = 1
@@ -892,15 +776,9 @@ Write a function that will generate and print the first n Fibonacci numbers. Tes
 
 6. Write a function that will round a floating-point number to an indicated decimal place. For example the number 17.457 would yield the value 17.46 when it is rounded off to two decimal places.
 
-
-
 7. Write a function prime that returns 1 if its argument is a prime number and returns zero otherwise.
 
-
-
 8. Write a function that will scan a character string passed as an argument and convert all lowercase characters into their uppercase equivalents.
-
-
 
 9. Develop a top_down modular program to implement a calculator. The program should request the user to input two numbers and display one of the following as per the desire of the user:
 (a) Sum of the numbers
@@ -909,8 +787,6 @@ Write a function that will generate and print the first n Fibonacci numbers. Tes
 (d) Division of the numbers
 Provide separate functions for performing various tasks such as reading, calculating and displaying. Calculating module should call second level modules to perform the individual mathematical operations. The main function should have only function calls.
 
-
-
 10. Develop a modular interactive program using functions that reads the values of three sides of a triangle and displays either its area or its perimeter as per the request of the user. Given the three sides a, b and c.
 		Perimeter = a + b + c
 		Area      = sqrt ((s-a)*(s-b)*(s-c))
@@ -918,19 +794,13 @@ Provide separate functions for performing various tasks such as reading, calcula
 
 11. Write a function that can be called to find the largest element of an m by n matrix.
 
-
-
 12. Write a function that can be called to compute the product of two matrices of size m by n and n by m. The main function provides the values for m and n and two matrices.
-
-
 
 13. Design and code an interactive modular program
 that will use functions to a matrix of m by n size,
 compute column averages and row averages, and
 then print the entire matrix with averages shown in
 respective rows and columns.
-
-
 
 14. Develop a top-down modular program that will perform the following tasks:
 (a) Read two integer arrays with unsorted elements.
@@ -939,37 +809,25 @@ respective rows and columns.
 (d) Print the sorted list
 Use functions for carrying out each of the above tasks. The main function should have only function calls.
 
-
-
 15. Develop your own functions for performing following operations on strings:
 (a) Copying one string to another
 (b) Comparing two strings
 (c) Adding a string to the end of another string
 Write a driver program to test your functions.
 
-
-
 16. Write a program that invokes a function called
 find( ) to perform the following tasks:
 (a) Receives a character array and a single character.
 (b) Returns 1 if the specified character is found in the array, 0 otherwise.
 
-
-
 17. Design a function locate ( ) that takes two character arrays s1 and s2 and one integer value m as parameters and inserts the string s2 into s1
 immediately after the index m .
 Write a program to test the function using a real-life situation. (Hint: s2 may be a missing word in s1 that represents a line of text).
 
-
-
 18. Write a function that takes an integer parameter m representing the month number of the year and returns the corresponding name of the month. For instance, if m = 3, the month is March. Test your program.
-
-
 
 19. In preparing the calendar for a year we need to know whether that particular year is leap year or not. Design a function leap( ) that receives the year as a parameter and returns an appropriate message.
 What modifications are required if we want to use the function in preparing the actual calendar?
-
-
 
 20. Write a function that receives a floating point value x and returns it as a value rounded to two nearest decimal places. For example, the value
 123.4567 will be rounded to 123.46 (Hint: Seek help of one of the math functions available in math library).
@@ -986,8 +844,6 @@ and display the time in the following form:
 2. Modify the above program such that a function is
 used to input values to the members and another
 function to display the time.
-
-
 
 3. Design a function update that would accept the
 data structure designed in Exercise 11.1 and
@@ -1032,8 +888,6 @@ Use suitable algorithm to
 convert the long integer 19450815 into year, month
 and day.
 
-
-
 7. Add a function called nextdate to the program
 designed in Exercise 11.4 to perform the following
 task:
@@ -1046,15 +900,11 @@ structure containing the next date correctly.
 Note that the next date may be in the next month or
 even the next year.
 
-
-
 8. Use the date structure defined in Exercise 11.4 to
 store two dates. Develop a function that will take
 these two dates as input and compares them.
 (a) It returns 1, if the date1 is earlier than date2
 (b) It returns 0, if date1 is later date
-
-
 
 9. Define a structure to represent a vector (a series of
 integer values) and write a modular program to
@@ -1065,13 +915,9 @@ perform the following tasks:
 (d) To display the vector in the form 
 (10, 20, 30, . . . . . ..)
 
-
-
 10. Add a function to the program of Exercise 11.9 that
 accepts two vectors as input parameters and return
 the addition of two vectors.
-
-
 
 11. Create two structures named metric and British which store
 the values of distances. The metric structure stores
@@ -1083,8 +929,6 @@ of metric to the contents of another variable of
 British. The program should display the result in the
 format of feet and inches or metres and centimetres
 as required.
-
-
 
 12. Define a structure named census with the
 following three members:
@@ -1099,8 +943,6 @@ array variable
 (d) To sort the list based on population
 (e) To display sorted lists
 
-
-
 13. Define a structure that can describe an hotel. It
 should have members that include the name,
 address, grade, average room charge, and number
@@ -1110,8 +952,6 @@ Write functions to perform the following operations:
 charges.
 (b) To print out hotels with room charges less than a
 given value.
-
-
 
 14. Define a structure called cricket that will describe
 the following information:
@@ -1131,32 +971,20 @@ represent the date of birth.
 Develop a program to read data for 10 students in a
 class and list them rank-wise.
 
-
-
 16. Write a C program that prints the size of a
 structure data type.
-
-
 
 17. Write a C program that prints the size of a
 structure and union data type that have same
 number and type of members.
 
-
-
 18. Write a C program for demonstrating operations on
 individual structure members using pointer notation.
-
-
-
-
 
 ## Chapter 12 
 
 1. Write a program using pointers to read in an array of
 integers and print its elements in reverse order.
-
-
 
 2. We know that the roots of a quadratic
 equation of the form
@@ -1169,8 +997,6 @@ must use two pointer parameters, one to receive the
 coefficients a, b, and c, and the other to send the
 roots to the calling function.
 
-
-
 3. Write a function that receives a sorted array of
 integers and an integer value, and inserts the value
 in its correct place.
@@ -1179,15 +1005,11 @@ in its correct place.
 and to return the resultant matrix to the calling
 function.
 
-
-
 5. Using pointers, write a function that receives a
 character string and a character as argument and
 deletes all occurrences of this character in the string.
 The function should return the corrected string with
 no holes.
-
-
 
 6. Write a function day_name that receives a number
 n and returns a pointer to a character string
@@ -1195,15 +1017,11 @@ containing the name of the corresponding day. The
 day names should be kept in a static table of
 character strings local to the function.
 
-
-
 7. Write a program to read in an
 array of names and to sort them in alphabetical
 order. Use sort function that receives pointers to the
 functions strcmp and swap.sort in turn should call
 these functions via the pointers.
-
-
 
 8. Given an array of sorted list of integer numbers,
 write a function to search for a particular item, using
@@ -1218,19 +1036,13 @@ ignored. That is, in one attempt, we eliminate one
 half the list. This search can be applied recursively
 till the target value is found.)
 
-
-
 9. Write a function (using a pointer parameter) that
 reverses the elements of a given array.
-
-
 
 10. Write a function (using pointer
 parameters) that compares two integer arrays to see
 whether they are identical. The function returns 1 if
 they are identical, 0 otherwise.
-
-
 
 11. Write a C program to insert a substring into another
 string by using function and pointers.
@@ -1242,8 +1054,6 @@ operations to demonstrate the scale factor.
 addresses and values pointed by an array of
 pointers.
 
-
-
 14. Write a C program that uses pointers to
 demonstrate initialization of structure members.
 
@@ -1252,30 +1062,20 @@ demonstrate initialization of structure members.
 1. Write a program to copy the contents of one file into
 another.
 
-
-
 2. Two files DATA1 and DATA2 contain sorted lists of
 integers. Write a program to produce a third file
 DATA which holds a single sorted, merged list of
 these two lists. Use command line arguments to
 specify the file names.
 
-
-
 3. Write a program that compares two files and returns
 0 if they are equal and 1 is they are not.
-
-
 
 4. Write a program that appends one file at the end of
 another.
 
-
-
 5. Write a program that reads a file containing integers
 and appends at its end the sum of all the integers.
-
-
 
 6. Write a program that prompts the user
 for two files, one containing a line of text known as
@@ -1285,8 +1085,6 @@ target file.
 Modify the program so that a specified character is
 deleted from the source file as it is copied to the
 target file.
-
-
 
 7. Write a program that requests for a file name and
 an integer, known as offset value. The program then
@@ -1299,28 +1097,20 @@ number, it prints that many lines from the end of
 the file. An appropriate error message should be
 printed, if anything goes wrong.
 
-
-
 8. Write a program to create a sequential file that
 could store details about five products. Details
 include product code, cost and number of items
 available and are provided through keyboard.
 
-
-
 9. Write a program to read the file
 created in Exercise 13.8 and compute and print the
 total value of all the five products.
-
-
 
 10. Rewrite the program developed in Exercise 13.8 to
 store the details in a random access file and print
 the details of alternate products from the file.
 Modify the program so that it can output the details
 of a product when its code is specified interactively.
-
-
 
 11. Write a C program that uses file
 handling methods to store records of mixed data in
@@ -1331,17 +1121,11 @@ integer values from one file. Subsequently, it uses
 the putw function to write the integer values in
 reverse order in another file.
 
-
-
 13. Write a C program that reads characters from a file
 and prints their ASCII codes.
 
-
-
 14.Write a C program that concatenates the contents
 of two files and writes then in the third file.
-
-
 
 15. Write a C program that uses fscanf
 function to read integer values from a file, computes
@@ -1363,8 +1147,6 @@ operations:
 age and weight.
 Make use of the header file defined in Review
 Question 14.8.
-
-
 
 3. Write recursive and non-recursive functions for
 reversing the elements in a linear list. Compare the
@@ -1425,8 +1207,6 @@ a. To insert a node.
 b. To delete a node.
 c. To find a specified node.
 
-
-
 ## Chapter 15 
 
 1. Define a macro PRINT_VALUE that can be used to
@@ -1444,8 +1224,6 @@ macro to compute the volume for spheres of radius
 number of elements in the array as arguments. Write
 a program using this macro to print out the elements
 of an array.
-
-
 
 5. Using the macro defined in the exercise 15.4, write a
 program to compute the sum of all elements in an
@@ -1465,8 +1243,6 @@ operator.
 9. Write a simple C program to demonstrate how a
 user-created file in included in a C program.
 
-
-
 10. Write a C program that uses the
 #error directive to stop the program execution when
 an error is encountered.
@@ -1474,12 +1250,8 @@ an error is encountered.
 11. Write a C program that uses macro substitution to
 compute the area of a rectangle.
 
-
-
 12. Write a C program to implement a macro named
 NOTEQUAL that performs logical not operation.
-
-
 
 # Contribution
 

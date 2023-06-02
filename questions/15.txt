@@ -1,7 +1,6 @@
 1. Define a macro PRINT_VALUE that can be used to
 print two values of arbitrary type.
 
-
 2. Write a nested macro that gives the minimum of
 three values.
 
@@ -10,48 +9,35 @@ volume of a sphere. Write a program using this
 macro to compute the volume for spheres of radius
 5, 10 and 15 metres.
 
-
 4. Define a macro that receives an array and the
 number of elements in the array as arguments. Write
 a program using this macro to print out the elements
 of an array.
 
-
-
 5. Using the macro defined in the exercise 15.4, write a
 program to compute the sum of all elements in an
 array.
-
 
 6. Write symbolic constants for the binary arithmetic
 operators +, –, * and /. Write a short program to
 illustrate the use of these symbolic constants.
 
-
 7. Define symbolic constants for { and }
 and printing a blank line. Write a small program
 using these constants.
 
-
 8. Write a program to illustrate the use of stringizing
 operator.
 
-
 9. Write a simple C program to demonstrate how a
 user-created file in included in a C program.
-
-
 
 10. Write a C program that uses the
 #error directive to stop the program execution when
 an error is encountered.
 
-
 11. Write a C program that uses macro substitution to
 compute the area of a rectangle.
 
-
-
 12. Write a C program to implement a macro named
 NOTEQUAL that performs logical not operation.
-

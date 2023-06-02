@@ -45,9 +45,9 @@ def generate_readme():
                         readme.write(f"{q.strip()}\n")
                         for contrib in contribs:
                             # check if the file exists
-                            if os.path.exists(f"solutions/{contrib}/{file[0]}/{count}.c"):
-                                readme.write(f"- [{contrib}](solutions/{contrib}/{file[0]}/{count}.c)\n")
-                            count += 1
+                            if os.path.exists(f"solutions/{contrib}/{file.split('.')[0]}/{count}.c"):
+                                readme.write(f"- [{contrib}](solutions/{contrib}/{file.split('.')[0]}/{count}.c)\n")
+                        count += 1
                         # readme.write(question_md)
                         readme.write("\n")
     
