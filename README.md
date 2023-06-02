@@ -279,6 +279,7 @@ display the same in the following formats:
 (b) WORD
 PROCESSING
 (c) W.P
+- [NAYEMA](solutions/NAYEMA/5/1.c)
 - [sadman](solutions/sadman/5/1.c)
 - [sharafat](solutions/sharafat/5/1.c)
 
@@ -288,6 +289,7 @@ line:
 (a) (x+y) / (x-y)
 (b) (x+y) /2
 (c) (x+y)(x–y)
+- [NAYEMA](solutions/NAYEMA/5/2.c)
 - [sadman](solutions/sadman/5/2.c)
 - [sharafat](solutions/sharafat/5/2.c)
 
