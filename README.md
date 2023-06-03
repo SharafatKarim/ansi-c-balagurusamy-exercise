@@ -176,21 +176,25 @@ part of the number.
 - [sharafat](solutions/sharafat/4/2.c)
 
 3. Given an integer number, write a program that displays the number as follows:
+```
 First line                : all digits
 Second line               : all except first digit
 Third line                : all except first two digits
 .........
 Last line                 : The last digit
 For example, the number 5678 will be displayed as
-              5 6 7 8
-              6 7 8
-              7 8 
-              8
+  5 6 7 8
+  6 7 8
+  7 8 
+  8
+```
 - [sadman](solutions/sadman/4/3.c)
 - [sharafat](solutions/sharafat/4/3.c)
 
 4. The straight-line method of computing the yearly depreciation of the value of an item is given by
-                  Depreciation = (Purchase Price - Salvage Value) / Years of Service
+```
+  Depreciation = (Purchase Price - Salvage Value) / Years of Service
+```
 Write a program to determine the salvage value of an item when the purchase price, years of service,
 and the annual depreciation are given.
 - [sadman](solutions/sadman/4/4.c)
@@ -198,33 +202,43 @@ and the annual depreciation are given.
 
 5. Write a program that will read a real number from the keyboard and print the following output in one
 line:
-Smallest integer                           The given                   Lergest integer
-not less than                               number                     not greater than
-the number                                                             the number
+```
+Smallest integer            The given               Lergest integer
+not less than                number                 not greater than
+the number                                          the number
+```
 - [sadman](solutions/sadman/4/5.c)
 - [sharafat](solutions/sharafat/4/5.c)
 
 6. The total distance travelled by a vehicle in t seconds is given by
+```
 distance = ut + ( a t*2 ) / 2
-Where u is the initial velocity (metres per second), a is the acceleration (metres per second 2 ). Write a
+```
+> Where u is the initial velocity (metres per second), a is the acceleration (metres per second 2 ). Write a
 program to evaluate the distance travelled at regular intervals of time, given the values of u and a.
-The program should provide the flexibility to the user to select his own time intervals and repeat the
+> The program should provide the flexibility to the user to select his own time intervals and repeat the
 calculations for different values of u and a .
 - [sadman](solutions/sadman/4/6.c)
 - [sharafat](solutions/sharafat/4/6.c)
 
 7. In inventory management, the Economic Order Quantity for a single item is given by
-         EOQ = sqrt((2*setup costs) / (demand rate * holding cost per unit time))
-  and the optimal Time Between Orders
-         TBO = sqrt ((2* setup costs) / (demand rate * holding cost per unit time))
-  Write a program to compute EOQ and TBO, given demand rate (items per unit time), setup costs (per
+```
+EOQ = sqrt((2*setup costs) / (demand rate * holding cost per unit time))
+```
+and the optimal Time Between Orders
+```
+TBO = sqrt ((2* setup costs) / (demand rate * holding cost per unit time))
+```
+Write a program to compute EOQ and TBO, given demand rate (items per unit time), setup costs (per
 order), and the holding cost (per item per unit time).
 - [sadman](solutions/sadman/4/7.c)
 - [sharafat](solutions/sharafat/4/7.c)
 
 8. For a certain electrical circuit with an inductance L and resistance R, the damped natural
 frequency is given by
-            Frequency = sqrt ((1 / L*C )- (R*R / 4*C*C)
+```
+Frequency = sqrt ((1 / L*C )- (R*R / 4*C*C)
+```
 It is desired to study the variation of this frequency with C (capacitance). Write a program to calculate
 the frequency for different values of C starting from 0.01 to 0.1 in steps of 0.01.
 - [sadman](solutions/sadman/4/8.c)
@@ -245,10 +259,12 @@ them without using if statement.
 - [sharafat](solutions/sharafat/4/11.c)
 
 12. Write a program to read three values using scanf statement and print the following results:
+```
 (a) Sum of the values
 (b) Average of the three values
 (c) Largest of the three
 (d) Smallest of the three
+```
 - [sadman](solutions/sadman/4/12.c)
 - [sharafat](solutions/sharafat/4/12.c)
 
@@ -259,46 +275,60 @@ them without using if statement.
 
 14. Write a program to print a table of sin and cos functions for the interval from 0 to 180
 degrees in increments of 15 a shown here.
+>
+| x (degrees) | sin(x) | cos(x) |
+| ----------- | ------ | ------ |
+| 0           | ...    | ...    |
+| ...         | ...    | ...    |
+| ...         | ...    | ...    |
+| 180         | ...    | ...    |
 - [sadman](solutions/sadman/4/14.c)
 - [sharafat](solutions/sharafat/4/14.c)
 
-15. Write a program to compute the values of square roots and squares of the numbers 0 to 100 in steps
+15.  Write a program to compute the values of square roots and squares of the numbers 0 to 100 in steps
 10 and print the output in a tabular form as shown below.
+>
+| Number | Square Root | Square |
+| ------ | ----------- | ------ |
+| 0      | 0           | 0      |
+| 100    | 10          | 10000  |
 - [sadman](solutions/sadman/4/15.c)
 - [sharafat](solutions/sharafat/4/15.c)
 
-16. Write a program to illustrate the use of cast operator in a real life situation.
+16.   Write a program to illustrate the use of cast operator in a real life situation.
 - [sadman](solutions/sadman/4/16.c)
 - [sharafat](solutions/sharafat/4/16.c)
 
-17. Write a C program to shift the given data by two bits to the left.
+17.   Write a C program to shift the given data by two bits to the left.
 - [sadman](solutions/sadman/4/17.c)
 - [sharafat](solutions/sharafat/4/17.c)
 
-18. Write a C program to compute the value of the expression x=a-b/3+c*2-1.
+18.   Write a C program to compute the value of the expression `x=a-b/3+c*2-1`.
 - [sadman](solutions/sadman/4/18.c)
 - [sharafat](solutions/sharafat/4/18.c)
 
-19. Write a C program to input a date value and determine whether the entered day, month, and
+19.   Write a C program to input a date value and determine whether the entered day, month, and
 year values are valid.
 - [sadman](solutions/sadman/4/19.c)
 - [sharafat](solutions/sharafat/4/19.c)
 
-20. Write a C program to input the sides of a triangle and determine whether the triangle is isoceles or
+20.   Write a C program to input the sides of a triangle and determine whether the triangle is isoceles or
 not.
 - [sadman](solutions/sadman/4/20.c)
 - [sharafat](solutions/sharafat/4/20.c)
 
-21. Write a C program that reads two numbers and performs their division. If the division is not
+21.   Write a C program that reads two numbers and performs their division. If the division is not
 possible, then an error messgage, ‘Division not possible’ is displayed.
 - [sadman](solutions/sadman/4/21.c)
 - [sharafat](solutions/sharafat/4/21.c)
 
-22. Input the value of 4 variables a, b, c and d and compute the resultant value of following
+22.   Input the value of 4 variables a, b, c and d and compute the resultant value of following
 expressions:
+```
 (a + b) * (c / d)
 (a + b) * c / d
 a + (b * c) / d
+```
 - [sadman](solutions/sadman/4/22.c)
 - [sharafat](solutions/sharafat/4/22.c)
 
