@@ -342,8 +342,8 @@ display the same in the following formats:
 PROCESSING
 (c) W.P.
 ```
-- [NAYEMA](solutions/NAYEMA/5/1.c)
 - [sadman](solutions/sadman/5/1.c)
+- [NAYEMA](solutions/NAYEMA/5/1.c)
 - [sharafat](solutions/sharafat/5/1.c)
 
 2. Write a program to read the values of x and y and
@@ -354,14 +354,14 @@ line:
 (b) (x+y) /2
 (c) (x+y)(x–y)
 ```
-- [NAYEMA](solutions/NAYEMA/5/2.c)
 - [sadman](solutions/sadman/5/2.c)
+- [NAYEMA](solutions/NAYEMA/5/2.c)
 - [sharafat](solutions/sharafat/5/2.c)
 
 3. Write a program to read the following numbers, round them off to the nearest integers and print out
 the results in integer form: 35.7 50.21 – 23.73 – 46.45
-- [NAYEMA](solutions/NAYEMA/5/3.c)
 - [sadman](solutions/sadman/5/3.c)
+- [NAYEMA](solutions/NAYEMA/5/3.c)
 - [sharafat](solutions/sharafat/5/3.c)
 
 4. Write a program that reads 4 floating point values in the range, 0.0 to 20.0, and prints a horizontal bar
@@ -374,8 +374,8 @@ represented as follows.
             *      *     *        *
 ```
 > Note that the actual values are shown at the end of each bar.
-- [NAYEMA](solutions/NAYEMA/5/4.c)
 - [sadman](solutions/sadman/5/4.c)
+- [NAYEMA](solutions/NAYEMA/5/4.c)
 - [sharafat](solutions/sharafat/5/4.c)
 
 5. Write an interactive program to demonstrate the process of multiplication. The program should ask
@@ -390,8 +390,8 @@ the user to enter two two-digit integers and print the product of integers as sh
      Add them       1665
             _______________
 ```
-- [NAYEMA](solutions/NAYEMA/5/5.c)
 - [sadman](solutions/sadman/5/5.c)
+- [NAYEMA](solutions/NAYEMA/5/5.c)
 - [sharafat](solutions/sharafat/5/5.c)
 
 6. Write a program to read three integers from the keyboard using one scanf statement and output
@@ -401,8 +401,8 @@ them on one line using:
 (b) only one printf with conversion specifiers, and
 (c) only one printf without conversion specifiers.
 ```
-- [NAYEMA](solutions/NAYEMA/5/6.c)
 - [sadman](solutions/sadman/5/6.c)
+- [NAYEMA](solutions/NAYEMA/5/6.c)
 - [sharafat](solutions/sharafat/5/6.c)
 
 7. Write a program that prints the value 10.45678 in exponential format with the following specifications:
@@ -411,8 +411,8 @@ them on one line using:
 (b) correct to four decimal places; and
 (c) correct to eight decimal places.
 ```
-- [NAYEMA](solutions/NAYEMA/5/7.c)
 - [sadman](solutions/sadman/5/7.c)
+- [NAYEMA](solutions/NAYEMA/5/7.c)
 - [sharafat](solutions/sharafat/5/7.c)
 
 8. Write a program to print the value 345.6789 in fixed-point format with the following specifications:
@@ -421,8 +421,8 @@ them on one line using:
 (b) correct to five decimal places; and
 (c) correct to zero decimal places.
 ```
-- [NAYEMA](solutions/NAYEMA/5/8.c)
 - [sadman](solutions/sadman/5/8.c)
+- [NAYEMA](solutions/NAYEMA/5/8.c)
 - [sharafat](solutions/sharafat/5/8.c)
 
 9. Write a program to read the name ANIL KUMAR GUPTA in three parts using the scanf statement and
@@ -432,8 +432,8 @@ to display the same in the following format using the printf statement.
 (b) A.K. GUPTA
 (c) GUPTA A.K.
 ```
-- [NAYEMA](solutions/NAYEMA/5/9.c)
 - [sadman](solutions/sadman/5/9.c)
+- [NAYEMA](solutions/NAYEMA/5/9.c)
 - [sharafat](solutions/sharafat/5/9.c)
 
 10. Write a program to read and display the following table of data.
@@ -443,25 +443,25 @@ to display the same in the following format using the printf statement.
           Motor           450              5786.70
 ```
 > The name and code must be left-justified and price must be right justified.
-- [NAYEMA](solutions/NAYEMA/5/10.c)
 - [sadman](solutions/sadman/5/10.c)
+- [NAYEMA](solutions/NAYEMA/5/10.c)
 - [sharafat](solutions/sharafat/5/10.c)
 
 11. Write a C program to print inventory stock report using some sample data. The report should show
 item code, quantity and inventory location as formatted output.
-- [NAYEMA](solutions/NAYEMA/5/11.c)
 - [sadman](solutions/sadman/5/11.c)
+- [NAYEMA](solutions/NAYEMA/5/11.c)
 - [sharafat](solutions/sharafat/5/11.c)
 
 12. Write a C program to display the Pascal’s triangle.
-- [NAYEMA](solutions/NAYEMA/5/12.c)
 - [sadman](solutions/sadman/5/12.c)
+- [NAYEMA](solutions/NAYEMA/5/12.c)
 - [sharafat](solutions/sharafat/5/12.c)
 
 13. Write a C program to input a currency value in Dollars and display its equivalent Euro and
 INR amounts. You may use current exchange rate for conversion purpose.
-- [NAYEMA](solutions/NAYEMA/5/13.c)
 - [sadman](solutions/sadman/5/13.c)
+- [NAYEMA](solutions/NAYEMA/5/13.c)
 - [sharafat](solutions/sharafat/5/13.c)
 
 14. Write a C program to display the following pattern.
@@ -472,13 +472,13 @@ INR amounts. You may use current exchange rate for conversion purpose.
                   2 1
                     1
 ```
-- [NAYEMA](solutions/NAYEMA/5/14.c)
 - [sadman](solutions/sadman/5/14.c)
+- [NAYEMA](solutions/NAYEMA/5/14.c)
 
 15. Write a C program to input an investment amount and compute its fixed deposit cumulative return
 after 10 years at arate of interest of 8.75%.
-- [NAYEMA](solutions/NAYEMA/5/15.c)
 - [sadman](solutions/sadman/5/15.c)
+- [NAYEMA](solutions/NAYEMA/5/15.c)
 - [sharafat](solutions/sharafat/5/15.c)
 
 ## Chapter 6 
@@ -1017,11 +1017,13 @@ Check digit is the remainder when sum is divided by
 1. Write a program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.
 
 2. Write a program to do the following:
+```
 (a) To output the question “Who is the inventor of C ?”
 (b) To accept an answer.
 (c) To print out “Good” and then stop, if the answer is correct.
 (d) To output the message ‘try again’, if the answer is wrong.
 (e) To display the correct answer when the answer is wrong even at the third attempt and stop.
+```
 
 3. Write a program to extract a portion of a character string and print the extracted string. Assume that m characters are extracted, starting with the nth character.
 
@@ -1033,11 +1035,13 @@ Check digit is the remainder when sum is divided by
 
 7. A Maruti car dealer maintains a record of
 sales of various vehicles in the following form:
+```
 	Vehicle types	Month of sacles 		Price
 	MARUTI-800		02/01				210000
 	MARUTI-DX         07/01				265000
 	GYPSY             04/02				315750
 	MARUTI-VAN        08/02				240000
+```
 Write a program to read this data into a table of strings and output the details of a particular vehicle sold during a specified period. The program should request the user to input the vehicle type and the period 
 (starting month, ending month).
 
@@ -1047,15 +1051,18 @@ Write a program to read this data into a table of strings and output the details
 For example, if we input 125.75, the output should be “ONE HUNDRED TWENTY FIVE AND PAISE SEVENTY FIVE”.
 
 10. Develop a program that will read and store the details of a list of students in the format
+```
 	Roll No	Name			Marks obtained
 	......      ......            .........
 	......	......		.........
 	......	......		.........
+```
 and produce the following output list:
-(a) Alphabetical list of names, roll numbers and
-marks obtained.
-(b) List sorted on roll numbers.
-(c) List sorted on marks (rank-wise list)
+```
+	(a) Alphabetical list of names, roll numbers and marks obtained.
+	(b) List sorted on roll numbers.
+	(c) List sorted on marks (rank-wise list)
+```
 
 11. Write a program to read two strings and compare them using the function strncm p ( ) and print a message that the first string is equal, less, or
 greater than the second one.
@@ -1067,13 +1074,17 @@ greater than the second one.
 14. Write a program to create a directory of students with roll numbers. The program should display the roll number for a specified name and vice-versa.
 
 15. Given a string
+```
 	char str [ ] = “123456789” ;
+```
 Write a program that displays the following:
-			1
+```
+              1
 		    2 3 2
 		  3 4 5 4 3
 		4 5 6 7 6 5 4
-	    5 6 7 8 9 8 7 6 5
+      5 6 7 8 9 8 7 6 5
+```
 
 16. Write a C program to compare two strings without using any string function.
 
@@ -1092,16 +1103,22 @@ Write a program that displays the following:
 2. Write a function space(x) that can be used to provide a space of x positions between two output numbers. Demonstrate its application.
 
 3. Use recursive function calls to evaluate
+```
 	f(x) = x - pow(x,3)/3! + pow(x,5)/5! - pow(x,7)/7! + .....
+```
 
 4. An n_order polynomial can be evaluated as follows:
+```
 	P = (.....(((a 0 x+a 1 )x+a 2 )x+a 3 )x+...+a n)
+```
 Write a function to evaluate the polynomial, using an array variable. Test it using a main program.
 
 5. The Fibonacci numbers are defined recursively as follows:
+```
 				F1 = 1
 				F2 = 1
 				Fn = Fn-1 + Fn-2 , n>2
+```
 Write a function that will generate and print the first n Fibonacci numbers. Test the function for n = 5, 10, and 15.
 
 6. Write a function that will round a floating-point number to an indicated decimal place. For example the number 17.457 would yield the value 17.46 when it is rounded off to two decimal places.
@@ -1111,16 +1128,20 @@ Write a function that will generate and print the first n Fibonacci numbers. Tes
 8. Write a function that will scan a character string passed as an argument and convert all lowercase characters into their uppercase equivalents.
 
 9. Develop a top_down modular program to implement a calculator. The program should request the user to input two numbers and display one of the following as per the desire of the user:
+```
 (a) Sum of the numbers
 (b) Difference of the numbers
 (c) Product of the numbers
 (d) Division of the numbers
+```
 Provide separate functions for performing various tasks such as reading, calculating and displaying. Calculating module should call second level modules to perform the individual mathematical operations. The main function should have only function calls.
 
 10. Develop a modular interactive program using functions that reads the values of three sides of a triangle and displays either its area or its perimeter as per the request of the user. Given the three sides a, b and c.
+```
 		Perimeter = a + b + c
 		Area      = sqrt ((s-a)*(s-b)*(s-c))
 	where   s 	    - (a+b+c)/2
+```
 
 11. Write a function that can be called to find the largest element of an m by n matrix.
 
@@ -1133,22 +1154,28 @@ then print the entire matrix with averages shown in
 respective rows and columns.
 
 14. Develop a top-down modular program that will perform the following tasks:
+```
 (a) Read two integer arrays with unsorted elements.
 (b) Sort them in ascending order
 (c) Merge the sorted arrays
 (d) Print the sorted list
+```
 Use functions for carrying out each of the above tasks. The main function should have only function calls.
 
 15. Develop your own functions for performing following operations on strings:
+```
 (a) Copying one string to another
 (b) Comparing two strings
 (c) Adding a string to the end of another string
+```
 Write a driver program to test your functions.
 
 16. Write a program that invokes a function called
 find( ) to perform the following tasks:
+```
 (a) Receives a character array and a single character.
 (b) Returns 1 if the specified character is found in the array, 0 otherwise.
+```
 
 17. Design a function locate ( ) that takes two character arrays s1 and s2 and one integer value m as parameters and inserts the string s2 into s1
 immediately after the index m .
