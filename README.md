@@ -342,8 +342,8 @@ display the same in the following formats:
 PROCESSING
 (c) W.P.
 ```
-- [NAYEMA](solutions/NAYEMA/5/1.c)
 - [sadman](solutions/sadman/5/1.c)
+- [NAYEMA](solutions/NAYEMA/5/1.c)
 - [sharafat](solutions/sharafat/5/1.c)
 
 2. Write a program to read the values of x and y and
@@ -354,14 +354,14 @@ line:
 (b) (x+y) /2
 (c) (x+y)(x–y)
 ```
-- [NAYEMA](solutions/NAYEMA/5/2.c)
 - [sadman](solutions/sadman/5/2.c)
+- [NAYEMA](solutions/NAYEMA/5/2.c)
 - [sharafat](solutions/sharafat/5/2.c)
 
 3. Write a program to read the following numbers, round them off to the nearest integers and print out
 the results in integer form: 35.7 50.21 – 23.73 – 46.45
-- [NAYEMA](solutions/NAYEMA/5/3.c)
 - [sadman](solutions/sadman/5/3.c)
+- [NAYEMA](solutions/NAYEMA/5/3.c)
 - [sharafat](solutions/sharafat/5/3.c)
 
 4. Write a program that reads 4 floating point values in the range, 0.0 to 20.0, and prints a horizontal bar
@@ -374,8 +374,8 @@ represented as follows.
             *      *     *        *
 ```
 > Note that the actual values are shown at the end of each bar.
-- [NAYEMA](solutions/NAYEMA/5/4.c)
 - [sadman](solutions/sadman/5/4.c)
+- [NAYEMA](solutions/NAYEMA/5/4.c)
 - [sharafat](solutions/sharafat/5/4.c)
 
 5. Write an interactive program to demonstrate the process of multiplication. The program should ask
@@ -390,8 +390,8 @@ the user to enter two two-digit integers and print the product of integers as sh
      Add them       1665
             _______________
 ```
-- [NAYEMA](solutions/NAYEMA/5/5.c)
 - [sadman](solutions/sadman/5/5.c)
+- [NAYEMA](solutions/NAYEMA/5/5.c)
 - [sharafat](solutions/sharafat/5/5.c)
 
 6. Write a program to read three integers from the keyboard using one scanf statement and output
@@ -401,8 +401,8 @@ them on one line using:
 (b) only one printf with conversion specifiers, and
 (c) only one printf without conversion specifiers.
 ```
-- [NAYEMA](solutions/NAYEMA/5/6.c)
 - [sadman](solutions/sadman/5/6.c)
+- [NAYEMA](solutions/NAYEMA/5/6.c)
 - [sharafat](solutions/sharafat/5/6.c)
 
 7. Write a program that prints the value 10.45678 in exponential format with the following specifications:
@@ -411,8 +411,8 @@ them on one line using:
 (b) correct to four decimal places; and
 (c) correct to eight decimal places.
 ```
-- [NAYEMA](solutions/NAYEMA/5/7.c)
 - [sadman](solutions/sadman/5/7.c)
+- [NAYEMA](solutions/NAYEMA/5/7.c)
 - [sharafat](solutions/sharafat/5/7.c)
 
 8. Write a program to print the value 345.6789 in fixed-point format with the following specifications:
@@ -421,8 +421,8 @@ them on one line using:
 (b) correct to five decimal places; and
 (c) correct to zero decimal places.
 ```
-- [NAYEMA](solutions/NAYEMA/5/8.c)
 - [sadman](solutions/sadman/5/8.c)
+- [NAYEMA](solutions/NAYEMA/5/8.c)
 - [sharafat](solutions/sharafat/5/8.c)
 
 9. Write a program to read the name ANIL KUMAR GUPTA in three parts using the scanf statement and
@@ -432,8 +432,8 @@ to display the same in the following format using the printf statement.
 (b) A.K. GUPTA
 (c) GUPTA A.K.
 ```
-- [NAYEMA](solutions/NAYEMA/5/9.c)
 - [sadman](solutions/sadman/5/9.c)
+- [NAYEMA](solutions/NAYEMA/5/9.c)
 - [sharafat](solutions/sharafat/5/9.c)
 
 10. Write a program to read and display the following table of data.
@@ -443,25 +443,25 @@ to display the same in the following format using the printf statement.
           Motor           450              5786.70
 ```
 > The name and code must be left-justified and price must be right justified.
-- [NAYEMA](solutions/NAYEMA/5/10.c)
 - [sadman](solutions/sadman/5/10.c)
+- [NAYEMA](solutions/NAYEMA/5/10.c)
 - [sharafat](solutions/sharafat/5/10.c)
 
 11. Write a C program to print inventory stock report using some sample data. The report should show
 item code, quantity and inventory location as formatted output.
-- [NAYEMA](solutions/NAYEMA/5/11.c)
 - [sadman](solutions/sadman/5/11.c)
+- [NAYEMA](solutions/NAYEMA/5/11.c)
 - [sharafat](solutions/sharafat/5/11.c)
 
 12. Write a C program to display the Pascal’s triangle.
-- [NAYEMA](solutions/NAYEMA/5/12.c)
 - [sadman](solutions/sadman/5/12.c)
+- [NAYEMA](solutions/NAYEMA/5/12.c)
 - [sharafat](solutions/sharafat/5/12.c)
 
 13. Write a C program to input a currency value in Dollars and display its equivalent Euro and
 INR amounts. You may use current exchange rate for conversion purpose.
-- [NAYEMA](solutions/NAYEMA/5/13.c)
 - [sadman](solutions/sadman/5/13.c)
+- [NAYEMA](solutions/NAYEMA/5/13.c)
 - [sharafat](solutions/sharafat/5/13.c)
 
 14. Write a C program to display the following pattern.
@@ -472,13 +472,13 @@ INR amounts. You may use current exchange rate for conversion purpose.
                   2 1
                     1
 ```
-- [NAYEMA](solutions/NAYEMA/5/14.c)
 - [sadman](solutions/sadman/5/14.c)
+- [NAYEMA](solutions/NAYEMA/5/14.c)
 
 15. Write a C program to input an investment amount and compute its fixed deposit cumulative return
 after 10 years at arate of interest of 8.75%.
-- [NAYEMA](solutions/NAYEMA/5/15.c)
 - [sadman](solutions/sadman/5/15.c)
+- [NAYEMA](solutions/NAYEMA/5/15.c)
 - [sharafat](solutions/sharafat/5/15.c)
 
 ## Chapter 6 
@@ -710,8 +710,14 @@ string.
 ## Chapter 7 
 
 1. Given a number, write a program using while loop to reverse the digits of the number. For example,
-the number 12345 should be written as 54321
-( Hint: Use modulus operator to extract the last digit and the integer division by 10 to get the n–1
+the 
+```
+number 
+	12345 
+should be written as 
+	54321
+```
+> ( Hint: Use modulus operator to extract the last digit and the integer division by 10 to get the n–1
 digit number from the n digit number.)
 - [sadman](solutions/sadman/7/1.c)
 - [sharafat](solutions/sharafat/7/1.c)
@@ -721,36 +727,46 @@ digit number from the n digit number.)
 - [sharafat](solutions/sharafat/7/2.c)
 
 3. The numbers in the sequence
+```
 	1 1 2 3 5 8 13 21 .......
+```
 are called Fibonacci numbers. Write a program using a do....while loop to calculate and print the first m
 Fibonacci numbers.
-( Hint: After the first two numbers in the series, each number is the sum of the two preceding numbers.)
+> ( Hint: After the first two numbers in the series, each number is the sum of the two preceding numbers.)
 - [sadman](solutions/sadman/7/3.c)
 - [sharafat](solutions/sharafat/7/3.c)
 
 4. Write a program to evaluate the following investment equation
+```
 				V = P(1+r) n
+```
 and print the tables which would give the value of V for various combination of the following values 
 of P, r, and n.
+```
 P : 1000, 2000, 3000,........, 10,000
 r : 0.10, 0.11, 0.12, ......., 0.20
 n : 1, 2, 3, ...., 10
-( Hint: P is the principal amount and V is the value of money at the end of n years. This equation can
+```
+> ( Hint: P is the principal amount and V is the value of money at the end of n years. This equation can
 be recursively written as
-V = P(1+r)
-P = V
+```
+	V = P(1+r)
+	P = V
+```
 That is, the value of money at the end of first year becomes the principal amount for the next year and
 so on.)
 - [sadman](solutions/sadman/7/4.c)
 - [sharafat](solutions/sharafat/7/4.c)
 
 5. Write programs to print the following outputs using for loops.
+```
 	(a) 					(b)
-		1					* * * * * 
-		2 2					  * * * *
+		1						* * * * * 
+		2 2					  	  * * * *
 		3 3 3					    * * *
-		4 4 4 4 					* *
-		5 5 5 5 5					  *
+		4 4 4 4                       * *
+		5 5 5 5 5					    *
+```
 - [sadman](solutions/sadman/7/5.c)
 - [sharafat](solutions/sharafat/7/5.c)
 
@@ -765,53 +781,76 @@ continue statements.
 - [sharafat](solutions/sharafat/7/7.c)
 
 8. Write a program to print a table of values of the function
+```
 y = exp (-x)
+```
 for x varying from 0.0 to 10.0 in steps of 0.10. The table should appear as follows:
-				Table for Y = EXP(–X)
+> Table for Y = EXP(–X)
+>
+| X | 0.1 | 0.2 | 0.3 | ... | 0.9 |
+|---|-----|-----|-----|-----|-----|
+|0.0|	  |     |     |     |     |
+|1.0|	  |     |     |     |     |
+|2.0|	  |     |     |     |     |
+|3.0|	  |     |     |     |     |
+| . |	  |     |     |     |     |
+| . |	  |     |     |     |     |
+| . |	  |     |     |     |     |
+|9.0|	  |     |     |     |     |
 - [sadman](solutions/sadman/7/8.c)
 - [sharafat](solutions/sharafat/7/8.c)
 
 9. Write a program using for and if statement to display the capital letter S in a grid of 15 rows and
 18 columns as shown below.
-* * * * * * * * * * * * * * * * * * * * * * * *
-* * - - - - - - - - - - - - - - - - - - - - - - * *
-* * * * * * * * * - - - - - - - - - - - - - - * *
-* * * *
-* * * *
-* * * *
-* * * * * - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - * * * *
-* * * * - - - - - - - - — - - - - - - - * * * *
-* * * - - - - - - - - - - - - - - - - - * * * *
-* * - - - - - - - - - - - - - - - - - - - * * * *
+```
+******************
+**--------------**
+*********-------**
+****
+****
+****
+*****---------****
+--------------****
+--------------****
+--------------****
+--------------****
+--------------****
+--------------****
+****----------****
+***-----------****
+**------------****
+```
 - [sadman](solutions/sadman/7/9.c)
 - [sharafat](solutions/sharafat/7/9.c)
 
 10. Write a program to compute the value of Euler’s number e, that is used as the base of natural
 logarithms. Use the following formula.
+```
 		e = 1 + 1/1! + 1 /2! + 1 /3! + . . . . . + 1/n!
+```
 Use a suitable loop construct. The loop must terminate when the difference between two
 successive values of e is less than 0.00001.
 - [sadman](solutions/sadman/7/10.c)
 - [sharafat](solutions/sharafat/7/10.c)
 
 11. Write programs to evaluate the following functions to 0.0001% accuracy.
+```
 (a) sinx = x – x 3 /3! + x 5 /5! – x 7 /7! + . . . . . .
 (b) cosx = 1 – x 2 /2! + x 4 /4! – x 6 /6! + . . . . .
 (c) SUM = 1 + (1/2) 2 + (1/3) 3 + (1/4) 4 + … …
+```
 - [sadman](solutions/sadman/7/11.c)
 - [sharafat](solutions/sharafat/7/11.c)
 
 12. The present value (popularly known as book value) of an item is given by the relationship.
-			P = pow( (c*(1–d)),n)
-	where    c= original cost
+```
+				P = pow( (c*(1–d)),n)
+	where
+		   c= original cost
 		   d= rate of depreciation (per year)
 		   n= number of years
 		   p= present value after y years.
+```
 If P is considered the scrap value at the end of useful life of the item, write a program to compute
 the useful life in years given the original cost, depreciation rate, and the scrap value.
 The program should request the user to input the data interactively.
@@ -819,27 +858,35 @@ The program should request the user to input the data interactively.
 - [sharafat](solutions/sharafat/7/12.c)
 
 13. Write a program to print a square of size 5 by using the character N as shown below:
+```
 	 (a)								(b)
 		n n n n n 							n n n n n
 		n n n n n							n       n 
  		n n n n n							n       n 
 		n n n n n 							n       n
-		n n n n n							n n n n n
+		n n n n n							n n n n n 	
+```
+> n is used insted of S in the above figure LOL.
 - [sadman](solutions/sadman/7/13.c)
 - [sharafat](solutions/sharafat/7/13.c)
 
 14. Write a program to graph the function
+```
 			y = sin (x)
+```
 in the interval 0 to 180 degrees in steps of 15 degrees. Use the concepts discussed in the Case Study 4 in Chapter 7.
 - [sadman](solutions/sadman/7/14.c)
 - [sharafat](solutions/sharafat/7/14.c)
 
 15. Modify the program of Exercise 7.16 to print the character S instead of N at the center of the square as shown below.
+```
 				n n n n n 							
 				n n n n n						 
  				n n s n n							
 				n n n n n 						
-				n n n n n
+				n n n n n	
+```
+> n is used insted of S in the above figure LOL.
 - [sadman](solutions/sadman/7/15.c)
 - [sharafat](solutions/sharafat/7/15.c)
 
@@ -853,28 +900,34 @@ The program should use scanf to read the values and terminate when the sum excee
 - [sharafat](solutions/sharafat/7/17.c)
 
 18. Write a C program to display the following pattern.
-			1
+```
+			  1
 		     A B
 		    2 3 4
 		   C D E F
 		  5 6 7 8 9
+```
 - [sadman](solutions/sadman/7/18.c)
 - [sharafat](solutions/sharafat/7/18.c)
 
 19. Write a C program to display the following pattern:
-			1
+```
+              1
  		    1 2 1
 		  1 2 3 2 1
-		    1	2 1
-			1
+		    1 2 1
+			  1
+```
 - [sadman](solutions/sadman/7/19.c)
 - [sharafat](solutions/sharafat/7/19.c)
 
 20. Write a C program to display the following pattern:
+```
 		1
 		0 1
 		1 0 1
 		0 1 0 1
+```
 - [sharafat](solutions/sharafat/7/20.c)
 
 ## Chapter 8 
