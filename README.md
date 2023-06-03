@@ -118,15 +118,19 @@ the circle. Write a program to compute the area of the circle.
 ## Chapter 3 
 
 1. Write a program to determine and print the sum of the following harmonic series for a given value of n:
-                        1+ 1/2 +1/3 +....+ 1/n
+```
+1+ 1/2 +1/3 +....+ 1/n
+```
 The value of n should be given interactively through the terminal.
 
 2. The price of one kg of rice is Rs. 16.75 and one kg of sugar is Rs. 15. Write a program to get these values
 from the user and display the prices as follows:
+```
       *** LIST OF ITEMS***
       Item          Price
       Rich          Rs 16.75
       Sugar         Rs 15.00
+```
 
 3. Write program to count and print the number of negative and positive numbers in a given set of numbers.
 Test your program with a suitable set of numbers. Use scanf to read the numbers. Readingshould be 
@@ -134,10 +138,12 @@ terminated when the value 0 is
 encountered.
 
 4. Write a program to do the following:
+```
 (a) Declare x and y as integer variables and z as a short integer variable.
 (b) Assign two 6 digit numbers to x and y
 (c) Assign the sum of x and y to z
 (d) Output the values of x, y and z
+```
 Comment on the output.
 
 5. Write a program to illustrate the use of typedef declaration in a program.
@@ -304,8 +310,8 @@ display the same in the following formats:
 (b) WORD
 PROCESSING
 (c) W.P
-- [NAYEMA](solutions/NAYEMA/5/1.c)
 - [sadman](solutions/sadman/5/1.c)
+- [NAYEMA](solutions/NAYEMA/5/1.c)
 - [sharafat](solutions/sharafat/5/1.c)
 
 2. Write a program to read the values of x and y and
@@ -314,14 +320,14 @@ line:
 (a) (x+y) / (x-y)
 (b) (x+y) /2
 (c) (x+y)(x–y)
-- [NAYEMA](solutions/NAYEMA/5/2.c)
 - [sadman](solutions/sadman/5/2.c)
+- [NAYEMA](solutions/NAYEMA/5/2.c)
 - [sharafat](solutions/sharafat/5/2.c)
 
 3. Write a program to read the following numbers, round them off to the nearest integers and print out
 the results in integer form: 35.7 50.21 – 23.73 – 46.45
-- [NAYEMA](solutions/NAYEMA/5/3.c)
 - [sadman](solutions/sadman/5/3.c)
+- [NAYEMA](solutions/NAYEMA/5/3.c)
 - [sharafat](solutions/sharafat/5/3.c)
 
 4. Write a program that reads 4 floating point values in the range, 0.0 to 20.0, and prints a horizontal bar
@@ -332,8 +338,8 @@ represented as follows.
             *      *     *        *         4.36
             *      *     *        *
  Note that the actual values are shown at the end of each bar.
-- [NAYEMA](solutions/NAYEMA/5/4.c)
 - [sadman](solutions/sadman/5/4.c)
+- [NAYEMA](solutions/NAYEMA/5/4.c)
 - [sharafat](solutions/sharafat/5/4.c)
 
 5. Write an interactive program to demonstrate the process of multiplication. The program should ask
@@ -346,8 +352,8 @@ the user to enter two two-digit integers and print the product of integers as sh
      ______________________
      Add them       1665
             _______________
-- [NAYEMA](solutions/NAYEMA/5/5.c)
 - [sadman](solutions/sadman/5/5.c)
+- [NAYEMA](solutions/NAYEMA/5/5.c)
 - [sharafat](solutions/sharafat/5/5.c)
 
 6. Write a program to read three integers from the keyboard using one scanf statement and output
@@ -355,24 +361,24 @@ them on one line using:
 (a) three printf statements,
 (b) only one printf with conversion specifiers, and
 (c) only one printf without conversion specifiers.
-- [NAYEMA](solutions/NAYEMA/5/6.c)
 - [sadman](solutions/sadman/5/6.c)
+- [NAYEMA](solutions/NAYEMA/5/6.c)
 - [sharafat](solutions/sharafat/5/6.c)
 
 7. Write a program that prints the value 10.45678 in exponential format with the following specifications:
 (a) correct to two decimal places;
 (b) correct to four decimal places; and
 (c) correct to eight decimal places.
-- [NAYEMA](solutions/NAYEMA/5/7.c)
 - [sadman](solutions/sadman/5/7.c)
+- [NAYEMA](solutions/NAYEMA/5/7.c)
 - [sharafat](solutions/sharafat/5/7.c)
 
 8. Write a program to print the value 345.6789 in fixed-point format with the following specifications:
 (a) correct to two decimal places;
 (b) correct to five decimal places; and
 (c) correct to zero decimal places.
-- [NAYEMA](solutions/NAYEMA/5/8.c)
 - [sadman](solutions/sadman/5/8.c)
+- [NAYEMA](solutions/NAYEMA/5/8.c)
 - [sharafat](solutions/sharafat/5/8.c)
 
 9. Write a program to read the name ANIL KUMAR GUPTA in three parts using the scanf statement and
@@ -380,8 +386,8 @@ to display the same in the following format using the printf statement.
 (a) ANIL K. GUPTA
 (b) A.K. GUPTA
 (c) GUPTA A.K.
-- [NAYEMA](solutions/NAYEMA/5/9.c)
 - [sadman](solutions/sadman/5/9.c)
+- [NAYEMA](solutions/NAYEMA/5/9.c)
 - [sharafat](solutions/sharafat/5/9.c)
 
 10. Write a program to read and display the following table of data.
@@ -389,25 +395,25 @@ to display the same in the following format using the printf statement.
           Fan             67831            1234.50
           Motor           450              5786.70
 The name and code must be left-justified and price must be right justified.
-- [NAYEMA](solutions/NAYEMA/5/10.c)
 - [sadman](solutions/sadman/5/10.c)
+- [NAYEMA](solutions/NAYEMA/5/10.c)
 - [sharafat](solutions/sharafat/5/10.c)
 
 11. Write a C program to print inventory stock report using some sample data. The report should show
 item code, quantity and inventory location as formatted output.
-- [NAYEMA](solutions/NAYEMA/5/11.c)
 - [sadman](solutions/sadman/5/11.c)
+- [NAYEMA](solutions/NAYEMA/5/11.c)
 - [sharafat](solutions/sharafat/5/11.c)
 
 12. Write a C program to display the Pascal’s triangle.
-- [NAYEMA](solutions/NAYEMA/5/12.c)
 - [sadman](solutions/sadman/5/12.c)
+- [NAYEMA](solutions/NAYEMA/5/12.c)
 - [sharafat](solutions/sharafat/5/12.c)
 
 13. Write a C program to input a currency value in Dollars and display its equivalent Euro and
 INR amounts. You may use current exchange rate for conversion purpose.
-- [NAYEMA](solutions/NAYEMA/5/13.c)
 - [sadman](solutions/sadman/5/13.c)
+- [NAYEMA](solutions/NAYEMA/5/13.c)
 - [sharafat](solutions/sharafat/5/13.c)
 
 14. Write a C program to display the following pattern.
@@ -416,13 +422,13 @@ INR amounts. You may use current exchange rate for conversion purpose.
                 3 2 1
                   2 1
                     1
-- [NAYEMA](solutions/NAYEMA/5/14.c)
 - [sadman](solutions/sadman/5/14.c)
+- [NAYEMA](solutions/NAYEMA/5/14.c)
 
 15. Write a C program to input an investment amount and compute its fixed deposit cumulative return
 after 10 years at arate of interest of 8.75%.
-- [NAYEMA](solutions/NAYEMA/5/15.c)
 - [sadman](solutions/sadman/5/15.c)
+- [NAYEMA](solutions/NAYEMA/5/15.c)
 - [sharafat](solutions/sharafat/5/15.c)
 
 ## Chapter 6 
