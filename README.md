@@ -901,11 +901,11 @@ The program should use scanf to read the values and terminate when the sum excee
 
 18. Write a C program to display the following pattern.
 ```
-              1
-		     A B
-		    2 3 4
-		   C D E F
-		  5 6 7 8 9
+            1
+           A B
+          2 3 4
+         C D E F
+        5 6 7 8 9
 ```
 - [sadman](solutions/sadman/7/18.c)
 - [sharafat](solutions/sharafat/7/18.c)
