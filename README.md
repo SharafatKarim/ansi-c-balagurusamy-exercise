@@ -913,10 +913,10 @@ The program should use scanf to read the values and terminate when the sum excee
 19. Write a C program to display the following pattern:
 ```
               1
- 		    1 2 1
-		  1 2 3 2 1
-		    1 2 1
-			  1
+            1 2 1
+          1 2 3 2 1
+            1 2 1
+              1
 ```
 - [sadman](solutions/sadman/7/19.c)
 - [sharafat](solutions/sharafat/7/19.c)
