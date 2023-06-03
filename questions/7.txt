@@ -156,7 +156,7 @@ The program should use scanf to read the values and terminate when the sum excee
 
 18. Write a C program to display the following pattern.
 ```
-			  1
+              1
 		     A B
 		    2 3 4
 		   C D E F
