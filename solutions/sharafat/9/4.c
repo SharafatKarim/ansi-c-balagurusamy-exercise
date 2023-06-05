@@ -14,5 +14,5 @@ int main()
             count++;
         }
     }
-    printf("Total occurance of %c = %d\n", occurance, count); 
+    printf("Total occurance of %c = %d\n", occurance, count);
 }
