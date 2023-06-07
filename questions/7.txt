@@ -41,7 +41,7 @@ so on.)
 
 5. Write programs to print the following outputs using for loops.
 ```
-	(a) 					(b)
+	(a) 		(b)
         1                       * * * * * 
         2 2                       * * * *
         3 3 3                       * * *
