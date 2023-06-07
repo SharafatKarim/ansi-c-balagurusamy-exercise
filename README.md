@@ -1060,7 +1060,7 @@ Check digit is the remainder when sum is divided by
 sales of various vehicles in the following form:
 ```
 	Vehicle types	Month of sacles 		Price
-	MARUTI-800		02/01				210000
+	MARUTI-800		  02/01				210000
 	MARUTI-DX         07/01				265000
 	GYPSY             04/02				315750
 	MARUTI-VAN        08/02				240000
@@ -1076,10 +1076,10 @@ For example, if we input 125.75, the output should be “ONE HUNDRED TWENTY FIVE
 
 10. Develop a program that will read and store the details of a list of students in the format
 ```
-	Roll No	Name			Marks obtained
-	......      ......            .........
-	......	......		.........
-	......	......		.........
+	Roll No	     Name			Marks obtained
+	........     ......         .........
+	........	 ......	    	.........
+	........	 ......		    .........
 ```
 and produce the following output list:
 ```
