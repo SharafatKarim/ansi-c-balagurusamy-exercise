@@ -35,6 +35,7 @@ Excersise solutions for the book "ANSI C" by E. Balagurusamy (eight edition).
 
 1. Write a program to display the equation of a line in the form `ax + by = c` 
 for `a = 5, b = 8 and c = 18`.
+- [monir](solutions/monir/2/1.c)
 
 2. Write a C program that uses an in-built function to draw a 3D bar.
 
@@ -46,6 +47,7 @@ for `a = 5, b = 8 and c = 18`.
 ...
 5 x 10 = 50
 ```
+- [monir](solutions/monir/2/3.c)
 
 4. Given the values of three variables a, b and c, write a program to compute and display the value of x,
 where `x = a / ( b - c )` 
@@ -55,11 +57,14 @@ Execute your program for the following values:
 (b) a = 300, b = 70, c = 70
 ```
 Comment on the output in each case.
+- [monir](solutions/monir/2/4.c)
 
 5. Write a C program that reads the value of distance travelled by a car and the time taken for the same.
 Next, compute the speed at which the car travelled.
+- [monir](solutions/monir/2/5.c)
 
 6. Write a C program to print the current system date.
+- [monir](solutions/monir/2/6.c)
 
 7. Given two integers 20 and 10, write a program that uses a function add( ) to add these two numbers
 and sub( ) to find the difference of these two numbers and then display the sum and difference in
@@ -68,6 +73,7 @@ the following form:
 20 + 10 = 30
 20 – 10 = 10
 ```
+- [monir](solutions/monir/2/7.c)
 
 8. Modify the above program to provide border lines to the address.
 
@@ -78,6 +84,7 @@ the following form:
         *  *  *
         *  *  *  * 
 ```
+- [monir](solutions/monir/2/9.c)
 
 10. Write a program that will print the following figure using suitable characters.
 ```
@@ -94,6 +101,7 @@ the following form:
 ```
 Where a, b and c are sides of the triangle and `2S = a + b + c`. Write a program to compute the area of
 the triangle given the values of a, b and c.
+- [monir](solutions/monir/2/11.c)
 
 12. Write a program to display the following simple arithmetic calculator
 ```
@@ -107,13 +115,16 @@ the triangle given the values of a, b and c.
 D2 = ( x2 – x1 )^2 + ( y2 – y1 )^2
 ```
 Write a program to compute D given the coordinates of the points.
+- [monir](solutions/monir/2/13.c)
 
 14. A point on the circumference of a circle whose center is (o, o) is (4,5). Write a program to compute
 perimeter and area of the circle. 
 `(Hint: use the formula given in the Ex. 2.11)`
+- [monir](solutions/monir/2/14.c)
 
 15. The line joining the points (2,2) and (5,6) which lie on the circumference of a circle is the diameter of
 the circle. Write a program to compute the area of the circle.
+- [monir](solutions/monir/2/15.c)
 
 ## Chapter 3 
 
@@ -122,6 +133,7 @@ the circle. Write a program to compute the area of the circle.
 1+ 1/2 +1/3 +....+ 1/n
 ```
 The value of n should be given interactively through the terminal.
+- [monir](solutions/monir/3/1.c)
 
 2. The price of one kg of rice is Rs. 16.75 and one kg of sugar is Rs. 15. Write a program to get these values
 from the user and display the prices as follows:
@@ -131,11 +143,13 @@ from the user and display the prices as follows:
       Rich          Rs 16.75
       Sugar         Rs 15.00
 ```
+- [monir](solutions/monir/3/2.c)
 
 3. Write program to count and print the number of negative and positive numbers in a given set of numbers.
 Test your program with a suitable set of numbers. Use scanf to read the numbers. Readingshould be 
 terminated when the value 0 is
 encountered.
+- [monir](solutions/monir/3/3.c)
 
 4. Write a program to do the following:
 ```
@@ -145,24 +159,33 @@ encountered.
 (d) Output the values of x, y and z
 ```
 Comment on the output.
+- [monir](solutions/monir/3/4.c)
 
 5. Write a program to illustrate the use of typedef declaration in a program.
+- [monir](solutions/monir/3/5.c)
 
 6. Write a program to illustrate the use of symbolicconstants in a real-life application.
+- [monir](solutions/monir/3/6.c)
 
 7. Write a C program to input an integer and print its table.
+- [monir](solutions/monir/3/7.c)
 
 8. Write a C program to print the square of a number.
+- [monir](solutions/monir/3/8.c)
 
 9. Write a C program to input an integer between 0 and 128 and print its ASCII character.
+- [monir](solutions/monir/3/9.c)
 
 10. Write a C program to input the value of days and convert it into years, weeks and days.
+- [monir](solutions/monir/3/10.c)
 
 11. Write a C program to input the distance travelled by a car and the fuel consumed. Next,
 compute the mileage of the car.
+- [monir](solutions/monir/3/11.c)
 
 12. Write a C program to input the amount value and break it into the smallest possible 
 Indian currency notes.
+- [monir](solutions/monir/3/12.c)
 
 ## Chapter 4 
 
