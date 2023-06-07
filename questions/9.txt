@@ -20,8 +20,8 @@
 7. A Maruti car dealer maintains a record of
 sales of various vehicles in the following form:
 ```
-	Vehicle types	Month of sacles 		Price
-	MARUTI-800		  02/01				210000
+	Vehicle types   Month of sacles     Price
+	MARUTI-800        02/01             210000
 	MARUTI-DX         07/01				265000
 	GYPSY             04/02				315750
 	MARUTI-VAN        08/02				240000
