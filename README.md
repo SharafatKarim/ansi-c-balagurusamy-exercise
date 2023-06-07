@@ -784,11 +784,11 @@ so on.)
 5. Write programs to print the following outputs using for loops.
 ```
 	(a) 					(b)
-		1						* * * * * 
-		2 2					  	  * * * *
-		3 3 3                       * * *
-		4 4 4 4                       * *
-		5 5 5 5 5					    *
+        1                       * * * * * 
+        2 2                       * * * *
+        3 3 3                       * * *
+        4 4 4 4                       * *
+        5 5 5 5 5                       *
 ```
 - [sadman](solutions/sadman/7/5.c)
 - [sharafat](solutions/sharafat/7/5.c)

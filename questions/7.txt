@@ -42,11 +42,11 @@ so on.)
 5. Write programs to print the following outputs using for loops.
 ```
 	(a) 					(b)
-		1						* * * * * 
-		2 2					  	  * * * *
-		3 3 3                       * * *
-		4 4 4 4                       * *
-		5 5 5 5 5					    *
+        1                       * * * * * 
+        2 2                       * * * *
+        3 3 3                       * * *
+        4 4 4 4                       * *
+        5 5 5 5 5                       *
 ```
 
 6. Write a program to read the age of 100 persons and count the number of persons in the age group 50 to
