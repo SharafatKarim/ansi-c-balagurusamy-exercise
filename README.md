@@ -2,23 +2,33 @@
 Excersise solutions for the book "ANSI C" by E. Balagurusamy (eight edition). 
 
 # Index
-- [ANSI C (E. Balagurusamy)](#ansi-c-e-balagurusamy)
-- [Index](#index)
-	- [Chapter 2](#chapter-2)
-	- [Chapter 3](#chapter-3)
-	- [Chapter 4](#chapter-4)
-	- [Chapter 5](#chapter-5)
-	- [Chapter 6](#chapter-6)
-	- [Chapter 7](#chapter-7)
-	- [Chapter 8](#chapter-8)
-	- [Chapter 9](#chapter-9)
-	- [Chapter 10](#chapter-10)
-	- [Chapter 11](#chapter-11)
-	- [Chapter 12](#chapter-12)
-	- [Chapter 13](#chapter-13)
-	- [Chapter 14](#chapter-14)
-	- [Chapter 15](#chapter-15)
-- [Contribution](#contribution)
+- [Chapter 2](#chapter-2) 
+
+- [Chapter 3](#chapter-3) 
+
+- [Chapter 4](#chapter-4) 
+
+- [Chapter 5](#chapter-5) 
+
+- [Chapter 6](#chapter-6) 
+
+- [Chapter 7](#chapter-7) 
+
+- [Chapter 8](#chapter-8) 
+
+- [Chapter 9](#chapter-9) 
+
+- [Chapter 10](#chapter-10) 
+
+- [Chapter 11](#chapter-11) 
+
+- [Chapter 12](#chapter-12) 
+
+- [Chapter 13](#chapter-13) 
+
+- [Chapter 14](#chapter-14) 
+
+- [Chapter 15](#chapter-15) 
 
 ---
 ## Chapter 2 
@@ -946,21 +956,26 @@ The program should use scanf to read the values and terminate when the sum excee
 ## Chapter 8 
 
 1. Write a program for fitting a straight line through a set of points 
-2. 
-(xi, y i ), i = 1,....,n.
+```
+(xi, yi ), i = 1,....,n.
+```
 The straight line equation is
-		y = mx + c
-and the values of m and c are given y 
-All summations are from 1 to n.
+```
+y = mx + c
+```
+and the values of m and c are given y
+- [sharafat](solutions/sharafat/8/1.c)
 
-1. The daily maximum temperatures recorded in 10 cities during the month of January (for all 31 days) have been tabulated as follows:
+> All summations are from 1 to n.
+
+2. The daily maximum temperatures recorded in 10 cities during the month of January (for all 31 days) have been tabulated as follows:
 Write a program to read the table elements into a two-dimensional array temperature , and to find the city and day corresponding to
 (a) the highest temperature and
 (b) the lowest temperature.
 
-1. An election is contested by 5 candidates. The candidates are numbered 1 to 5 and the voting is done by marking the candidate number on the ballot paper. Write a program to read the ballots and count the votes cast for each candidate using an array variable count . In case, a number read is outside the range 1 to 5, the ballot should be considered as a ‘spoilt ballot’ and the program should also count the number of spoilt ballots.
+3. An election is contested by 5 candidates. The candidates are numbered 1 to 5 and the voting is done by marking the candidate number on the ballot paper. Write a program to read the ballots and count the votes cast for each candidate using an array variable count . In case, a number read is outside the range 1 to 5, the ballot should be considered as a ‘spoilt ballot’ and the program should also count the number of spoilt ballots.
 
-2. The following set of numbers is popularly known as Pascal’s triangle.
+4. The following set of numbers is popularly known as Pascal’s triangle.
 					1
 				   1  2  1
 			       1  3   3  1
@@ -972,59 +987,59 @@ If we denote rows by i and columns by j, then any element
 	p ij = p i–1 ,j–1 + p i–1 ,j
 Write a program to calculate the elements of the Pascal triangle for 10 rows and print the results.
 
-1. The annual examination results of 100 students are tabulated as follows:
+5. The annual examination results of 100 students are tabulated as follows:
 Write a program to read the data and determine the following:
 (a) Total marks obtained by each student.
 (b) The highest marks in each subject and the Roll No. of the student who secured it.
 (c) The student who obtained the highest total marks.
 
-1. Given are two one-dimensional arrays A and B which are sorted in ascending order. Write a program to merge them into a single sorted array that contains every item from arrays A and B, in ascending order.
+6. Given are two one-dimensional arrays A and B which are sorted in ascending order. Write a program to merge them into a single sorted array that contains every item from arrays A and B, in ascending order.
 
-2. Two matrices that have the same number of rows and columns can be multiplied to produce a third matrix. Consider the following two matrices.
+7. Two matrices that have the same number of rows and columns can be multiplied to produce a third matrix. Consider the following two matrices.
 The product of A and B is a third matrix C of size n¥ n where each element of C is given by the following equation.
 Write a program that will read the values of elements of A and B and produce the product matrix C.
 
-1. Write a program that fills a five-by-five matrix as follows:
+8. Write a program that fills a five-by-five matrix as follows:
 • Upper left triangle with +1s
 • Lower right triangle with –1s
 • Right to left diagonal with zeros
 Display the contents of the matrix using not more than two printf statements.
 
-1. Selection sort is based on the following idea: Selecting the largest array element and swapping it with the last array element leaves an unsorted list whose size is 1 less than the size of the original list. If we repeat this step again on the unsorted list we will have an ordered list of size 2 and an unordered list size n–2 . When we repeat this until the size of the unsorted list becomes one, the result will be a sorted list. Write a program to implement this algorithm.
+9. Selection sort is based on the following idea: Selecting the largest array element and swapping it with the last array element leaves an unsorted list whose size is 1 less than the size of the original list. If we repeat this step again on the unsorted list we will have an ordered list of size 2 and an unordered list size n–2 . When we repeat this until the size of the unsorted list becomes one, the result will be a sorted list. Write a program to implement this algorithm.
 
-2.  Develop a program to implement the binary search algorithm. This technique compares the search key value with the value of the element that is midway in a “sorted” list. Then;
+10. Develop a program to implement the binary search algorithm. This technique compares the search key value with the value of the element that is midway in a “sorted” list. Then;
 (a) If they match, the search is over.
 (b) If the search key value is less than the middle value, then the first half of the list contains the key value.
 (c) If the search key value is greater than the middle value, then the second half contains the key value.
 Repeat this “divide-and-conquer” strategy until we have a match. If the list is reduced to one nonmatching element, then the list does not contain the key value.
 Use the sorted list created in Exercise 8.9 or use any other sorted list.
 
-1.  Write a program that will compute the length of a given character string.
+11. Write a program that will compute the length of a given character string.
 
-2.  Write a program that will count the number occurrences of a specified character in a given line of text. Test your program.
+12. Write a program that will count the number occurrences of a specified character in a given line of text. Test your program.
 
-3.  Write a program to read a matrix of size m ¥ n and print its transpose.
+13. Write a program to read a matrix of size m ¥ n and print its transpose.
 
-4.  Every book published by international publishers should carry an International Standard Book Number (ISBN). It is a 10 character 4 part number as shown below.
+14. Every book published by international publishers should carry an International Standard Book Number (ISBN). It is a 10 character 4 part number as shown below.
 				0-07-041183-2
 The first part denotes the region, the second represents publisher, the third identifies the book and the fourth is the check digit. The check digit is computed as follows:
 Sum = (1 × first digit) + (2 × second digit) + (3 ×third digit) + - - - - + (9 × ninth digit).
 Check digit is the remainder when sum is divided by
-1.  Write a program that reads a given ISBN number and checks whether it represents a valid ISBN.
+11. Write a program that reads a given ISBN number and checks whether it represents a valid ISBN.
 
-2.  Write a program to read two matrices A and B and print the following:
+15. Write a program to read two matrices A and B and print the following:
 (a) A + B; and
 (b) A – B.
 
-1.  Write a C program to compute the sum of elements of two one-dimensional arrays and store the corresponding result in another array.
+16. Write a C program to compute the sum of elements of two one-dimensional arrays and store the corresponding result in another array.
 
-2.  Write a C program to identify and count all the odd numbers in an array and calculate their sum.
+17. Write a C program to identify and count all the odd numbers in an array and calculate their sum.
 
-3.  Write a C program to input an amount in Indian currency and deduce the minimum currency denomination for that amount.
+18. Write a C program to input an amount in Indian currency and deduce the minimum currency denomination for that amount.
 
-4.  Write a C program to input a Roman number and compute its decimal equivalent.
+19. Write a C program to input a Roman number and compute its decimal equivalent.
 
-5.  Write a C program to input two NXN matrices and deduce their sum and product.
+20. Write a C program to input two NXN matrices and deduce their sum and product.
 
 ## Chapter 9 
 
@@ -1063,7 +1078,6 @@ Write a program to read this data into a table of strings and output the details
 
 9. Write program that reads the cost of an item in the form RRRR.PP (Where RRRR denotes Rupees and PP denotes Paise) and converts the value to a string of words that expresses the numeric value in words.
 For example, if we input 125.75, the output should be “ONE HUNDRED TWENTY FIVE AND PAISE SEVENTY FIVE”.
-- [sharafat](solutions/sharafat/9/9.c)
 
 10. Develop a program that will read and store the details of a list of students in the format
 ```
