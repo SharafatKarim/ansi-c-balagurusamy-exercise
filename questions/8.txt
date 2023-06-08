@@ -1,9 +1,14 @@
 1. Write a program for fitting a straight line through a set of points 
-(xi, y i ), i = 1,....,n.
+```
+(xi, yi ), i = 1,....,n.
+```
 The straight line equation is
-		y = mx + c
+```
+y = mx + c
+```
 and the values of m and c are given y 
-All summations are from 1 to n.
+
+> All summations are from 1 to n.
 
 2. The daily maximum temperatures recorded in 10 cities during the month of January (for all 31 days) have been tabulated as follows:
 Write a program to read the table elements into a two-dimensional array temperature , and to find the city and day corresponding to
