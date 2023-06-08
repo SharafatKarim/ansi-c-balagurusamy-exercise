@@ -1055,6 +1055,7 @@ Check digit is the remainder when sum is divided by
 ## Chapter 9 
 
 1. Write a program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.
+- [sharafat](solutions/sharafat/9/1.c)
 
 2. Write a program to do the following:
 ```
@@ -1064,14 +1065,19 @@ Check digit is the remainder when sum is divided by
 (d) To output the message ‘try again’, if the answer is wrong.
 (e) To display the correct answer when the answer is wrong even at the third attempt and stop.
 ```
+- [sharafat](solutions/sharafat/9/2.c)
 
 3. Write a program to extract a portion of a character string and print the extracted string. Assume that m characters are extracted, starting with the nth character.
+- [sharafat](solutions/sharafat/9/3.c)
 
 4. Write a program which will read a text and count all occurrences of a particular word.
+- [sharafat](solutions/sharafat/9/4.c)
 
 5. Write a program which will read a string and rewrite it in the alphabetical order. For example, the word STRING should be written as GINRST.
+- [sharafat](solutions/sharafat/9/5.c)
 
 6. Write a program to replace a particular word by another word in a given string. For example, the word “PASCAL” should be replaced by “C” in the text “It is good to program in PASCAL language.”
+- [sharafat](solutions/sharafat/9/6.c)
 
 7. A Maruti car dealer maintains a record of
 sales of various vehicles in the following form:
@@ -1086,6 +1092,7 @@ Write a program to read this data into a table of strings and output the details
 (starting month, ending month).
 
 8. Write a program that reads a string from the keyboard and determines whether the string is a palindrome or not. (A string is a palindrome if it can be read from left and right with the same meaning. For example, Madam and Anna are palindrome strings. Ignore capitalization).
+- [sharafat](solutions/sharafat/9/8.c)
 
 9. Write program that reads the cost of an item in the form RRRR.PP (Where RRRR denotes Rupees and PP denotes Paise) and converts the value to a string of words that expresses the numeric value in words.
 For example, if we input 125.75, the output should be “ONE HUNDRED TWENTY FIVE AND PAISE SEVENTY FIVE”.
