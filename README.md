@@ -1033,6 +1033,7 @@ Display the contents of the matrix using not more than two printf statements.
 (c) If the search key value is greater than the middle value, then the second half contains the key value.
 Repeat this “divide-and-conquer” strategy until we have a match. If the list is reduced to one nonmatching element, then the list does not contain the key value.
 Use the sorted list created in Exercise 8.9 or use any other sorted list.
+- [sadman](solutions/sadman/8/10.c)
 
 11. Write a program that will compute the length of a given character string.
 - [sadman](solutions/sadman/8/11.c)
