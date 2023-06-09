@@ -1066,6 +1066,7 @@ Check digit is the remainder when sum is divided by
 - [sharafat](solutions/sharafat/8/17.c)
 
 18. Write a C program to input an amount in Indian currency and deduce the minimum currency denomination for that amount.
+- [sadman](solutions/sadman/8/18.c)
 - [sharafat](solutions/sharafat/8/18.c)
 
 19. Write a C program to input a Roman number and compute its decimal equivalent.
