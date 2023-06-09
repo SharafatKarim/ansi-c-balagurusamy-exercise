@@ -965,6 +965,7 @@ y = mx + c
 ```
 and the values of m and c are given y the following equations:
 > All summations are from 1 to n.
+- [sadman](solutions/sadman/8/1.c)
 - [sharafat](solutions/sharafat/8/1.c)
 
 2. The daily maximum temperatures recorded in 10 cities during the month of January (for all 31 days) have been tabulated as follows:
@@ -973,9 +974,11 @@ Write a program to read the table elements into a two-dimensional array temperat
 (a) the highest temperature and
 (b) the lowest temperature.
 ```
+- [sadman](solutions/sadman/8/2.c)
 - [sharafat](solutions/sharafat/8/2.c)
 
 3. An election is contested by 5 candidates. The candidates are numbered 1 to 5 and the voting is done by marking the candidate number on the ballot paper. Write a program to read the ballots and count the votes cast for each candidate using an array variable count . In case, a number read is outside the range 1 to 5, the ballot should be considered as a ‘spoilt ballot’ and the program should also count the number of spoilt ballots.
+- [sadman](solutions/sadman/8/3.c)
 - [sharafat](solutions/sharafat/8/3.c)
 
 4. The following set of numbers is popularly known as Pascal’s triangle.
@@ -993,6 +996,7 @@ If we denote rows by i and columns by j, then any element
 p ij = p i–1 ,j–1 + p i–1 ,j
 ```
 Write a program to calculate the elements of the Pascal triangle for 10 rows and print the results.
+- [sadman](solutions/sadman/8/4.c)
 - [sharafat](solutions/sharafat/8/4.c)
 
 5. The annual examination results of 100 students are tabulated as follows:
@@ -1002,21 +1006,26 @@ Write a program to read the data and determine the following:
 (b) The highest marks in each subject and the Roll No. of the student who secured it.
 (c) The student who obtained the highest total marks.
 ```
+- [sadman](solutions/sadman/8/5.c)
 - [sharafat](solutions/sharafat/8/5.c)
 
 6. Given are two one-dimensional arrays A and B which are sorted in ascending order. Write a program to merge them into a single sorted array that contains every item from arrays A and B, in ascending order.
+- [sadman](solutions/sadman/8/6.c)
 
 7. Two matrices that have the same number of rows and columns can be multiplied to produce a third matrix. Consider the following two matrices.
 The product of A and B is a third matrix C of size n¥ n where each element of C is given by the following equation.
 Write a program that will read the values of elements of A and B and produce the product matrix C.
+- [sadman](solutions/sadman/8/7.c)
 
 8. Write a program that fills a five-by-five matrix as follows:
 • Upper left triangle with +1s
 • Lower right triangle with –1s
 • Right to left diagonal with zeros
 Display the contents of the matrix using not more than two printf statements.
+- [sadman](solutions/sadman/8/8.c)
 
 9. Selection sort is based on the following idea: Selecting the largest array element and swapping it with the last array element leaves an unsorted list whose size is 1 less than the size of the original list. If we repeat this step again on the unsorted list we will have an ordered list of size 2 and an unordered list size n–2 . When we repeat this until the size of the unsorted list becomes one, the result will be a sorted list. Write a program to implement this algorithm.
+- [sadman](solutions/sadman/8/9.c)
 
 10. Develop a program to implement the binary search algorithm. This technique compares the search key value with the value of the element that is midway in a “sorted” list. Then;
 (a) If they match, the search is over.
@@ -1026,10 +1035,13 @@ Repeat this “divide-and-conquer” strategy until we have a match. If the list
 Use the sorted list created in Exercise 8.9 or use any other sorted list.
 
 11. Write a program that will compute the length of a given character string.
+- [sadman](solutions/sadman/8/11.c)
 
 12. Write a program that will count the number occurrences of a specified character in a given line of text. Test your program.
+- [sadman](solutions/sadman/8/12.c)
 
 13. Write a program to read a matrix of size m ¥ n and print its transpose.
+- [sadman](solutions/sadman/8/13.c)
 
 14. Every book published by international publishers should carry an International Standard Book Number (ISBN). It is a 10 character 4 part number as shown below.
 				0-07-041183-2
@@ -1037,20 +1049,25 @@ The first part denotes the region, the second represents publisher, the third id
 Sum = (1 × first digit) + (2 × second digit) + (3 ×third digit) + - - - - + (9 × ninth digit).
 Check digit is the remainder when sum is divided by
 11. Write a program that reads a given ISBN number and checks whether it represents a valid ISBN.
+- [sadman](solutions/sadman/8/14.c)
 
 15. Write a program to read two matrices A and B and print the following:
 (a) A + B; and
 (b) A – B.
+- [sadman](solutions/sadman/8/15.c)
 
 16. Write a C program to compute the sum of elements of two one-dimensional arrays and store the corresponding result in another array.
+- [sadman](solutions/sadman/8/16.c)
 
 17. Write a C program to identify and count all the odd numbers in an array and calculate their sum.
+- [sadman](solutions/sadman/8/17.c)
 
 18. Write a C program to input an amount in Indian currency and deduce the minimum currency denomination for that amount.
 
 19. Write a C program to input a Roman number and compute its decimal equivalent.
 
 20. Write a C program to input two NXN matrices and deduce their sum and product.
+- [sadman](solutions/sadman/8/20.c)
 
 ## Chapter 9 
 
