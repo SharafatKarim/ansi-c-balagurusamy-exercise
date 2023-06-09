@@ -1059,11 +1059,14 @@ Check digit is the remainder when sum is divided by
 
 16. Write a C program to compute the sum of elements of two one-dimensional arrays and store the corresponding result in another array.
 - [sadman](solutions/sadman/8/16.c)
+- [sharafat](solutions/sharafat/8/16.c)
 
 17. Write a C program to identify and count all the odd numbers in an array and calculate their sum.
 - [sadman](solutions/sadman/8/17.c)
+- [sharafat](solutions/sharafat/8/17.c)
 
 18. Write a C program to input an amount in Indian currency and deduce the minimum currency denomination for that amount.
+- [sharafat](solutions/sharafat/8/18.c)
 
 19. Write a C program to input a Roman number and compute its decimal equivalent.
 
