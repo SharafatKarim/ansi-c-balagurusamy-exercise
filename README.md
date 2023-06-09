@@ -1104,7 +1104,6 @@ Write a program to read this data into a table of strings and output the details
 
 9. Write program that reads the cost of an item in the form RRRR.PP (Where RRRR denotes Rupees and PP denotes Paise) and converts the value to a string of words that expresses the numeric value in words.
 For example, if we input 125.75, the output should be “ONE HUNDRED TWENTY FIVE AND PAISE SEVENTY FIVE”.
-- [sadman](solutions/sadman/9/9.c)
 
 10. Develop a program that will read and store the details of a list of students in the format
 ```
