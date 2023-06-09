@@ -1,13 +1,17 @@
 1. Write a program to determine and print the sum of the following harmonic series for a given value of n:
-                        1+ 1/2 +1/3 +....+ 1/n
+```
+1+ 1/2 +1/3 +....+ 1/n
+```
 The value of n should be given interactively through the terminal.
 
 2. The price of one kg of rice is Rs. 16.75 and one kg of sugar is Rs. 15. Write a program to get these values
 from the user and display the prices as follows:
+```
       *** LIST OF ITEMS***
       Item          Price
       Rich          Rs 16.75
       Sugar         Rs 15.00
+```
 
 3. Write program to count and print the number of negative and positive numbers in a given set of numbers.
 Test your program with a suitable set of numbers. Use scanf to read the numbers. Readingshould be 
@@ -15,10 +19,12 @@ terminated when the value 0 is
 encountered.
 
 4. Write a program to do the following:
+```
 (a) Declare x and y as integer variables and z as a short integer variable.
 (b) Assign two 6 digit numbers to x and y
 (c) Assign the sum of x and y to z
 (d) Output the values of x, y and z
+```
 Comment on the output.
 
 5. Write a program to illustrate the use of typedef declaration in a program.

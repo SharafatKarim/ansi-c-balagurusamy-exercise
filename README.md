@@ -33,30 +33,47 @@ Excersise solutions for the book "ANSI C" by E. Balagurusamy (eight edition).
 ---
 ## Chapter 2 
 
-1. Write a program to display the equation of a line in the form ax + by = c
-for a = 5, b = 8 and c = 18.
+1. Write a program to display the equation of a line in the form `ax + by = c` 
+for `a = 5, b = 8 and c = 18`.
+- [monir](solutions/monir/2/1.c)
 
 2. Write a C program that uses an in-built function to draw a 3D bar.
 
 3. Write a program to output the following multiplication table
+```
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+...
+5 x 10 = 50
+```
+- [monir](solutions/monir/2/3.c)
 
 4. Given the values of three variables a, b and c, write a program to compute and display the value of x,
-where x = a / ( b - c ) 
+where `x = a / ( b - c )` 
 Execute your program for the following values:
+```
 (a) a = 250, b = 85, c = 25
 (b) a = 300, b = 70, c = 70
+```
 Comment on the output in each case.
+- [monir](solutions/monir/2/4.c)
 
 5. Write a C program that reads the value of distance travelled by a car and the time taken for the same.
 Next, compute the speed at which the car travelled.
+- [monir](solutions/monir/2/5.c)
 
 6. Write a C program to print the current system date.
+- [monir](solutions/monir/2/6.c)
 
 7. Given two integers 20 and 10, write a program that uses a function add( ) to add these two numbers
 and sub( ) to find the difference of these two numbers and then display the sum and difference in
 the following form:
+```
 20 + 10 = 30
 20 – 10 = 10
+```
+- [monir](solutions/monir/2/7.c)
 
 8. Modify the above program to provide border lines to the address.
 
@@ -67,196 +84,326 @@ the following form:
         *  *  *
         *  *  *  * 
 ```
+- [monir](solutions/monir/2/9.c)
 
 10. Write a program that will print the following figure using suitable characters.
+```
+        ---------              ---------
+        |       |              |       |
+        |       |    ----->    |       |
+        |       |              |       |
+        ---------              ---------
+```
 
 11. Area of a triangle is given by the formula
+```
          A = sqrt(s*(s-a)*(S-b)*(s-c))
-Where a, b and c are sides of the triangle and 2S = a + b + c. Write a program to compute the area of
+```
+Where a, b and c are sides of the triangle and `2S = a + b + c`. Write a program to compute the area of
 the triangle given the values of a, b and c.
+- [monir](solutions/monir/2/11.c)
 
 12. Write a program to display the following simple arithmetic calculator
+```
        x=                  y=
        sum                 Difference=
        Product=            Division=
+```
 
 13. Distance between two points (x 1, y 1) and (x 2, y 2) is governed by the formula
-D2 = (x 2 – x 1)2 + (y 2 – y 1)2
+```
+D2 = ( x2 – x1 )^2 + ( y2 – y1 )^2
+```
 Write a program to compute D given the coordinates of the points.
+- [monir](solutions/monir/2/13.c)
 
 14. A point on the circumference of a circle whose center is (o, o) is (4,5). Write a program to compute
-perimeter and area of the circle. (Hint: use the formula given in the Ex. 2.11)
+perimeter and area of the circle. 
+`(Hint: use the formula given in the Ex. 2.11)`
+- [monir](solutions/monir/2/14.c)
 
 15. The line joining the points (2,2) and (5,6) which lie on the circumference of a circle is the diameter of
 the circle. Write a program to compute the area of the circle.
+- [monir](solutions/monir/2/15.c)
 
 ## Chapter 3 
 
 1. Write a program to determine and print the sum of the following harmonic series for a given value of n:
-                        1+ 1/2 +1/3 +....+ 1/n
+```
+1+ 1/2 +1/3 +....+ 1/n
+```
 The value of n should be given interactively through the terminal.
+- [monir](solutions/monir/3/1.c)
 
 2. The price of one kg of rice is Rs. 16.75 and one kg of sugar is Rs. 15. Write a program to get these values
 from the user and display the prices as follows:
+```
       *** LIST OF ITEMS***
       Item          Price
       Rich          Rs 16.75
       Sugar         Rs 15.00
+```
+- [monir](solutions/monir/3/2.c)
 
 3. Write program to count and print the number of negative and positive numbers in a given set of numbers.
 Test your program with a suitable set of numbers. Use scanf to read the numbers. Readingshould be 
 terminated when the value 0 is
 encountered.
+- [monir](solutions/monir/3/3.c)
 
 4. Write a program to do the following:
+```
 (a) Declare x and y as integer variables and z as a short integer variable.
 (b) Assign two 6 digit numbers to x and y
 (c) Assign the sum of x and y to z
 (d) Output the values of x, y and z
+```
 Comment on the output.
+- [monir](solutions/monir/3/4.c)
 
 5. Write a program to illustrate the use of typedef declaration in a program.
+- [monir](solutions/monir/3/5.c)
 
 6. Write a program to illustrate the use of symbolicconstants in a real-life application.
+- [monir](solutions/monir/3/6.c)
 
 7. Write a C program to input an integer and print its table.
+- [monir](solutions/monir/3/7.c)
 
 8. Write a C program to print the square of a number.
+- [monir](solutions/monir/3/8.c)
 
 9. Write a C program to input an integer between 0 and 128 and print its ASCII character.
+- [monir](solutions/monir/3/9.c)
 
 10. Write a C program to input the value of days and convert it into years, weeks and days.
+- [monir](solutions/monir/3/10.c)
 
 11. Write a C program to input the distance travelled by a car and the fuel consumed. Next,
 compute the mileage of the car.
+- [monir](solutions/monir/3/11.c)
 
 12. Write a C program to input the amount value and break it into the smallest possible 
 Indian currency notes.
+- [monir](solutions/monir/3/12.c)
 
 ## Chapter 4 
 
 1. Write a program that reads a floating-point number and then displays the right-most digit of the integral
 part of the number.
+- [sadman](solutions/sadman/4/1.c)
+- [sharafat](solutions/sharafat/4/1.c)
 
 2. Modify the above program to display the two right most digits of the integral part of the number.
+- [sadman](solutions/sadman/4/2.c)
+- [sharafat](solutions/sharafat/4/2.c)
 
 3. Given an integer number, write a program that displays the number as follows:
+```
 First line                : all digits
 Second line               : all except first digit
 Third line                : all except first two digits
 .........
 Last line                 : The last digit
 For example, the number 5678 will be displayed as
-              5 6 7 8
-              6 7 8
-              7 8 
-              8
+  5 6 7 8
+  6 7 8
+  7 8 
+  8
+```
+- [sadman](solutions/sadman/4/3.c)
+- [sharafat](solutions/sharafat/4/3.c)
 
 4. The straight-line method of computing the yearly depreciation of the value of an item is given by
-                  Depreciation = (Purchase Price - Salvage Value) / Years of Service
+```
+  Depreciation = (Purchase Price - Salvage Value) / Years of Service
+```
 Write a program to determine the salvage value of an item when the purchase price, years of service,
 and the annual depreciation are given.
+- [sadman](solutions/sadman/4/4.c)
+- [sharafat](solutions/sharafat/4/4.c)
 
 5. Write a program that will read a real number from the keyboard and print the following output in one
 line:
-Smallest integer                           The given                   Lergest integer
-not less than                               number                     not greater than
-the number                                                             the number
+```
+Smallest integer            The given               Lergest integer
+not less than                number                 not greater than
+the number                                          the number
+```
+- [sadman](solutions/sadman/4/5.c)
+- [sharafat](solutions/sharafat/4/5.c)
 
 6. The total distance travelled by a vehicle in t seconds is given by
+```
 distance = ut + ( a t*2 ) / 2
-Where u is the initial velocity (metres per second), a is the acceleration (metres per second 2 ). Write a
+```
+> Where u is the initial velocity (metres per second), a is the acceleration (metres per second 2 ). Write a
 program to evaluate the distance travelled at regular intervals of time, given the values of u and a.
-The program should provide the flexibility to the user to select his own time intervals and repeat the
+> The program should provide the flexibility to the user to select his own time intervals and repeat the
 calculations for different values of u and a .
+- [sadman](solutions/sadman/4/6.c)
+- [sharafat](solutions/sharafat/4/6.c)
 
 7. In inventory management, the Economic Order Quantity for a single item is given by
-         EOQ = sqrt((2*setup costs) / (demand rate * holding cost per unit time))
-  and the optimal Time Between Orders
-         TBO = sqrt ((2* setup costs) / (demand rate * holding cost per unit time))
-  Write a program to compute EOQ and TBO, given demand rate (items per unit time), setup costs (per
+```
+EOQ = sqrt((2*setup costs) / (demand rate * holding cost per unit time))
+```
+and the optimal Time Between Orders
+```
+TBO = sqrt ((2* setup costs) / (demand rate * holding cost per unit time))
+```
+Write a program to compute EOQ and TBO, given demand rate (items per unit time), setup costs (per
 order), and the holding cost (per item per unit time).
+- [sadman](solutions/sadman/4/7.c)
+- [sharafat](solutions/sharafat/4/7.c)
 
 8. For a certain electrical circuit with an inductance L and resistance R, the damped natural
 frequency is given by
-            Frequency = sqrt ((1 / L*C )- (R*R / 4*C*C)
+```
+Frequency = sqrt ((1 / L*C )- (R*R / 4*C*C)
+```
 It is desired to study the variation of this frequency with C (capacitance). Write a program to calculate
 the frequency for different values of C starting from 0.01 to 0.1 in steps of 0.01.
+- [sadman](solutions/sadman/4/8.c)
+- [sharafat](solutions/sharafat/4/8.c)
 
 9. Write a program to read a four digit integer and print the sum of its digits.
 Hint: Use / and % operators.
+- [sadman](solutions/sadman/4/9.c)
+- [sharafat](solutions/sharafat/4/9.c)
 
 10. Given three values, write a program to read three values from keyboard and print out the largest of
 them without using if statement.
+- [sadman](solutions/sadman/4/10.c)
+- [sharafat](solutions/sharafat/4/10.c)
 
 11. Write a program to read two integer values m and n and to decide and print whether m is a multiple of n.
+- [sadman](solutions/sadman/4/11.c)
+- [sharafat](solutions/sharafat/4/11.c)
 
 12. Write a program to read three values using scanf statement and print the following results:
+```
 (a) Sum of the values
 (b) Average of the three values
 (c) Largest of the three
 (d) Smallest of the three
+```
+- [sadman](solutions/sadman/4/12.c)
+- [sharafat](solutions/sharafat/4/12.c)
 
 13. The cost of one type of mobile service is Rs. 250 plus Rs. 1.25 for each call made over and above 100
   calls. Write a program to read customer codes and calls made and print the bill for each customer.
+- [sadman](solutions/sadman/4/13.c)
+- [sharafat](solutions/sharafat/4/13.c)
 
 14. Write a program to print a table of sin and cos functions for the interval from 0 to 180
 degrees in increments of 15 a shown here.
+>
+| x (degrees) | sin(x) | cos(x) |
+| ----------- | ------ | ------ |
+| 0           | ...    | ...    |
+| ...         | ...    | ...    |
+| ...         | ...    | ...    |
+| 180         | ...    | ...    |
+- [sadman](solutions/sadman/4/14.c)
+- [sharafat](solutions/sharafat/4/14.c)
 
-15. Write a program to compute the values of square roots and squares of the numbers 0 to 100 in steps
+15.  Write a program to compute the values of square roots and squares of the numbers 0 to 100 in steps
 10 and print the output in a tabular form as shown below.
+>
+| Number | Square Root | Square |
+| ------ | ----------- | ------ |
+| 0      | 0           | 0      |
+| 100    | 10          | 10000  |
+- [sadman](solutions/sadman/4/15.c)
+- [sharafat](solutions/sharafat/4/15.c)
 
-16. Write a program to illustrate the use of cast operator in a real life situation.
+16.   Write a program to illustrate the use of cast operator in a real life situation.
+- [sadman](solutions/sadman/4/16.c)
+- [sharafat](solutions/sharafat/4/16.c)
 
-17. Write a C program to shift the given data by two bits to the left.
+17.   Write a C program to shift the given data by two bits to the left.
+- [sadman](solutions/sadman/4/17.c)
+- [sharafat](solutions/sharafat/4/17.c)
 
-18. Write a C program to compute the value of the expression x=a-b/3+c*2-1.
+18.   Write a C program to compute the value of the expression `x=a-b/3+c*2-1`.
+- [sadman](solutions/sadman/4/18.c)
+- [sharafat](solutions/sharafat/4/18.c)
 
-19. Write a C program to input a date value and determine whether the entered day, month, and
+19.   Write a C program to input a date value and determine whether the entered day, month, and
 year values are valid.
+- [sadman](solutions/sadman/4/19.c)
+- [sharafat](solutions/sharafat/4/19.c)
 
-20. Write a C program to input the sides of a triangle and determine whether the triangle is isoceles or
+20.   Write a C program to input the sides of a triangle and determine whether the triangle is isoceles or
 not.
+- [sadman](solutions/sadman/4/20.c)
+- [sharafat](solutions/sharafat/4/20.c)
 
-21. Write a C program that reads two numbers and performs their division. If the division is not
+21.   Write a C program that reads two numbers and performs their division. If the division is not
 possible, then an error messgage, ‘Division not possible’ is displayed.
+- [sadman](solutions/sadman/4/21.c)
+- [sharafat](solutions/sharafat/4/21.c)
 
-22. Input the value of 4 variables a, b, c and d and compute the resultant value of following
+22.   Input the value of 4 variables a, b, c and d and compute the resultant value of following
 expressions:
+```
 (a + b) * (c / d)
 (a + b) * c / d
 a + (b * c) / d
+```
+- [sadman](solutions/sadman/4/22.c)
+- [sharafat](solutions/sharafat/4/22.c)
 
 ## Chapter 5 
 
 1. Given the string “WORDPROCESSING”, write a program to read the string from the terminal and
 display the same in the following formats:
+```
 (a) WORD PROCESSING
 (b) WORD
 PROCESSING
-(c) W.P
+(c) W.P.
+```
+- [NAYEMA](solutions/NAYEMA/5/1.c)
+- [sadman](solutions/sadman/5/1.c)
+- [sharafat](solutions/sharafat/5/1.c)
 
 2. Write a program to read the values of x and y and
 print the results of the following expressions in one
 line:
+```
 (a) (x+y) / (x-y)
 (b) (x+y) /2
 (c) (x+y)(x–y)
+```
+- [NAYEMA](solutions/NAYEMA/5/2.c)
+- [sadman](solutions/sadman/5/2.c)
+- [sharafat](solutions/sharafat/5/2.c)
 
 3. Write a program to read the following numbers, round them off to the nearest integers and print out
 the results in integer form: 35.7 50.21 – 23.73 – 46.45
+- [NAYEMA](solutions/NAYEMA/5/3.c)
+- [sadman](solutions/sadman/5/3.c)
+- [sharafat](solutions/sharafat/5/3.c)
 
 4. Write a program that reads 4 floating point values in the range, 0.0 to 20.0, and prints a horizontal bar
 chart to represent these values using the character * as the fill character. For the purpose of the chart,
 the values may be rounded off to the nearest integer. For example, the value 4.36 should be
 represented as follows.
-            *      *      *       *
+```
+            *      *     *        *
             *      *     *        *         4.36
             *      *     *        *
- Note that the actual values are shown at the end of each bar.
+```
+> Note that the actual values are shown at the end of each bar.
+- [NAYEMA](solutions/NAYEMA/5/4.c)
+- [sadman](solutions/sadman/5/4.c)
+- [sharafat](solutions/sharafat/5/4.c)
 
 5. Write an interactive program to demonstrate the process of multiplication. The program should ask
 the user to enter two two-digit integers and print the product of integers as shown below.
+```
                       45
                   x   37
     ________________________
@@ -265,74 +412,133 @@ the user to enter two two-digit integers and print the product of integers as sh
      ______________________
      Add them       1665
             _______________
+```
+- [NAYEMA](solutions/NAYEMA/5/5.c)
+- [sadman](solutions/sadman/5/5.c)
+- [sharafat](solutions/sharafat/5/5.c)
 
 6. Write a program to read three integers from the keyboard using one scanf statement and output
 them on one line using:
+```
 (a) three printf statements,
 (b) only one printf with conversion specifiers, and
 (c) only one printf without conversion specifiers.
+```
+- [NAYEMA](solutions/NAYEMA/5/6.c)
+- [sadman](solutions/sadman/5/6.c)
+- [sharafat](solutions/sharafat/5/6.c)
 
 7. Write a program that prints the value 10.45678 in exponential format with the following specifications:
+```
 (a) correct to two decimal places;
 (b) correct to four decimal places; and
 (c) correct to eight decimal places.
+```
+- [NAYEMA](solutions/NAYEMA/5/7.c)
+- [sadman](solutions/sadman/5/7.c)
+- [sharafat](solutions/sharafat/5/7.c)
 
 8. Write a program to print the value 345.6789 in fixed-point format with the following specifications:
+```
 (a) correct to two decimal places;
 (b) correct to five decimal places; and
 (c) correct to zero decimal places.
+```
+- [NAYEMA](solutions/NAYEMA/5/8.c)
+- [sadman](solutions/sadman/5/8.c)
+- [sharafat](solutions/sharafat/5/8.c)
 
 9. Write a program to read the name ANIL KUMAR GUPTA in three parts using the scanf statement and
 to display the same in the following format using the printf statement.
+```
 (a) ANIL K. GUPTA
 (b) A.K. GUPTA
 (c) GUPTA A.K.
+```
+- [NAYEMA](solutions/NAYEMA/5/9.c)
+- [sadman](solutions/sadman/5/9.c)
+- [sharafat](solutions/sharafat/5/9.c)
 
 10. Write a program to read and display the following table of data.
+```
           Name            Code             Price
           Fan             67831            1234.50
           Motor           450              5786.70
-The name and code must be left-justified and price must be right justified.
+```
+> The name and code must be left-justified and price must be right justified.
+- [NAYEMA](solutions/NAYEMA/5/10.c)
+- [sadman](solutions/sadman/5/10.c)
+- [sharafat](solutions/sharafat/5/10.c)
 
 11. Write a C program to print inventory stock report using some sample data. The report should show
 item code, quantity and inventory location as formatted output.
+- [NAYEMA](solutions/NAYEMA/5/11.c)
+- [sadman](solutions/sadman/5/11.c)
+- [sharafat](solutions/sharafat/5/11.c)
 
 12. Write a C program to display the Pascal’s triangle.
+- [NAYEMA](solutions/NAYEMA/5/12.c)
+- [sadman](solutions/sadman/5/12.c)
+- [sharafat](solutions/sharafat/5/12.c)
 
 13. Write a C program to input a currency value in Dollars and display its equivalent Euro and
 INR amounts. You may use current exchange rate for conversion purpose.
+- [NAYEMA](solutions/NAYEMA/5/13.c)
+- [sadman](solutions/sadman/5/13.c)
+- [sharafat](solutions/sharafat/5/13.c)
 
 14. Write a C program to display the following pattern.
+```
             5 4 3 2 1
               4 3 2 1
                 3 2 1
                   2 1
                     1
+```
+- [NAYEMA](solutions/NAYEMA/5/14.c)
+- [sadman](solutions/sadman/5/14.c)
 
 15. Write a C program to input an investment amount and compute its fixed deposit cumulative return
 after 10 years at arate of interest of 8.75%.
+- [NAYEMA](solutions/NAYEMA/5/15.c)
+- [sadman](solutions/sadman/5/15.c)
+- [sharafat](solutions/sharafat/5/15.c)
 
 ## Chapter 6 
 
 1. Write a program to determine whether a given number is ‘odd’ or ‘even’ and print the message
-NUMBER IS EVEN or NUMBER IS ODD
-(a) without using else option and
-(b) with else option.
+```
+NUMBER IS EVEN 
+or 
+NUMBER IS ODD
+	(a) without using else option and
+	(b) with else option.
+```
+- [sadman](solutions/sadman/6/1.c)
+- [sharafat](solutions/sharafat/6/1.c)
 
 2. Write a program to find the number of and sum of all integers greater than 100 and less than 200 that
 are divisible by 7.
+- [sadman](solutions/sadman/6/2.c)
+- [sharafat](solutions/sharafat/6/2.c)
 
 3. A set of two linear equations with two unknowns x1 and x2 is given below:
+```
 ax 1 + bx 2 = m
 cx 1 + dx 2 = n
+```
 The set has a unique solution
+```
 	x1 = (m*d - b*n) / (a*d - c*d)
 	x2 = (n*a - m*c) / (a*d - c*b)
-provided the denominator ad – cb is not equal to zero.
+```
+provided the denominator `ad – cb` is not equal to zero.
 Write a program that will read the values of constants a, b, c, d, m, and n and compute the values of x 1 and x 2. An appropriate message should be printed if ad – cb = 0.
+- [sharafat](solutions/sharafat/6/3.c)
 
 4. Given a list of marks ranging from 0 to 100, write a program to compute and print the number of
 students:
+```
 (a) who have obtained more than 80 marks,
 (b) who have obtained more than 60 marks,
 (c) who have obtained more than 40 marks,
@@ -341,22 +547,42 @@ students:
 (f) in the range 61 to 80,
 (g) in the range 41 to 60, and
 (h) in the range 0 to 40.
+```
 The program should use a minimum number of if statements.
+- [sadman](solutions/sadman/6/4.c)
+- [sharafat](solutions/sharafat/6/4.c)
 
 5. Admission to a professional course is subject to the following conditions:
+```
 (a) Marks in Mathematics >= 60
 (b) Marks in Physics >= 50
 (c) Marks in Chemistry >= 40
 (d) Total in all three subjects >= 200
-or
+```
+or,
 Total in Mathematics and Physics >= 150 Given the marks in the three subjects, write a
 program to process the applications to list the eligible candidates.
+- [sadman](solutions/sadman/6/5.c)
+- [sharafat](solutions/sharafat/6/5.c)
 
 6. Write a program to print a two-dimensional Square Root Table as shown below, to provide the square
 root of any number from 0 to 9.9. For example, the value x will give the square root of 3.2 and y the
 square root of 3.9.
+> Square Root Table
+>
+| number | 0.0 | 0.1 | 0.2 | ... | 0.9 |
+|--------|-----|-----|-----|-----|-----|
+| 0.0    |     |     |     |     |     |
+| 0.1    |     |     |     |     |     |
+| 0.2    |     |     |     |     |     |
+| 0.3    |     |     |  x  |     |  y  |
+| ...    |     |     |     |     |     |
+| 0.9    |     |     |     |     |     |
+- [sadman](solutions/sadman/6/6.c)
+- [sharafat](solutions/sharafat/6/6.c)
 
 7. Shown below is a Floyd’s triangle.
+```
 1
 2 3
 4 5 6
@@ -365,86 +591,141 @@ square root of 3.9.
 .
 .
 79 .. .. .. .. .. .. 91
-(a) Write a program to print this triangle.
-(b) Modify the program to produce the following
-form of Floyd’s triangle.
-1
-0 1
-1 0 1
-0 1 0 1
-1 0 1 0 1
+	(a) Write a program to print this triangle.
+	(b) Modify the program to produce the following form of Floyd’s triangle.
+		1
+		0 1
+		1 0 1
+		0 1 0 1
+		1 0 1 0 1
+```
+- [sadman](solutions/sadman/6/7.c)
+- [sharafat](solutions/sharafat/6/7.c)
 
 8. A cloth showroom has announced the following seasonal discounts on purchase of items:
-Write a program using switch and if statements to compute the net amount to be paid by a customer
+>
+| Purchase amount | Discount   |                |
+|-----------------|------------|----------------|
+|                 | Mill cloth | Handloom items |
+| 0 - 100         | ...        | 5%             |
+| 101 - 200       | 5%         | 7.5%           |
+| 201 - 300       | 7.5%       | 10%            |
+| Above 300       | 10%        | 15%            |
+- [sadman](solutions/sadman/6/8.c)
+- [sharafat](solutions/sharafat/6/8.c)
 
-9. Write a program that will read the value of x and evaluate the following function
+Write a program using switch and if statements to compute the net amount to be paid by a customer
+- [sadman](solutions/sadman/6/9.c)
+- [sharafat](solutions/sharafat/6/9.c)
+
+9. Write a program that will read the value of x and evaluate the following function,
+```
 		    1  for x>0
 		y=  0  for x=0
 		   -1  for x<0
- using
-(a) nested if statements,
-(b) else if statements, and
-(c) conditional operator ? :
+```
+using,
+```
+	(a) nested if statements,
+	(b) else if statements, and
+	(c) conditional operator ? :
+```
+- [sadman](solutions/sadman/6/10.c)
+- [sharafat](solutions/sharafat/6/10.c)
 
 10. Write a program to compute the real roots of a quadratic equation
+```
 				ax 2 + bx + c = 0
+```
 The roots are given by the equations
+```
 		x1 = -b + sqrt ( b*b - 4*a*c) / 2*a
 		x2 = -b - sqrt (b*b + 4*a*c) / 2*a
+```
 The program should request for the values of the
 constants a, b and c and print the values of x 1 and x 2.
  Use the following rules:
+```
 (a) No solution, if both a and b are zero
 (b) There is only one root, if a = 0 (x = –c/b)
 (c) There are no real roots, if b 2 – 4 ac is negative
 (d) Otherwise, there are two real roots
+```
 Test your program with appropriate data so that all logical paths are working as per your design.
 Incorporate appropriate output messages.
+- [sadman](solutions/sadman/6/11.c)
+- [sharafat](solutions/sharafat/6/11.c)
 
 11. Write a program to read three integer values from the keyboard and displays the output stating that
 they are the sides of right-angled triangle.
+- [sadman](solutions/sadman/6/12.c)
+- [sharafat](solutions/sharafat/6/12.c)
 
 12. An electricity board charges the following rates for the use of electricity:
+```
 For the first 200 units: 80 P per unit
 For the next 100 units: 90 P per unit
 Beyond 300 units: Rs 1.00 per unit
+```
 All users are charged a minimum of Rs. 100 as meter charge. If the total amount is more than Rs.400, 
 then an additional surcharge of 15% of total amount is charged.
 Write a program to read the names of users and number of units consumed and print out the
 charges with names.
+- [sadman](solutions/sadman/6/13.c)
+- [sharafat](solutions/sharafat/6/13.c)
 
 13. Write a program to compute and display the sum of all integers that are divisible by 6 but not divisible
 by 4 and lie between 0 and 100. The program should also count and display the number of such
 values.
+- [sadman](solutions/sadman/6/14.c)
+- [sharafat](solutions/sharafat/6/14.c)
 
 14. Write an interactive program that could read a positive integer number and decide whether the
 number is a prime number and display the output accordingly.
 Modify the program to count all the prime numbers that lie between 100 and 200.
-NOTE : A prime number is a positive integer that is divisible only by 1 or by itself.
+> NOTE : A prime number is a positive integer that is divisible only by 1 or by itself.
+- [sadman](solutions/sadman/6/15.c)
+- [sharafat](solutions/sharafat/6/15.c)
 
 15. Write a program to read a double-type value x that represents angle in radians and a character-type
 variable T that represents the type of trigonometric function and display the value of
+```
 (a) sin(x), if s or S is assigned to T,
 (b) cos (x), if c or C is assigned to T, and
 (c) tan (x), if t or T is assigned to T
-using (i) if......else statement , and (ii) switch statement.
+```
+using, (i) if......else statement , and (ii) switch statement.
+- [sadman](solutions/sadman/6/16.c)
+- [sharafat](solutions/sharafat/6/16.c)
 
 16. Write a C program to input the numeric week day value (starting from Monday as 1) and display the
 corresponding name of the week day.
+- [sadman](solutions/sadman/6/17.c)
+- [sharafat](solutions/sharafat/6/17.c)
 
 17. Write a C program to input two numbers a and b and display whether
+```
 (a) a is greater than b
 (b) b is greater than b
 (c) or, a and b are equal
+```
+- [sadman](solutions/sadman/6/18.c)
+- [sharafat](solutions/sharafat/6/18.c)
 
 18. Write a C program to input the total percentage of marks of a student and display its Division using
 below rules:
+```
 (a) Greater than or equal to 80 percent - “First Division”
 (b) Greater than or equal to 60 percent and less than 80 per cent - “Second Division”
 (c) Less than 60 percent - “Third Division"
+```
+- [sadman](solutions/sadman/6/19.c)
+- [sharafat](solutions/sharafat/6/19.c)
 
 19. Using Switch case block, input the name of the month from the user and display the corresponding
 number of days in that month.
+- [sadman](solutions/sadman/6/20.c)
+- [sharafat](solutions/sharafat/6/20.c)
 
 20. Write a C program that inputs a string and counts the number of capital and small alphabets in that
 string.
@@ -452,187 +733,276 @@ string.
 ## Chapter 7 
 
 1. Given a number, write a program using while loop to reverse the digits of the number. For example,
-the number 12345 should be written as 54321
-( Hint: Use modulus operator to extract the last digit and the integer division by 10 to get the n–1
+the 
+```
+number 
+	12345 
+should be written as 
+	54321
+```
+> ( Hint: Use modulus operator to extract the last digit and the integer division by 10 to get the n–1
 digit number from the n digit number.)
+- [sadman](solutions/sadman/7/1.c)
 - [sharafat](solutions/sharafat/7/1.c)
 
 2. Write a program to compute the sum of the digits of a given integer number.
+- [sadman](solutions/sadman/7/2.c)
 - [sharafat](solutions/sharafat/7/2.c)
 
 3. The numbers in the sequence
+```
 	1 1 2 3 5 8 13 21 .......
+```
 are called Fibonacci numbers. Write a program using a do....while loop to calculate and print the first m
 Fibonacci numbers.
-( Hint: After the first two numbers in the series, each number is the sum of the two preceding numbers.)
+> ( Hint: After the first two numbers in the series, each number is the sum of the two preceding numbers.)
+- [sadman](solutions/sadman/7/3.c)
 - [sharafat](solutions/sharafat/7/3.c)
 
 4. Write a program to evaluate the following investment equation
+```
 				V = P(1+r) n
+```
 and print the tables which would give the value of V for various combination of the following values 
 of P, r, and n.
+```
 P : 1000, 2000, 3000,........, 10,000
 r : 0.10, 0.11, 0.12, ......., 0.20
 n : 1, 2, 3, ...., 10
-( Hint: P is the principal amount and V is the value of money at the end of n years. This equation can
+```
+> ( Hint: P is the principal amount and V is the value of money at the end of n years. This equation can
 be recursively written as
-V = P(1+r)
-P = V
+```
+	V = P(1+r)
+	P = V
+```
 That is, the value of money at the end of first year becomes the principal amount for the next year and
 so on.)
+- [sadman](solutions/sadman/7/4.c)
 - [sharafat](solutions/sharafat/7/4.c)
 
 5. Write programs to print the following outputs using for loops.
-	(a) 					(b)
-		1					* * * * * 
-		2 2					  * * * *
-		3 3 3					    * * *
-		4 4 4 4 					* *
-		5 5 5 5 5					  *
+```
+	(a) 			(b)
+        1                       * * * * * 
+        2 2                       * * * *
+        3 3 3                       * * *
+        4 4 4 4                       * *
+        5 5 5 5 5                       *
+```
+- [sadman](solutions/sadman/7/5.c)
 - [sharafat](solutions/sharafat/7/5.c)
 
 6. Write a program to read the age of 100 persons and count the number of persons in the age group 50 to
 60. Use for and continue statements.
+- [sadman](solutions/sadman/7/6.c)
 - [sharafat](solutions/sharafat/7/6.c)
 
 7. Rewrite the program of case study 7.4 (plotting of two curves) using else...if constructs instead of
 continue statements.
+- [sadman](solutions/sadman/7/7.c)
 - [sharafat](solutions/sharafat/7/7.c)
 
 8. Write a program to print a table of values of the function
+```
 y = exp (-x)
+```
 for x varying from 0.0 to 10.0 in steps of 0.10. The table should appear as follows:
-				Table for Y = EXP(–X)
+> Table for Y = EXP(–X)
+>
+| X | 0.1 | 0.2 | 0.3 | ... | 0.9 |
+|---|-----|-----|-----|-----|-----|
+|0.0|	  |     |     |     |     |
+|1.0|	  |     |     |     |     |
+|2.0|	  |     |     |     |     |
+|3.0|	  |     |     |     |     |
+| . |	  |     |     |     |     |
+| . |	  |     |     |     |     |
+| . |	  |     |     |     |     |
+|9.0|	  |     |     |     |     |
+- [sadman](solutions/sadman/7/8.c)
 - [sharafat](solutions/sharafat/7/8.c)
 
 9. Write a program using for and if statement to display the capital letter S in a grid of 15 rows and
 18 columns as shown below.
-* * * * * * * * * * * * * * * * * * * * * * * *
-* * - - - - - - - - - - - - - - - - - - - - - - * *
-* * * * * * * * * - - - - - - - - - - - - - - * *
-* * * *
-* * * *
-* * * *
-* * * * * - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - * * * *
-* * * * - - - - - - - - — - - - - - - - * * * *
-* * * - - - - - - - - - - - - - - - - - * * * *
-* * - - - - - - - - - - - - - - - - - - - * * * *
+```
+******************
+**--------------**
+*********-------**
+****
+****
+****
+*****---------****
+--------------****
+--------------****
+--------------****
+--------------****
+--------------****
+--------------****
+****----------****
+***-----------****
+**------------****
+```
+- [sadman](solutions/sadman/7/9.c)
 - [sharafat](solutions/sharafat/7/9.c)
 
 10. Write a program to compute the value of Euler’s number e, that is used as the base of natural
 logarithms. Use the following formula.
+```
 		e = 1 + 1/1! + 1 /2! + 1 /3! + . . . . . + 1/n!
+```
 Use a suitable loop construct. The loop must terminate when the difference between two
 successive values of e is less than 0.00001.
+- [sadman](solutions/sadman/7/10.c)
 - [sharafat](solutions/sharafat/7/10.c)
 
 11. Write programs to evaluate the following functions to 0.0001% accuracy.
+```
 (a) sinx = x – x 3 /3! + x 5 /5! – x 7 /7! + . . . . . .
 (b) cosx = 1 – x 2 /2! + x 4 /4! – x 6 /6! + . . . . .
 (c) SUM = 1 + (1/2) 2 + (1/3) 3 + (1/4) 4 + … …
+```
+- [sadman](solutions/sadman/7/11.c)
 - [sharafat](solutions/sharafat/7/11.c)
 
 12. The present value (popularly known as book value) of an item is given by the relationship.
-			P = pow( (c*(1–d)),n)
-	where    c= original cost
+```
+				P = pow( (c*(1–d)),n)
+	where
+		   c= original cost
 		   d= rate of depreciation (per year)
 		   n= number of years
 		   p= present value after y years.
+```
 If P is considered the scrap value at the end of useful life of the item, write a program to compute
 the useful life in years given the original cost, depreciation rate, and the scrap value.
 The program should request the user to input the data interactively.
+- [sadman](solutions/sadman/7/12.c)
 - [sharafat](solutions/sharafat/7/12.c)
 
 13. Write a program to print a square of size 5 by using the character N as shown below:
+```
 	 (a)								(b)
 		n n n n n 							n n n n n
 		n n n n n							n       n 
  		n n n n n							n       n 
 		n n n n n 							n       n
-		n n n n n							n n n n n
+		n n n n n							n n n n n 	
+```
+> n is used insted of S in the above figure LOL.
+- [sadman](solutions/sadman/7/13.c)
 - [sharafat](solutions/sharafat/7/13.c)
 
 14. Write a program to graph the function
+```
 			y = sin (x)
+```
 in the interval 0 to 180 degrees in steps of 15 degrees. Use the concepts discussed in the Case Study 4 in Chapter 7.
+- [sadman](solutions/sadman/7/14.c)
 - [sharafat](solutions/sharafat/7/14.c)
 
 15. Modify the program of Exercise 7.16 to print the character S instead of N at the center of the square as shown below.
+```
 				n n n n n 							
 				n n n n n						 
  				n n s n n							
 				n n n n n 						
-				n n n n n
+				n n n n n	
+```
+> n is used insted of S in the above figure LOL.
+- [sadman](solutions/sadman/7/15.c)
 - [sharafat](solutions/sharafat/7/15.c)
 
 16. Given a set of 10 two-digit integers containing both positive and negative values, write a program using for loop to compute the sum of all positive values and print the sum and the number of values added.
 The program should use scanf to read the values and terminate when the sum exceeds 999. Do not use goto statement.
+- [sadman](solutions/sadman/7/16.c)
 - [sharafat](solutions/sharafat/7/16.c)
 
 17. Write a C program to display a coloured line.
+- [sadman](solutions/sadman/7/17.c)
 - [sharafat](solutions/sharafat/7/17.c)
 
 18. Write a C program to display the following pattern.
-			1
-		     A B
-		    2 3 4
-		   C D E F
-		  5 6 7 8 9
+```
+            1
+           A B
+          2 3 4
+         C D E F
+        5 6 7 8 9
+```
+- [sadman](solutions/sadman/7/18.c)
 - [sharafat](solutions/sharafat/7/18.c)
 
 19. Write a C program to display the following pattern:
-			1
- 		    1 2 1
-		  1 2 3 2 1
-		    1	2 1
-			1
+```
+              1
+            1 2 1
+          1 2 3 2 1
+            1 2 1
+              1
+```
+- [sadman](solutions/sadman/7/19.c)
 - [sharafat](solutions/sharafat/7/19.c)
 
 20. Write a C program to display the following pattern:
+```
 		1
 		0 1
 		1 0 1
 		0 1 0 1
+```
 - [sharafat](solutions/sharafat/7/20.c)
 
 ## Chapter 8 
 
 1. Write a program for fitting a straight line through a set of points 
-(xi, y i ), i = 1,....,n.
+```
+(xi, yi ), i = 1,....,n.
+```
 The straight line equation is
-		y = mx + c
-and the values of m and c are given y 
-All summations are from 1 to n.
+```
+y = mx + c
+```
+and the values of m and c are given y the following equations:
+> All summations are from 1 to n.
+- [sharafat](solutions/sharafat/8/1.c)
 
 2. The daily maximum temperatures recorded in 10 cities during the month of January (for all 31 days) have been tabulated as follows:
 Write a program to read the table elements into a two-dimensional array temperature , and to find the city and day corresponding to
+```
 (a) the highest temperature and
 (b) the lowest temperature.
+```
+- [sharafat](solutions/sharafat/8/2.c)
 
 3. An election is contested by 5 candidates. The candidates are numbered 1 to 5 and the voting is done by marking the candidate number on the ballot paper. Write a program to read the ballots and count the votes cast for each candidate using an array variable count . In case, a number read is outside the range 1 to 5, the ballot should be considered as a ‘spoilt ballot’ and the program should also count the number of spoilt ballots.
+- [sharafat](solutions/sharafat/8/3.c)
 
 4. The following set of numbers is popularly known as Pascal’s triangle.
-					1
-				   1  2  1
-			       1  3   3  1
-			    1   4   6   4   1
-			_   _  _  _  _  _  _  _  _
-		_  _  _  _  _  _   _  _  _   _  _  _				
+```
+1
+1  2  1
+1  3  3  1
+1  4  6  4  1
+_   _  _  _  _  _  _  _  _
+_  _  _  _  _  _   _  _  _   _  _  _				
+```
 If we denote rows by i and columns by j, then any element
- (except the boundary elements) in the triangle is given by
-	p ij = p i–1 ,j–1 + p i–1 ,j
+(except the boundary elements) in the triangle is given by,
+```
+p ij = p i–1 ,j–1 + p i–1 ,j
+```
 Write a program to calculate the elements of the Pascal triangle for 10 rows and print the results.
+- [sharafat](solutions/sharafat/8/4.c)
 
 5. The annual examination results of 100 students are tabulated as follows:
 Write a program to read the data and determine the following:
+```
 (a) Total marks obtained by each student.
 (b) The highest marks in each subject and the Roll No. of the student who secured it.
 (c) The student who obtained the highest total marks.
+```
+- [sharafat](solutions/sharafat/8/5.c)
 
 6. Given are two one-dimensional arrays A and B which are sorted in ascending order. Write a program to merge them into a single sorted array that contains every item from arrays A and B, in ascending order.
 
@@ -685,75 +1055,112 @@ Check digit is the remainder when sum is divided by
 ## Chapter 9 
 
 1. Write a program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.
+- [sadman](solutions/sadman/9/1.c)
+- [sharafat](solutions/sharafat/9/1.c)
 
 2. Write a program to do the following:
+```
 (a) To output the question “Who is the inventor of C ?”
 (b) To accept an answer.
 (c) To print out “Good” and then stop, if the answer is correct.
 (d) To output the message ‘try again’, if the answer is wrong.
 (e) To display the correct answer when the answer is wrong even at the third attempt and stop.
+```
+- [sadman](solutions/sadman/9/2.c)
+- [sharafat](solutions/sharafat/9/2.c)
 
 3. Write a program to extract a portion of a character string and print the extracted string. Assume that m characters are extracted, starting with the nth character.
+- [sadman](solutions/sadman/9/3.c)
+- [sharafat](solutions/sharafat/9/3.c)
 
 4. Write a program which will read a text and count all occurrences of a particular word.
+- [sadman](solutions/sadman/9/4.c)
+- [sharafat](solutions/sharafat/9/4.c)
 
 5. Write a program which will read a string and rewrite it in the alphabetical order. For example, the word STRING should be written as GINRST.
+- [sadman](solutions/sadman/9/5.c)
+- [sharafat](solutions/sharafat/9/5.c)
 
 6. Write a program to replace a particular word by another word in a given string. For example, the word “PASCAL” should be replaced by “C” in the text “It is good to program in PASCAL language.”
+- [sadman](solutions/sadman/9/6.c)
+- [sharafat](solutions/sharafat/9/6.c)
 
 7. A Maruti car dealer maintains a record of
 sales of various vehicles in the following form:
-	Vehicle types	Month of sacles 		Price
-	MARUTI-800		02/01				210000
-	MARUTI-DX         07/01				265000
-	GYPSY             04/02				315750
-	MARUTI-VAN        08/02				240000
+```
+	Vehicle types   Month of sacles     Price
+	MARUTI-800        02/01             210000
+	MARUTI-DX         07/01             265000
+	GYPSY             04/02             315750
+	MARUTI-VAN        08/02             240000
+```
 Write a program to read this data into a table of strings and output the details of a particular vehicle sold during a specified period. The program should request the user to input the vehicle type and the period 
 (starting month, ending month).
+- [sadman](solutions/sadman/9/7.c)
 
 8. Write a program that reads a string from the keyboard and determines whether the string is a palindrome or not. (A string is a palindrome if it can be read from left and right with the same meaning. For example, Madam and Anna are palindrome strings. Ignore capitalization).
+- [sadman](solutions/sadman/9/8.c)
+- [sharafat](solutions/sharafat/9/8.c)
 
 9. Write program that reads the cost of an item in the form RRRR.PP (Where RRRR denotes Rupees and PP denotes Paise) and converts the value to a string of words that expresses the numeric value in words.
 For example, if we input 125.75, the output should be “ONE HUNDRED TWENTY FIVE AND PAISE SEVENTY FIVE”.
 
 10. Develop a program that will read and store the details of a list of students in the format
-	Roll No	Name			Marks obtained
-	......      ......            .........
-	......	......		.........
-	......	......		.........
+```
+    Roll No      Name           Marks obtained
+    ........     ......         .........
+    ........     ......         .........
+    ........     ......         .........
+```
 and produce the following output list:
-(a) Alphabetical list of names, roll numbers and
-marks obtained.
-(b) List sorted on roll numbers.
-(c) List sorted on marks (rank-wise list)
+```
+	(a) Alphabetical list of names, roll numbers and marks obtained.
+	(b) List sorted on roll numbers.
+	(c) List sorted on marks (rank-wise list)
+```
+- [sadman](solutions/sadman/9/10.c)
 
 11. Write a program to read two strings and compare them using the function strncm p ( ) and print a message that the first string is equal, less, or
 greater than the second one.
+- [sadman](solutions/sadman/9/11.c)
 
 12. Write a program to read a line of text from the keyboard and print out the number of occurrences of a given substring using the function strstr ( ).
+- [sadman](solutions/sadman/9/12.c)
 
 13. Write a program that will copy m consecutive characters from a string s1 beginning at position n into another string s2.
+- [sadman](solutions/sadman/9/13.c)
 
 14. Write a program to create a directory of students with roll numbers. The program should display the roll number for a specified name and vice-versa.
+- [sadman](solutions/sadman/9/14.c)
 
 15. Given a string
+```
 	char str [ ] = “123456789” ;
+```
 Write a program that displays the following:
-			1
-		    2 3 2
-		  3 4 5 4 3
-		4 5 6 7 6 5 4
-	    5 6 7 8 9 8 7 6 5
+```
+              1
+            2 3 2
+          3 4 5 4 3
+        4 5 6 7 6 5 4
+      5 6 7 8 9 8 7 6 5
+```
+- [sadman](solutions/sadman/9/15.c)
 
 16. Write a C program to compare two strings without using any string function.
+- [sadman](solutions/sadman/9/16.c)
 
 17. Write a C program to find the largest and smallest sized word in a string.
+- [sadman](solutions/sadman/9/17.c)
 
 18. Write a C program to replace all the white spaces in a string with double white spaces.
+- [sadman](solutions/sadman/9/18.c)
 
 19. Write a C program to enter multiple strings and display them in lexicographical order.
+- [sadman](solutions/sadman/9/19.c)
 
 20. Write a C program to concatenate two strings without using any string function.
+- [sadman](solutions/sadman/9/20.c)
 
 ## Chapter 10 
 
@@ -762,16 +1169,22 @@ Write a program that displays the following:
 2. Write a function space(x) that can be used to provide a space of x positions between two output numbers. Demonstrate its application.
 
 3. Use recursive function calls to evaluate
+```
 	f(x) = x - pow(x,3)/3! + pow(x,5)/5! - pow(x,7)/7! + .....
+```
 
 4. An n_order polynomial can be evaluated as follows:
+```
 	P = (.....(((a 0 x+a 1 )x+a 2 )x+a 3 )x+...+a n)
+```
 Write a function to evaluate the polynomial, using an array variable. Test it using a main program.
 
 5. The Fibonacci numbers are defined recursively as follows:
+```
 				F1 = 1
 				F2 = 1
 				Fn = Fn-1 + Fn-2 , n>2
+```
 Write a function that will generate and print the first n Fibonacci numbers. Test the function for n = 5, 10, and 15.
 
 6. Write a function that will round a floating-point number to an indicated decimal place. For example the number 17.457 would yield the value 17.46 when it is rounded off to two decimal places.
@@ -781,16 +1194,20 @@ Write a function that will generate and print the first n Fibonacci numbers. Tes
 8. Write a function that will scan a character string passed as an argument and convert all lowercase characters into their uppercase equivalents.
 
 9. Develop a top_down modular program to implement a calculator. The program should request the user to input two numbers and display one of the following as per the desire of the user:
+```
 (a) Sum of the numbers
 (b) Difference of the numbers
 (c) Product of the numbers
 (d) Division of the numbers
+```
 Provide separate functions for performing various tasks such as reading, calculating and displaying. Calculating module should call second level modules to perform the individual mathematical operations. The main function should have only function calls.
 
 10. Develop a modular interactive program using functions that reads the values of three sides of a triangle and displays either its area or its perimeter as per the request of the user. Given the three sides a, b and c.
+```
 		Perimeter = a + b + c
 		Area      = sqrt ((s-a)*(s-b)*(s-c))
 	where   s 	    - (a+b+c)/2
+```
 
 11. Write a function that can be called to find the largest element of an m by n matrix.
 
@@ -803,22 +1220,28 @@ then print the entire matrix with averages shown in
 respective rows and columns.
 
 14. Develop a top-down modular program that will perform the following tasks:
+```
 (a) Read two integer arrays with unsorted elements.
 (b) Sort them in ascending order
 (c) Merge the sorted arrays
 (d) Print the sorted list
+```
 Use functions for carrying out each of the above tasks. The main function should have only function calls.
 
 15. Develop your own functions for performing following operations on strings:
+```
 (a) Copying one string to another
 (b) Comparing two strings
 (c) Adding a string to the end of another string
+```
 Write a driver program to test your functions.
 
 16. Write a program that invokes a function called
 find( ) to perform the following tasks:
+```
 (a) Receives a character array and a single character.
 (b) Returns 1 if the specified character is found in the array, 0 otherwise.
+```
 
 17. Design a function locate ( ) that takes two character arrays s1 and s2 and one integer value m as parameters and inserts the string s2 into s1
 immediately after the index m .

@@ -1,34 +1,46 @@
 1. Write a program for fitting a straight line through a set of points 
-(xi, y i ), i = 1,....,n.
+```
+(xi, yi ), i = 1,....,n.
+```
 The straight line equation is
-		y = mx + c
-and the values of m and c are given y 
-All summations are from 1 to n.
+```
+y = mx + c
+```
+and the values of m and c are given y the following equations:
+> All summations are from 1 to n.
 
 2. The daily maximum temperatures recorded in 10 cities during the month of January (for all 31 days) have been tabulated as follows:
 Write a program to read the table elements into a two-dimensional array temperature , and to find the city and day corresponding to
+```
 (a) the highest temperature and
 (b) the lowest temperature.
+```
 
 3. An election is contested by 5 candidates. The candidates are numbered 1 to 5 and the voting is done by marking the candidate number on the ballot paper. Write a program to read the ballots and count the votes cast for each candidate using an array variable count . In case, a number read is outside the range 1 to 5, the ballot should be considered as a ‘spoilt ballot’ and the program should also count the number of spoilt ballots.
 
 4. The following set of numbers is popularly known as Pascal’s triangle.
-					1
-				   1  2  1
-			       1  3   3  1
-			    1   4   6   4   1
-			_   _  _  _  _  _  _  _  _
-		_  _  _  _  _  _   _  _  _   _  _  _				
+```
+1
+1  2  1
+1  3  3  1
+1  4  6  4  1
+_   _  _  _  _  _  _  _  _
+_  _  _  _  _  _   _  _  _   _  _  _				
+```
 If we denote rows by i and columns by j, then any element
- (except the boundary elements) in the triangle is given by
-	p ij = p i–1 ,j–1 + p i–1 ,j
+(except the boundary elements) in the triangle is given by,
+```
+p ij = p i–1 ,j–1 + p i–1 ,j
+```
 Write a program to calculate the elements of the Pascal triangle for 10 rows and print the results.
 
 5. The annual examination results of 100 students are tabulated as follows:
 Write a program to read the data and determine the following:
+```
 (a) Total marks obtained by each student.
 (b) The highest marks in each subject and the Roll No. of the student who secured it.
 (c) The student who obtained the highest total marks.
+```
 
 6. Given are two one-dimensional arrays A and B which are sorted in ascending order. Write a program to merge them into a single sorted array that contains every item from arrays A and B, in ascending order.
 

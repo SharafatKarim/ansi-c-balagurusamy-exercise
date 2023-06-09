@@ -1,37 +1,53 @@
 1. Given a number, write a program using while loop to reverse the digits of the number. For example,
-the number 12345 should be written as 54321
-( Hint: Use modulus operator to extract the last digit and the integer division by 10 to get the n–1
+the 
+```
+number 
+	12345 
+should be written as 
+	54321
+```
+> ( Hint: Use modulus operator to extract the last digit and the integer division by 10 to get the n–1
 digit number from the n digit number.)
 
 2. Write a program to compute the sum of the digits of a given integer number.
 
 3. The numbers in the sequence
+```
 	1 1 2 3 5 8 13 21 .......
+```
 are called Fibonacci numbers. Write a program using a do....while loop to calculate and print the first m
 Fibonacci numbers.
-( Hint: After the first two numbers in the series, each number is the sum of the two preceding numbers.)
+> ( Hint: After the first two numbers in the series, each number is the sum of the two preceding numbers.)
 
 4. Write a program to evaluate the following investment equation
+```
 				V = P(1+r) n
+```
 and print the tables which would give the value of V for various combination of the following values 
 of P, r, and n.
+```
 P : 1000, 2000, 3000,........, 10,000
 r : 0.10, 0.11, 0.12, ......., 0.20
 n : 1, 2, 3, ...., 10
-( Hint: P is the principal amount and V is the value of money at the end of n years. This equation can
+```
+> ( Hint: P is the principal amount and V is the value of money at the end of n years. This equation can
 be recursively written as
-V = P(1+r)
-P = V
+```
+	V = P(1+r)
+	P = V
+```
 That is, the value of money at the end of first year becomes the principal amount for the next year and
 so on.)
 
 5. Write programs to print the following outputs using for loops.
-	(a) 					(b)
-		1					* * * * * 
-		2 2					  * * * *
-		3 3 3					    * * *
-		4 4 4 4 					* *
-		5 5 5 5 5					  *
+```
+	(a) 			(b)
+        1                       * * * * * 
+        2 2                       * * * *
+        3 3 3                       * * *
+        4 4 4 4                       * *
+        5 5 5 5 5                       *
+```
 
 6. Write a program to read the age of 100 persons and count the number of persons in the age group 50 to
 60. Use for and continue statements.
@@ -40,67 +56,98 @@ so on.)
 continue statements.
 
 8. Write a program to print a table of values of the function
+```
 y = exp (-x)
+```
 for x varying from 0.0 to 10.0 in steps of 0.10. The table should appear as follows:
-				Table for Y = EXP(–X)
+> Table for Y = EXP(–X)
+>
+| X | 0.1 | 0.2 | 0.3 | ... | 0.9 |
+|---|-----|-----|-----|-----|-----|
+|0.0|	  |     |     |     |     |
+|1.0|	  |     |     |     |     |
+|2.0|	  |     |     |     |     |
+|3.0|	  |     |     |     |     |
+| . |	  |     |     |     |     |
+| . |	  |     |     |     |     |
+| . |	  |     |     |     |     |
+|9.0|	  |     |     |     |     |
 
 9. Write a program using for and if statement to display the capital letter S in a grid of 15 rows and
 18 columns as shown below.
-* * * * * * * * * * * * * * * * * * * * * * * *
-* * - - - - - - - - - - - - - - - - - - - - - - * *
-* * * * * * * * * - - - - - - - - - - - - - - * *
-* * * *
-* * * *
-* * * *
-* * * * * - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - * * * *
-- - - - - - - - - - - - - - - - - - - - * * * *
-* * * * - - - - - - - - — - - - - - - - * * * *
-* * * - - - - - - - - - - - - - - - - - * * * *
-* * - - - - - - - - - - - - - - - - - - - * * * *
+```
+******************
+**--------------**
+*********-------**
+****
+****
+****
+*****---------****
+--------------****
+--------------****
+--------------****
+--------------****
+--------------****
+--------------****
+****----------****
+***-----------****
+**------------****
+```
 
 10. Write a program to compute the value of Euler’s number e, that is used as the base of natural
 logarithms. Use the following formula.
+```
 		e = 1 + 1/1! + 1 /2! + 1 /3! + . . . . . + 1/n!
+```
 Use a suitable loop construct. The loop must terminate when the difference between two
 successive values of e is less than 0.00001.
 
 11. Write programs to evaluate the following functions to 0.0001% accuracy.
+```
 (a) sinx = x – x 3 /3! + x 5 /5! – x 7 /7! + . . . . . .
 (b) cosx = 1 – x 2 /2! + x 4 /4! – x 6 /6! + . . . . .
 (c) SUM = 1 + (1/2) 2 + (1/3) 3 + (1/4) 4 + … …
+```
 
 12. The present value (popularly known as book value) of an item is given by the relationship.
-			P = pow( (c*(1–d)),n)
-	where    c= original cost
+```
+				P = pow( (c*(1–d)),n)
+	where
+		   c= original cost
 		   d= rate of depreciation (per year)
 		   n= number of years
 		   p= present value after y years.
+```
 If P is considered the scrap value at the end of useful life of the item, write a program to compute
 the useful life in years given the original cost, depreciation rate, and the scrap value.
 The program should request the user to input the data interactively.
 
 13. Write a program to print a square of size 5 by using the character N as shown below:
+```
 	 (a)								(b)
 		n n n n n 							n n n n n
 		n n n n n							n       n 
  		n n n n n							n       n 
 		n n n n n 							n       n
 		n n n n n							n n n n n 	
+```
+> n is used insted of S in the above figure LOL. 
 
 14. Write a program to graph the function
+```
 			y = sin (x)
+```
 in the interval 0 to 180 degrees in steps of 15 degrees. Use the concepts discussed in the Case Study 4 in Chapter 7.
 
 15. Modify the program of Exercise 7.16 to print the character S instead of N at the center of the square as shown below.
+```
 				n n n n n 							
 				n n n n n						 
  				n n s n n							
 				n n n n n 						
 				n n n n n	
+```
+> n is used insted of S in the above figure LOL. 
 
 16. Given a set of 10 two-digit integers containing both positive and negative values, write a program using for loop to compute the sum of all positive values and print the sum and the number of values added.
 The program should use scanf to read the values and terminate when the sum exceeds 999. Do not use goto statement.
@@ -108,21 +155,27 @@ The program should use scanf to read the values and terminate when the sum excee
 17. Write a C program to display a coloured line.
 
 18. Write a C program to display the following pattern.
-			1
-		     A B
-		    2 3 4
-		   C D E F
-		  5 6 7 8 9
+```
+            1
+           A B
+          2 3 4
+         C D E F
+        5 6 7 8 9
+```
 
 19. Write a C program to display the following pattern:
-			1
- 		    1 2 1
-		  1 2 3 2 1
-		    1	2 1
-			1
+```
+              1
+            1 2 1
+          1 2 3 2 1
+            1 2 1
+              1
+```
 
 20. Write a C program to display the following pattern:
+```
 		1
 		0 1
 		1 0 1
 		0 1 0 1
+```
