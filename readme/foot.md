@@ -14,3 +14,7 @@ solutions           # Root folder
     │   └── ...     # Other exercises
     └── ...         # Other chapters
 ``` 
+
+## How to contribute
+
+Contribution guide is available [here](CONTRIBUTING.md) or, in the [wiki section](https://github.com/SharafatKarim/ansi-c-balagurusamy-exercise/wiki).
