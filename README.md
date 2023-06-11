@@ -1,6 +1,14 @@
 # ANSI C (E. Balagurusamy)
-Excersise solutions for the book "ANSI C" by E. Balagurusamy (eight edition). 
+Excersise solutions for the book "Programming in ANSI C" by E. Balagurusamy (eight edition). 
+<!-- badges -->
 
+![](https://img.shields.io/bower/l/bootstrap)
+[![readme_gen.py - readme building](https://github.com/SharafatKarim/ansi-c-balagurusamy-exercise/actions/workflows/action.yml/badge.svg)](https://github.com/SharafatKarim/ansi-c-balagurusamy-exercise/actions/workflows/action.yml)
+![](https://img.shields.io/github/forks/SharafatKarim/ansi-c-balagurusamy-exercise?style=social)
+![](https://img.shields.io/github/contributors/SharafatKarim/ansi-c-balagurusamy-exercise)
+
+<!-- tip -->
+> **Tip:** To quickly access the exercise, click on the exercise number in the table of contents below.
 # Index
 - [Chapter 2](#chapter-2) 
 
@@ -1066,9 +1074,11 @@ Check digit is the remainder when sum is divided by
 - [sharafat](solutions/sharafat/8/17.c)
 
 18. Write a C program to input an amount in Indian currency and deduce the minimum currency denomination for that amount.
+- [sadman](solutions/sadman/8/18.c)
 - [sharafat](solutions/sharafat/8/18.c)
 
 19. Write a C program to input a Roman number and compute its decimal equivalent.
+- [sharafat](solutions/sharafat/8/19.c)
 
 20. Write a C program to input two NXN matrices and deduce their sum and product.
 - [sadman](solutions/sadman/8/20.c)
@@ -1713,3 +1723,8 @@ solutions           # Root folder
     │   └── ...     # Other exercises
     └── ...         # Other chapters
 ``` 
+
+## How to contribute
+
+Contribution guide is available [here](CONTRIBUTING.md) or, in the [wiki section](https://github.com/SharafatKarim/ansi-c-balagurusamy-exercise/wiki).
+
