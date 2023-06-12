@@ -44,6 +44,7 @@ Excersise solutions for the book "Programming in ANSI C" by E. Balagurusamy (eig
 1. Write a program to display the equation of a line in the form `ax + by = c` 
 for `a = 5, b = 8 and c = 18`.
 - [monir](solutions/monir/2/1.c)
+- [rusni](solutions/rusni/2/1.c)
 
 2. Write a C program that uses an in-built function to draw a 3D bar.
 
