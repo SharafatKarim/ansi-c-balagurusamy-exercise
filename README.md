@@ -1197,6 +1197,7 @@ Write a program that displays the following:
 ## Chapter 10 
 
 1. Write a function exchange to interchange the values of two variables, say x and y. Illustrate the use of this function, in a calling function. Assume that x and y are defined as global variables.
+- [sadman](solutions/sadman/10/1.c)
 
 2. Write a function space(x) that can be used to provide a space of x positions between two output numbers. Demonstrate its application.
 
