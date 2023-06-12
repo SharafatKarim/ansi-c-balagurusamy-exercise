@@ -1014,6 +1014,7 @@ Write a program to calculate the elements of the Pascal triangle for 10 rows and
 | .        |           |          |           |
 | .        |           |          |           |
 | .        |           |          |           |
+>
 Write a program to read the data and determine the following:
 ```
 (a) Total marks obtained by each student.
