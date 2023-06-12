@@ -373,8 +373,8 @@ display the same in the following formats:
 PROCESSING
 (c) W.P.
 ```
-- [NAYEMA](solutions/NAYEMA/5/1.c)
 - [sadman](solutions/sadman/5/1.c)
+- [NAYEMA](solutions/NAYEMA/5/1.c)
 - [sharafat](solutions/sharafat/5/1.c)
 
 2. Write a program to read the values of x and y and
@@ -385,14 +385,14 @@ line:
 (b) (x+y) /2
 (c) (x+y)(x–y)
 ```
-- [NAYEMA](solutions/NAYEMA/5/2.c)
 - [sadman](solutions/sadman/5/2.c)
+- [NAYEMA](solutions/NAYEMA/5/2.c)
 - [sharafat](solutions/sharafat/5/2.c)
 
 3. Write a program to read the following numbers, round them off to the nearest integers and print out
 the results in integer form: 35.7 50.21 – 23.73 – 46.45
-- [NAYEMA](solutions/NAYEMA/5/3.c)
 - [sadman](solutions/sadman/5/3.c)
+- [NAYEMA](solutions/NAYEMA/5/3.c)
 - [sharafat](solutions/sharafat/5/3.c)
 
 4. Write a program that reads 4 floating point values in the range, 0.0 to 20.0, and prints a horizontal bar
@@ -405,8 +405,8 @@ represented as follows.
             *      *     *        *
 ```
 > Note that the actual values are shown at the end of each bar.
-- [NAYEMA](solutions/NAYEMA/5/4.c)
 - [sadman](solutions/sadman/5/4.c)
+- [NAYEMA](solutions/NAYEMA/5/4.c)
 - [sharafat](solutions/sharafat/5/4.c)
 
 5. Write an interactive program to demonstrate the process of multiplication. The program should ask
@@ -421,8 +421,8 @@ the user to enter two two-digit integers and print the product of integers as sh
      Add them       1665
             _______________
 ```
-- [NAYEMA](solutions/NAYEMA/5/5.c)
 - [sadman](solutions/sadman/5/5.c)
+- [NAYEMA](solutions/NAYEMA/5/5.c)
 - [sharafat](solutions/sharafat/5/5.c)
 
 6. Write a program to read three integers from the keyboard using one scanf statement and output
@@ -432,8 +432,8 @@ them on one line using:
 (b) only one printf with conversion specifiers, and
 (c) only one printf without conversion specifiers.
 ```
-- [NAYEMA](solutions/NAYEMA/5/6.c)
 - [sadman](solutions/sadman/5/6.c)
+- [NAYEMA](solutions/NAYEMA/5/6.c)
 - [sharafat](solutions/sharafat/5/6.c)
 
 7. Write a program that prints the value 10.45678 in exponential format with the following specifications:
@@ -442,8 +442,8 @@ them on one line using:
 (b) correct to four decimal places; and
 (c) correct to eight decimal places.
 ```
-- [NAYEMA](solutions/NAYEMA/5/7.c)
 - [sadman](solutions/sadman/5/7.c)
+- [NAYEMA](solutions/NAYEMA/5/7.c)
 - [sharafat](solutions/sharafat/5/7.c)
 
 8. Write a program to print the value 345.6789 in fixed-point format with the following specifications:
@@ -452,8 +452,8 @@ them on one line using:
 (b) correct to five decimal places; and
 (c) correct to zero decimal places.
 ```
-- [NAYEMA](solutions/NAYEMA/5/8.c)
 - [sadman](solutions/sadman/5/8.c)
+- [NAYEMA](solutions/NAYEMA/5/8.c)
 - [sharafat](solutions/sharafat/5/8.c)
 
 9. Write a program to read the name ANIL KUMAR GUPTA in three parts using the scanf statement and
@@ -463,8 +463,8 @@ to display the same in the following format using the printf statement.
 (b) A.K. GUPTA
 (c) GUPTA A.K.
 ```
-- [NAYEMA](solutions/NAYEMA/5/9.c)
 - [sadman](solutions/sadman/5/9.c)
+- [NAYEMA](solutions/NAYEMA/5/9.c)
 - [sharafat](solutions/sharafat/5/9.c)
 
 10. Write a program to read and display the following table of data.
@@ -474,25 +474,25 @@ to display the same in the following format using the printf statement.
           Motor           450              5786.70
 ```
 > The name and code must be left-justified and price must be right justified.
-- [NAYEMA](solutions/NAYEMA/5/10.c)
 - [sadman](solutions/sadman/5/10.c)
+- [NAYEMA](solutions/NAYEMA/5/10.c)
 - [sharafat](solutions/sharafat/5/10.c)
 
 11. Write a C program to print inventory stock report using some sample data. The report should show
 item code, quantity and inventory location as formatted output.
-- [NAYEMA](solutions/NAYEMA/5/11.c)
 - [sadman](solutions/sadman/5/11.c)
+- [NAYEMA](solutions/NAYEMA/5/11.c)
 - [sharafat](solutions/sharafat/5/11.c)
 
 12. Write a C program to display the Pascal’s triangle.
-- [NAYEMA](solutions/NAYEMA/5/12.c)
 - [sadman](solutions/sadman/5/12.c)
+- [NAYEMA](solutions/NAYEMA/5/12.c)
 - [sharafat](solutions/sharafat/5/12.c)
 
 13. Write a C program to input a currency value in Dollars and display its equivalent Euro and
 INR amounts. You may use current exchange rate for conversion purpose.
-- [NAYEMA](solutions/NAYEMA/5/13.c)
 - [sadman](solutions/sadman/5/13.c)
+- [NAYEMA](solutions/NAYEMA/5/13.c)
 - [sharafat](solutions/sharafat/5/13.c)
 
 14. Write a C program to display the following pattern.
@@ -503,13 +503,13 @@ INR amounts. You may use current exchange rate for conversion purpose.
                   2 1
                     1
 ```
-- [NAYEMA](solutions/NAYEMA/5/14.c)
 - [sadman](solutions/sadman/5/14.c)
+- [NAYEMA](solutions/NAYEMA/5/14.c)
 
 15. Write a C program to input an investment amount and compute its fixed deposit cumulative return
 after 10 years at arate of interest of 8.75%.
-- [NAYEMA](solutions/NAYEMA/5/15.c)
 - [sadman](solutions/sadman/5/15.c)
+- [NAYEMA](solutions/NAYEMA/5/15.c)
 - [sharafat](solutions/sharafat/5/15.c)
 
 ## Chapter 6 
@@ -976,7 +976,7 @@ and the values of m and c are given y the following equations:
 - [sadman](solutions/sadman/8/1.c)
 - [sharafat](solutions/sharafat/8/1.c)
 
-2. The daily maximum temperatures recorded in 10 cities during the month of January (for all 31 days) have been tabulated as follows:
+2. The daily maximum temperatures recorded in 10 cities during the month of January (for all 31 days) have been tabulated.
 Write a program to read the table elements into a two-dimensional array temperature , and to find the city and day corresponding to
 ```
 (a) the highest temperature and
@@ -1008,6 +1008,12 @@ Write a program to calculate the elements of the Pascal triangle for 10 rows and
 - [sharafat](solutions/sharafat/8/4.c)
 
 5. The annual examination results of 100 students are tabulated as follows:
+>
+| Roll No. | Subject 1 | Subject 2 | Subject 3 | 
+|:--------:|:---------:|:---------:|:---------:|
+| .        |           |          |           |
+| .        |           |          |           |
+| .        |           |          |           |
 Write a program to read the data and determine the following:
 ```
 (a) Total marks obtained by each student.
@@ -1023,48 +1029,69 @@ Write a program to read the data and determine the following:
 
 7. Two matrices that have the same number of rows and columns can be multiplied to produce a third matrix. Consider the following two matrices.
 The product of A and B is a third matrix C of size n¥ n where each element of C is given by the following equation.
+```
+multiplied_matrix[i][j] += first_matrix[i][k] * second_matrix[k][j];
+```
 Write a program that will read the values of elements of A and B and produce the product matrix C.
 - [sadman](solutions/sadman/8/7.c)
+- [sharafat](solutions/sharafat/8/7.c)
 
 8. Write a program that fills a five-by-five matrix as follows:
-• Upper left triangle with +1s
-• Lower right triangle with –1s
-• Right to left diagonal with zeros
+```
+- Upper left triangle with +1s
+- Lower right triangle with –1s
+- Right to left diagonal with zeros
 Display the contents of the matrix using not more than two printf statements.
+```
 - [sadman](solutions/sadman/8/8.c)
+- [sharafat](solutions/sharafat/8/8.c)
 
 9. Selection sort is based on the following idea: Selecting the largest array element and swapping it with the last array element leaves an unsorted list whose size is 1 less than the size of the original list. If we repeat this step again on the unsorted list we will have an ordered list of size 2 and an unordered list size n–2 . When we repeat this until the size of the unsorted list becomes one, the result will be a sorted list. Write a program to implement this algorithm.
 - [sadman](solutions/sadman/8/9.c)
+- [sharafat](solutions/sharafat/8/9.c)
 
 10. Develop a program to implement the binary search algorithm. This technique compares the search key value with the value of the element that is midway in a “sorted” list. Then;
+```
 (a) If they match, the search is over.
 (b) If the search key value is less than the middle value, then the first half of the list contains the key value.
 (c) If the search key value is greater than the middle value, then the second half contains the key value.
+```
 Repeat this “divide-and-conquer” strategy until we have a match. If the list is reduced to one nonmatching element, then the list does not contain the key value.
 Use the sorted list created in Exercise 8.9 or use any other sorted list.
 - [sadman](solutions/sadman/8/10.c)
+- [sharafat](solutions/sharafat/8/10.c)
 
 11. Write a program that will compute the length of a given character string.
 - [sadman](solutions/sadman/8/11.c)
+- [sharafat](solutions/sharafat/8/11.c)
 
 12. Write a program that will count the number occurrences of a specified character in a given line of text. Test your program.
 - [sadman](solutions/sadman/8/12.c)
+- [sharafat](solutions/sharafat/8/12.c)
 
 13. Write a program to read a matrix of size m ¥ n and print its transpose.
 - [sadman](solutions/sadman/8/13.c)
+- [sharafat](solutions/sharafat/8/13.c)
 
 14. Every book published by international publishers should carry an International Standard Book Number (ISBN). It is a 10 character 4 part number as shown below.
+```
 				0-07-041183-2
+```
 The first part denotes the region, the second represents publisher, the third identifies the book and the fourth is the check digit. The check digit is computed as follows:
+```
 Sum = (1 × first digit) + (2 × second digit) + (3 ×third digit) + - - - - + (9 × ninth digit).
-Check digit is the remainder when sum is divided by
-11. Write a program that reads a given ISBN number and checks whether it represents a valid ISBN.
+```
+Check digit is the remainder when sum is divided by 11. Write a program that reads a given ISBN number and checks whether it represents a valid ISBN.
 - [sadman](solutions/sadman/8/14.c)
+- [sharafat](solutions/sharafat/8/14.c)
 
 15. Write a program to read two matrices A and B and print the following:
+```
 (a) A + B; and
 (b) A – B.
+```
 - [sadman](solutions/sadman/8/15.c)
+- [sharafat](solutions/sharafat/8/15.c)
 
 16. Write a C program to compute the sum of elements of two one-dimensional arrays and store the corresponding result in another array.
 - [sadman](solutions/sadman/8/16.c)
@@ -1083,6 +1110,7 @@ Check digit is the remainder when sum is divided by
 
 20. Write a C program to input two NXN matrices and deduce their sum and product.
 - [sadman](solutions/sadman/8/20.c)
+- [sharafat](solutions/sharafat/8/20.c)
 
 ## Chapter 9 
 

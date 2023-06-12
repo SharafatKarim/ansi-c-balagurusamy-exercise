@@ -9,7 +9,7 @@ y = mx + c
 and the values of m and c are given y the following equations:
 > All summations are from 1 to n.
 
-2. The daily maximum temperatures recorded in 10 cities during the month of January (for all 31 days) have been tabulated as follows:
+2. The daily maximum temperatures recorded in 10 cities during the month of January (for all 31 days) have been tabulated.
 Write a program to read the table elements into a two-dimensional array temperature , and to find the city and day corresponding to
 ```
 (a) the highest temperature and
@@ -35,6 +35,12 @@ p ij = p i–1 ,j–1 + p i–1 ,j
 Write a program to calculate the elements of the Pascal triangle for 10 rows and print the results.
 
 5. The annual examination results of 100 students are tabulated as follows:
+>
+| Roll No. | Subject 1 | Subject 2 | Subject 3 | 
+|:--------:|:---------:|:---------:|:---------:|
+| .        |           |          |           |
+| .        |           |          |           |
+| .        |           |          |           |
 Write a program to read the data and determine the following:
 ```
 (a) Total marks obtained by each student.
@@ -46,20 +52,27 @@ Write a program to read the data and determine the following:
 
 7. Two matrices that have the same number of rows and columns can be multiplied to produce a third matrix. Consider the following two matrices.
 The product of A and B is a third matrix C of size n¥ n where each element of C is given by the following equation.
+```
+multiplied_matrix[i][j] += first_matrix[i][k] * second_matrix[k][j];
+```
 Write a program that will read the values of elements of A and B and produce the product matrix C.
 
 8. Write a program that fills a five-by-five matrix as follows:
-• Upper left triangle with +1s
-• Lower right triangle with –1s
-• Right to left diagonal with zeros
+```
+- Upper left triangle with +1s
+- Lower right triangle with –1s
+- Right to left diagonal with zeros
 Display the contents of the matrix using not more than two printf statements.
+```
 
 9. Selection sort is based on the following idea: Selecting the largest array element and swapping it with the last array element leaves an unsorted list whose size is 1 less than the size of the original list. If we repeat this step again on the unsorted list we will have an ordered list of size 2 and an unordered list size n–2 . When we repeat this until the size of the unsorted list becomes one, the result will be a sorted list. Write a program to implement this algorithm.
 
 10. Develop a program to implement the binary search algorithm. This technique compares the search key value with the value of the element that is midway in a “sorted” list. Then;
+```
 (a) If they match, the search is over.
 (b) If the search key value is less than the middle value, then the first half of the list contains the key value.
 (c) If the search key value is greater than the middle value, then the second half contains the key value.
+```
 Repeat this “divide-and-conquer” strategy until we have a match. If the list is reduced to one nonmatching element, then the list does not contain the key value.
 Use the sorted list created in Exercise 8.9 or use any other sorted list.
 
@@ -70,15 +83,20 @@ Use the sorted list created in Exercise 8.9 or use any other sorted list.
 13. Write a program to read a matrix of size m ¥ n and print its transpose.
 
 14. Every book published by international publishers should carry an International Standard Book Number (ISBN). It is a 10 character 4 part number as shown below.
+```
 				0-07-041183-2
+```
 The first part denotes the region, the second represents publisher, the third identifies the book and the fourth is the check digit. The check digit is computed as follows:
+```
 Sum = (1 × first digit) + (2 × second digit) + (3 ×third digit) + - - - - + (9 × ninth digit).
-Check digit is the remainder when sum is divided by
-11. Write a program that reads a given ISBN number and checks whether it represents a valid ISBN.
+```
+Check digit is the remainder when sum is divided by 11. Write a program that reads a given ISBN number and checks whether it represents a valid ISBN.
 
 15. Write a program to read two matrices A and B and print the following:
+```
 (a) A + B; and
 (b) A – B.
+```
 
 16. Write a C program to compute the sum of elements of two one-dimensional arrays and store the corresponding result in another array.
 
