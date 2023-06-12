@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int n = 5, i = 1;
-    while (i <= 10) {
-        printf("%d*%d=%d\n", n, i, n * i);
-        i += 1;
-    }
+    int a,b,c;
+    a = 5;
+    b = 8;
+    c = 18;
+    printf("%dx + %dy = %d",a,b,c);
     return 0;
 }
