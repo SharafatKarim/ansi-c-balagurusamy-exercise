@@ -1019,6 +1019,7 @@ Write a program to read the data and determine the following:
 
 6. Given are two one-dimensional arrays A and B which are sorted in ascending order. Write a program to merge them into a single sorted array that contains every item from arrays A and B, in ascending order.
 - [sadman](solutions/sadman/8/6.c)
+- [sharafat](solutions/sharafat/8/6.c)
 
 7. Two matrices that have the same number of rows and columns can be multiplied to produce a third matrix. Consider the following two matrices.
 The product of A and B is a third matrix C of size n¥ n where each element of C is given by the following equation.
