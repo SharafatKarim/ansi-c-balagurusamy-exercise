@@ -57,6 +57,7 @@ for `a = 5, b = 8 and c = 18`.
 5 x 10 = 50
 ```
 - [monir](solutions/monir/2/3.c)
+- [rusni](solutions/rusni/2/3.c)
 
 4. Given the values of three variables a, b and c, write a program to compute and display the value of x,
 where `x = a / ( b - c )` 
