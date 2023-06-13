@@ -68,10 +68,12 @@ Execute your program for the following values:
 ```
 Comment on the output in each case.
 - [monir](solutions/monir/2/4.c)
+- [rusni](solutions/rusni/2/4.c)
 
 5. Write a C program that reads the value of distance travelled by a car and the time taken for the same.
 Next, compute the speed at which the car travelled.
 - [monir](solutions/monir/2/5.c)
+- [rusni](solutions/rusni/2/5.c)
 
 6. Write a C program to print the current system date.
 - [monir](solutions/monir/2/6.c)
