@@ -10,24 +10,33 @@ Excersise solutions for the book "Programming in ANSI C" by E. Balagurusamy (eig
 <!-- tip -->
 > **Tip:** To quickly access the exercise, click on the exercise number in the table of contents below.
 # Index
-- [ANSI C (E. Balagurusamy)](#ansi-c-e-balagurusamy)
-- [Index](#index)
-	- [Chapter 2](#chapter-2)
-	- [Chapter 3](#chapter-3)
-	- [Chapter 4](#chapter-4)
-	- [Chapter 5](#chapter-5)
-	- [Chapter 6](#chapter-6)
-	- [Chapter 7](#chapter-7)
-	- [Chapter 8](#chapter-8)
-	- [Chapter 9](#chapter-9)
-	- [Chapter 10](#chapter-10)
-	- [Chapter 11](#chapter-11)
-	- [Chapter 12](#chapter-12)
-	- [Chapter 13](#chapter-13)
-	- [Chapter 14](#chapter-14)
-	- [Chapter 15](#chapter-15)
-- [Contribution](#contribution)
-	- [How to contribute](#how-to-contribute)
+- [Chapter 2](#chapter-2) 
+
+- [Chapter 3](#chapter-3) 
+
+- [Chapter 4](#chapter-4) 
+
+- [Chapter 5](#chapter-5) 
+
+- [Chapter 6](#chapter-6) 
+
+- [Chapter 7](#chapter-7) 
+
+- [Chapter 8](#chapter-8) 
+
+- [Chapter 9](#chapter-9) 
+
+- [Chapter 10](#chapter-10) 
+
+- [Chapter 11](#chapter-11) 
+
+- [Chapter 12](#chapter-12) 
+
+- [Chapter 13](#chapter-13) 
+
+- [Chapter 14](#chapter-14) 
+
+- [Chapter 15](#chapter-15) 
 
 ---
 ## Chapter 2 
@@ -1158,6 +1167,7 @@ Write a program to read this data into a table of strings and output the details
 
 9. Write program that reads the cost of an item in the form RRRR.PP (Where RRRR denotes Rupees and PP denotes Paise) and converts the value to a string of words that expresses the numeric value in words.
 For example, if we input 125.75, the output should be “ONE HUNDRED TWENTY FIVE AND PAISE SEVENTY FIVE”.
+- [sharafat](solutions/sharafat/9/9.c)
 
 10. Develop a program that will read and store the details of a list of students in the format
 ```
