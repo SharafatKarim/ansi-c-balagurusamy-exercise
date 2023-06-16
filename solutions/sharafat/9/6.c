@@ -9,10 +9,12 @@ int main()
     char replace_with[16] = "C";
     int size = strlen(str);
 
+    printf("-----------------------\n");
+
     int i, temp;
     for (i=0, temp=0; i<size; i++)
     {
-        if (str[i] == 'P')
+        if (str[i] == replace_from[0])
         {
             for (int j=0; j<strlen(replace_from);j++)
             {
