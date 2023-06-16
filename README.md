@@ -377,9 +377,9 @@ display the same in the following formats:
 PROCESSING
 (c) W.P.
 ```
-- [NAYEMA](solutions/NAYEMA/5/1.c)
 - [sadman](solutions/sadman/5/1.c)
 - [sharafat](solutions/sharafat/5/1.c)
+- [NAYEMA](solutions/NAYEMA/5/1.c)
 
 2. Write a program to read the values of x and y and
 print the results of the following expressions in one
@@ -389,15 +389,15 @@ line:
 (b) (x+y) /2
 (c) (x+y)(x–y)
 ```
-- [NAYEMA](solutions/NAYEMA/5/2.c)
 - [sadman](solutions/sadman/5/2.c)
 - [sharafat](solutions/sharafat/5/2.c)
+- [NAYEMA](solutions/NAYEMA/5/2.c)
 
 3. Write a program to read the following numbers, round them off to the nearest integers and print out
 the results in integer form: 35.7 50.21 – 23.73 – 46.45
-- [NAYEMA](solutions/NAYEMA/5/3.c)
 - [sadman](solutions/sadman/5/3.c)
 - [sharafat](solutions/sharafat/5/3.c)
+- [NAYEMA](solutions/NAYEMA/5/3.c)
 
 4. Write a program that reads 4 floating point values in the range, 0.0 to 20.0, and prints a horizontal bar
 chart to represent these values using the character * as the fill character. For the purpose of the chart,
@@ -409,9 +409,9 @@ represented as follows.
             *      *     *        *
 ```
 > Note that the actual values are shown at the end of each bar.
-- [NAYEMA](solutions/NAYEMA/5/4.c)
 - [sadman](solutions/sadman/5/4.c)
 - [sharafat](solutions/sharafat/5/4.c)
+- [NAYEMA](solutions/NAYEMA/5/4.c)
 
 5. Write an interactive program to demonstrate the process of multiplication. The program should ask
 the user to enter two two-digit integers and print the product of integers as shown below.
@@ -425,9 +425,9 @@ the user to enter two two-digit integers and print the product of integers as sh
      Add them       1665
             _______________
 ```
-- [NAYEMA](solutions/NAYEMA/5/5.c)
 - [sadman](solutions/sadman/5/5.c)
 - [sharafat](solutions/sharafat/5/5.c)
+- [NAYEMA](solutions/NAYEMA/5/5.c)
 
 6. Write a program to read three integers from the keyboard using one scanf statement and output
 them on one line using:
@@ -436,9 +436,9 @@ them on one line using:
 (b) only one printf with conversion specifiers, and
 (c) only one printf without conversion specifiers.
 ```
-- [NAYEMA](solutions/NAYEMA/5/6.c)
 - [sadman](solutions/sadman/5/6.c)
 - [sharafat](solutions/sharafat/5/6.c)
+- [NAYEMA](solutions/NAYEMA/5/6.c)
 
 7. Write a program that prints the value 10.45678 in exponential format with the following specifications:
 ```
@@ -446,9 +446,9 @@ them on one line using:
 (b) correct to four decimal places; and
 (c) correct to eight decimal places.
 ```
-- [NAYEMA](solutions/NAYEMA/5/7.c)
 - [sadman](solutions/sadman/5/7.c)
 - [sharafat](solutions/sharafat/5/7.c)
+- [NAYEMA](solutions/NAYEMA/5/7.c)
 
 8. Write a program to print the value 345.6789 in fixed-point format with the following specifications:
 ```
@@ -456,9 +456,9 @@ them on one line using:
 (b) correct to five decimal places; and
 (c) correct to zero decimal places.
 ```
-- [NAYEMA](solutions/NAYEMA/5/8.c)
 - [sadman](solutions/sadman/5/8.c)
 - [sharafat](solutions/sharafat/5/8.c)
+- [NAYEMA](solutions/NAYEMA/5/8.c)
 
 9. Write a program to read the name ANIL KUMAR GUPTA in three parts using the scanf statement and
 to display the same in the following format using the printf statement.
@@ -467,9 +467,9 @@ to display the same in the following format using the printf statement.
 (b) A.K. GUPTA
 (c) GUPTA A.K.
 ```
-- [NAYEMA](solutions/NAYEMA/5/9.c)
 - [sadman](solutions/sadman/5/9.c)
 - [sharafat](solutions/sharafat/5/9.c)
+- [NAYEMA](solutions/NAYEMA/5/9.c)
 
 10. Write a program to read and display the following table of data.
 ```
@@ -478,26 +478,26 @@ to display the same in the following format using the printf statement.
           Motor           450              5786.70
 ```
 > The name and code must be left-justified and price must be right justified.
-- [NAYEMA](solutions/NAYEMA/5/10.c)
 - [sadman](solutions/sadman/5/10.c)
 - [sharafat](solutions/sharafat/5/10.c)
+- [NAYEMA](solutions/NAYEMA/5/10.c)
 
 11. Write a C program to print inventory stock report using some sample data. The report should show
 item code, quantity and inventory location as formatted output.
-- [NAYEMA](solutions/NAYEMA/5/11.c)
 - [sadman](solutions/sadman/5/11.c)
 - [sharafat](solutions/sharafat/5/11.c)
+- [NAYEMA](solutions/NAYEMA/5/11.c)
 
 12. Write a C program to display the Pascal’s triangle.
-- [NAYEMA](solutions/NAYEMA/5/12.c)
 - [sadman](solutions/sadman/5/12.c)
 - [sharafat](solutions/sharafat/5/12.c)
+- [NAYEMA](solutions/NAYEMA/5/12.c)
 
 13. Write a C program to input a currency value in Dollars and display its equivalent Euro and
 INR amounts. You may use current exchange rate for conversion purpose.
-- [NAYEMA](solutions/NAYEMA/5/13.c)
 - [sadman](solutions/sadman/5/13.c)
 - [sharafat](solutions/sharafat/5/13.c)
+- [NAYEMA](solutions/NAYEMA/5/13.c)
 
 14. Write a C program to display the following pattern.
 ```
@@ -507,14 +507,14 @@ INR amounts. You may use current exchange rate for conversion purpose.
                   2 1
                     1
 ```
-- [NAYEMA](solutions/NAYEMA/5/14.c)
 - [sadman](solutions/sadman/5/14.c)
+- [NAYEMA](solutions/NAYEMA/5/14.c)
 
 15. Write a C program to input an investment amount and compute its fixed deposit cumulative return
 after 10 years at arate of interest of 8.75%.
-- [NAYEMA](solutions/NAYEMA/5/15.c)
 - [sadman](solutions/sadman/5/15.c)
 - [sharafat](solutions/sharafat/5/15.c)
+- [NAYEMA](solutions/NAYEMA/5/15.c)
 
 ## Chapter 6 
 
@@ -1185,19 +1185,24 @@ and produce the following output list:
 	(c) List sorted on marks (rank-wise list)
 ```
 - [sadman](solutions/sadman/9/10.c)
+- [sharafat](solutions/sharafat/9/10.c)
 
-11. Write a program to read two strings and compare them using the function strncm p ( ) and print a message that the first string is equal, less, or
+11. Write a program to read two strings and compare them using the function strncmp( ) and print a message that the first string is equal, less, or
 greater than the second one.
 - [sadman](solutions/sadman/9/11.c)
+- [sharafat](solutions/sharafat/9/11.c)
 
 12. Write a program to read a line of text from the keyboard and print out the number of occurrences of a given substring using the function strstr ( ).
 - [sadman](solutions/sadman/9/12.c)
+- [sharafat](solutions/sharafat/9/12.c)
 
 13. Write a program that will copy m consecutive characters from a string s1 beginning at position n into another string s2.
 - [sadman](solutions/sadman/9/13.c)
+- [sharafat](solutions/sharafat/9/13.c)
 
 14. Write a program to create a directory of students with roll numbers. The program should display the roll number for a specified name and vice-versa.
 - [sadman](solutions/sadman/9/14.c)
+- [sharafat](solutions/sharafat/9/14.c)
 
 15. Given a string
 ```
@@ -1212,21 +1217,26 @@ Write a program that displays the following:
       5 6 7 8 9 8 7 6 5
 ```
 - [sadman](solutions/sadman/9/15.c)
+- [sharafat](solutions/sharafat/9/15.c)
 
 16. Write a C program to compare two strings without using any string function.
 - [sadman](solutions/sadman/9/16.c)
+- [sharafat](solutions/sharafat/9/16.c)
 
 17. Write a C program to find the largest and smallest sized word in a string.
 - [sadman](solutions/sadman/9/17.c)
+- [sharafat](solutions/sharafat/9/17.c)
 
 18. Write a C program to replace all the white spaces in a string with double white spaces.
 - [sadman](solutions/sadman/9/18.c)
+- [sharafat](solutions/sharafat/9/18.c)
 
 19. Write a C program to enter multiple strings and display them in lexicographical order.
 - [sadman](solutions/sadman/9/19.c)
 
 20. Write a C program to concatenate two strings without using any string function.
 - [sadman](solutions/sadman/9/20.c)
+- [sharafat](solutions/sharafat/9/20.c)
 
 ## Chapter 10 
 
