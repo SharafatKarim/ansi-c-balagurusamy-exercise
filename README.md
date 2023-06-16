@@ -533,6 +533,7 @@ NUMBER IS ODD
 are divisible by 7.
 - [sadman](solutions/sadman/6/2.c)
 - [sharafat](solutions/sharafat/6/2.c)
+- [NAYEMA](solutions/NAYEMA/6/2.c)
 
 3. A set of two linear equations with two unknowns x1 and x2 is given below:
 ```
@@ -547,6 +548,7 @@ The set has a unique solution
 provided the denominator `ad – cb` is not equal to zero.
 Write a program that will read the values of constants a, b, c, d, m, and n and compute the values of x 1 and x 2. An appropriate message should be printed if ad – cb = 0.
 - [sharafat](solutions/sharafat/6/3.c)
+- [NAYEMA](solutions/NAYEMA/6/3.c)
 
 4. Given a list of marks ranging from 0 to 100, write a program to compute and print the number of
 students:
@@ -563,6 +565,7 @@ students:
 The program should use a minimum number of if statements.
 - [sadman](solutions/sadman/6/4.c)
 - [sharafat](solutions/sharafat/6/4.c)
+- [NAYEMA](solutions/NAYEMA/6/4.c)
 
 5. Admission to a professional course is subject to the following conditions:
 ```
@@ -576,6 +579,7 @@ Total in Mathematics and Physics >= 150 Given the marks in the three subjects, w
 program to process the applications to list the eligible candidates.
 - [sadman](solutions/sadman/6/5.c)
 - [sharafat](solutions/sharafat/6/5.c)
+- [NAYEMA](solutions/NAYEMA/6/5.c)
 
 6. Write a program to print a two-dimensional Square Root Table as shown below, to provide the square
 root of any number from 0 to 9.9. For example, the value x will give the square root of 3.2 and y the
@@ -592,6 +596,7 @@ square root of 3.9.
 | 0.9    |     |     |     |     |     |
 - [sadman](solutions/sadman/6/6.c)
 - [sharafat](solutions/sharafat/6/6.c)
+- [NAYEMA](solutions/NAYEMA/6/6.c)
 
 7. Shown below is a Floyd’s triangle.
 ```
@@ -613,6 +618,7 @@ square root of 3.9.
 ```
 - [sadman](solutions/sadman/6/7.c)
 - [sharafat](solutions/sharafat/6/7.c)
+- [NAYEMA](solutions/NAYEMA/6/7.c)
 
 8. A cloth showroom has announced the following seasonal discounts on purchase of items:
 >
@@ -625,10 +631,12 @@ square root of 3.9.
 | Above 300       | 10%        | 15%            |
 - [sadman](solutions/sadman/6/8.c)
 - [sharafat](solutions/sharafat/6/8.c)
+- [NAYEMA](solutions/NAYEMA/6/8.c)
 
 Write a program using switch and if statements to compute the net amount to be paid by a customer
 - [sadman](solutions/sadman/6/9.c)
 - [sharafat](solutions/sharafat/6/9.c)
+- [NAYEMA](solutions/NAYEMA/6/9.c)
 
 9. Write a program that will read the value of x and evaluate the following function,
 ```
@@ -738,6 +746,7 @@ below rules:
 number of days in that month.
 - [sadman](solutions/sadman/6/20.c)
 - [sharafat](solutions/sharafat/6/20.c)
+- [NAYEMA](solutions/NAYEMA/6/20.c)
 
 20. Write a C program that inputs a string and counts the number of capital and small alphabets in that
 string.
@@ -1122,6 +1131,7 @@ Check digit is the remainder when sum is divided by 11. Write a program that rea
 1. Write a program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.
 - [sadman](solutions/sadman/9/1.c)
 - [sharafat](solutions/sharafat/9/1.c)
+- [NAYEMA](solutions/NAYEMA/9/1.c)
 
 2. Write a program to do the following:
 ```
@@ -1133,22 +1143,27 @@ Check digit is the remainder when sum is divided by 11. Write a program that rea
 ```
 - [sadman](solutions/sadman/9/2.c)
 - [sharafat](solutions/sharafat/9/2.c)
+- [NAYEMA](solutions/NAYEMA/9/2.c)
 
 3. Write a program to extract a portion of a character string and print the extracted string. Assume that m characters are extracted, starting with the nth character.
 - [sadman](solutions/sadman/9/3.c)
 - [sharafat](solutions/sharafat/9/3.c)
+- [NAYEMA](solutions/NAYEMA/9/3.c)
 
 4. Write a program which will read a text and count all occurrences of a particular word.
 - [sadman](solutions/sadman/9/4.c)
 - [sharafat](solutions/sharafat/9/4.c)
+- [NAYEMA](solutions/NAYEMA/9/4.c)
 
 5. Write a program which will read a string and rewrite it in the alphabetical order. For example, the word STRING should be written as GINRST.
 - [sadman](solutions/sadman/9/5.c)
 - [sharafat](solutions/sharafat/9/5.c)
+- [NAYEMA](solutions/NAYEMA/9/5.c)
 
 6. Write a program to replace a particular word by another word in a given string. For example, the word “PASCAL” should be replaced by “C” in the text “It is good to program in PASCAL language.”
 - [sadman](solutions/sadman/9/6.c)
 - [sharafat](solutions/sharafat/9/6.c)
+- [NAYEMA](solutions/NAYEMA/9/6.c)
 
 7. A Maruti car dealer maintains a record of
 sales of various vehicles in the following form:
