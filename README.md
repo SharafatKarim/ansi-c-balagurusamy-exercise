@@ -1233,6 +1233,7 @@ Write a program that displays the following:
 
 19. Write a C program to enter multiple strings and display them in lexicographical order.
 - [sadman](solutions/sadman/9/19.c)
+- [sharafat](solutions/sharafat/9/19.c)
 
 20. Write a C program to concatenate two strings without using any string function.
 - [sadman](solutions/sadman/9/20.c)
