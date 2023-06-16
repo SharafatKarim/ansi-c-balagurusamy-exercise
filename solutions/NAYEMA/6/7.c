@@ -1,38 +1,33 @@
-#include <stdio.h>  
-int main()  
-{  
-    int num, i, j, k = 1;   
-   
-    printf( " Enter a number to define the rows in Floyd's triangle: \n");  
-    scanf( "%d", &num);  
-     
-    for (i = 1; i <= num; i++)  
-    {  
-        for (j = 1; j <= i; j++)  
-        {  
-            printf(" %d",k++);
-        }
-        printf("\n");
-    }
-    return 0;
-}
-//another one
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
 int main()
 {
-    int i,j,n, count=0;
+    int num;
     printf("Enter number of rows\n");
-    scanf("%d",&n);
-    printf("Floyd Triangle is \n");
-    for(i=1;i<=n;i++)
+    scanf("%d",&num);
+    int i,j,k=1;
+    for(i=1;i<=num;i++)
     {
         for(j=1;j<=i;j++)
         {
-           count++; 
-           printf("%d ",count);
+            printf("%d ",k++);
         }
-         printf("\n")
+        printf("\n");
     }
-   return 0;
+
+    for(i=1;i<=num;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            if((i%2)==(j%2))
+            {
+                printf("1 ");
+            }
+            else
+            {
+                printf("0 ");
+            }
+        }
+         printf("\n");
+    }
+    return 0;
 }

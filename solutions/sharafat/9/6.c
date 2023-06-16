@@ -4,9 +4,14 @@
 int main()
 {
     char str[64], modified_str[64];
+    printf("Enter the string: ");
     scanf("%[^\n]", str);
-    char replace_from[16] = "PASCAL";
-    char replace_with[16] = "C";
+    char replace_from[16];
+    printf("Enter the string to replace: ");
+    scanf("%s", replace_from);
+    char replace_with[16];
+    printf("Enter the string to replace with: ");
+    scanf("%s", replace_with);
     int size = strlen(str);
 
     printf("-----------------------\n");
