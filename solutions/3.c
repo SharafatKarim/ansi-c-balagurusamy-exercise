@@ -1,27 +1,22 @@
-#define ACCURACY 0.0001
 #include<stdio.h>
+#include<string.h>
 int main()
 {
-    int n,count;
-    float x,term,sum;
-    printf("Enter the value of x :");
-    scanf("%f",&x);
-    n = term = sum = count =1;
-
-    while(n<=100)
+    char str[100],str2[100];
+    int i,j;
+    scanf("%s",str);
+    int start,extract_position;
+    scanf("%d%d",&start,&extract_position);
+    int len = strlen(str);
+   if(start+extract_position-1<len)
+   {
+    for( i=0;i<extract_position-1;i++)
     {
-        term = term *x/n;
-        sum = sum + term;
-        count = count + 1;
-
-        if(term<ACCURACY)
-            n = 999;
-        else
-            n = n+1;
-
+        str2[i]= str[start-1+i];
     }
-    printf("Terms = %d sum = %f\n",count,sum);
-
-    return 0;
-
+    str2[i]= '\0';
+    printf("The Extracted part : %s",str2);
+   }
+   else
+   printf("Invalid ! Extraction is not posible");
 }

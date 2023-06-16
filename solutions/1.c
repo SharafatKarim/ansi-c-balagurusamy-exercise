@@ -1,16 +1,13 @@
 #include<stdio.h>
+#include<string.h>
 int main()
 {
-    int a,b,c,d;
-    float ratio;
-
-    printf("Enter four integer value\n");
-    scanf("%d %d %d %d",&a,&b,&c,&d);
-
-    if(c-d !=0)
+    char name[20];
+    scanf("%s",name);
+   // printf("%s",name);
+    int len = strlen(name);
+    for(int i=0;i<=len;i++)
     {
-        ratio = (float)(a+b)/(float)(c-d);
-        printf("Ratio = %f\n",ratio);
+       printf("%d ",name[i]) ;
     }
-    return 0;
-}
+   }
