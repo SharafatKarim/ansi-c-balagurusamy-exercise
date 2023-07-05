@@ -1375,10 +1375,12 @@ minute and integer second . Develop a program
 that would assign values to the individual members
 and display the time in the following form:
 		16:40:51
+- [sadman](solutions/sadman/11/1.c)
 
 2. Modify the above program such that a function is
 used to input values to the members and another
 function to display the time.
+- [sadman](solutions/sadman/11/2.c)
 
 3. Design a function update that would accept the
 data structure designed in Exercise 11.1 and
@@ -1389,6 +1391,7 @@ member is incremented by one. Then, if the result is
 60 minutes, the minute member is set to zero and
 the hour member is incremented by one. Finally
 when the hour becomes 24, it is set to zero.)
+- [sadman](solutions/sadman/11/3.c)
 
 4. Define a structure data type named date containing three
  integer members day , month , and year. Develop an interactive
@@ -1403,6 +1406,7 @@ and 2002 corresponding to day, month, and year.
 Examples of invalid data:
 	31, 4, 2002 – April has only 30 days
 	29, 2, 2002 – 2002 is not a leap year
+- [sadman](solutions/sadman/11/4.c)
 
 5. Design a function update that accepts the date
 structure designed in Exercise 11.4 to increment the
@@ -1413,6 +1417,7 @@ following rules are applicable:
 (b) If it is the last day in December, the year should
 be incremented
 (c) There are 29 days in February of a leap year
+- [sadman](solutions/sadman/11/5.c)
 
 6. Modify the input function used in Exercise 11.4 such
 that it reads a value that represents the date in the
@@ -1422,6 +1427,7 @@ values to the members day, month , and year.
 Use suitable algorithm to
 convert the long integer 19450815 into year, month
 and day.
+- [sadman](solutions/sadman/11/6.c)
 
 7. Add a function called nextdate to the program
 designed in Exercise 11.4 to perform the following
@@ -1434,12 +1440,14 @@ added to the present date.
 structure containing the next date correctly.
 Note that the next date may be in the next month or
 even the next year.
+- [sadman](solutions/sadman/11/7.c)
 
 8. Use the date structure defined in Exercise 11.4 to
 store two dates. Develop a function that will take
 these two dates as input and compares them.
 (a) It returns 1, if the date1 is earlier than date2
 (b) It returns 0, if date1 is later date
+- [sadman](solutions/sadman/11/8.c)
 
 9. Define a structure to represent a vector (a series of
 integer values) and write a modular program to
@@ -1449,10 +1457,12 @@ perform the following tasks:
 (c) To multiply by a scalar value
 (d) To display the vector in the form 
 (10, 20, 30, . . . . . ..)
+- [sadman](solutions/sadman/11/9.c)
 
 10. Add a function to the program of Exercise 11.9 that
 accepts two vectors as input parameters and return
 the addition of two vectors.
+- [sadman](solutions/sadman/11/10.c)
 
 11. Create two structures named metric and British which store
 the values of distances. The metric structure stores
@@ -1464,6 +1474,7 @@ of metric to the contents of another variable of
 British. The program should display the result in the
 format of feet and inches or metres and centimetres
 as required.
+- [sadman](solutions/sadman/11/11.c)
 
 12. Define a structure named census with the
 following three members:
@@ -1477,6 +1488,7 @@ array variable
 (c) To sort the list based on literacy level
 (d) To sort the list based on population
 (e) To display sorted lists
+- [sadman](solutions/sadman/11/12.c)
 
 13. Define a structure that can describe an hotel. It
 should have members that include the name,
@@ -1487,6 +1499,7 @@ Write functions to perform the following operations:
 charges.
 (b) To print out hotels with room charges less than a
 given value.
+- [sadman](solutions/sadman/11/13.c)
 
 14. Define a structure called cricket that will describe
 the following information:
@@ -1498,6 +1511,7 @@ elements and write a program to read the
 information about all the 50 players and print a
 team-wise list containing names of players with their
 batting average.
+- [sadman](solutions/sadman/11/14.c)
 
 15. Design a structure student_record to contain
 name, date of birth, and total marks obtained. Use
@@ -1505,16 +1519,20 @@ the date structure designed in Exercise 11.4 to
 represent the date of birth.
 Develop a program to read data for 10 students in a
 class and list them rank-wise.
+- [sadman](solutions/sadman/11/15.c)
 
 16. Write a C program that prints the size of a
 structure data type.
+- [sadman](solutions/sadman/11/16.c)
 
 17. Write a C program that prints the size of a
 structure and union data type that have same
 number and type of members.
+- [sadman](solutions/sadman/11/17.c)
 
 18. Write a C program for demonstrating operations on
 individual structure members using pointer notation.
+- [sadman](solutions/sadman/11/18.c)
 
 ## Chapter 12 
 
