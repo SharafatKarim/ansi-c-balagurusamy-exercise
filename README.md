@@ -1261,17 +1261,20 @@ Write a program that displays the following:
 - [sadman](solutions/sadman/10/1.c)
 
 2. Write a function space(x) that can be used to provide a space of x positions between two output numbers. Demonstrate its application.
+- [sadman](solutions/sadman/10/2.c)
 
 3. Use recursive function calls to evaluate
 ```
 	f(x) = x - pow(x,3)/3! + pow(x,5)/5! - pow(x,7)/7! + .....
 ```
+- [sadman](solutions/sadman/10/3.c)
 
 4. An n_order polynomial can be evaluated as follows:
 ```
 	P = (.....(((a 0 x+a 1 )x+a 2 )x+a 3 )x+...+a n)
 ```
 Write a function to evaluate the polynomial, using an array variable. Test it using a main program.
+- [sadman](solutions/sadman/10/4.c)
 
 5. The Fibonacci numbers are defined recursively as follows:
 ```
@@ -1280,12 +1283,16 @@ Write a function to evaluate the polynomial, using an array variable. Test it us
 				Fn = Fn-1 + Fn-2 , n>2
 ```
 Write a function that will generate and print the first n Fibonacci numbers. Test the function for n = 5, 10, and 15.
+- [sadman](solutions/sadman/10/5.c)
 
 6. Write a function that will round a floating-point number to an indicated decimal place. For example the number 17.457 would yield the value 17.46 when it is rounded off to two decimal places.
+- [sadman](solutions/sadman/10/6.c)
 
 7. Write a function prime that returns 1 if its argument is a prime number and returns zero otherwise.
+- [sadman](solutions/sadman/10/7.c)
 
 8. Write a function that will scan a character string passed as an argument and convert all lowercase characters into their uppercase equivalents.
+- [sadman](solutions/sadman/10/8.c)
 
 9. Develop a top_down modular program to implement a calculator. The program should request the user to input two numbers and display one of the following as per the desire of the user:
 ```
@@ -1295,6 +1302,7 @@ Write a function that will generate and print the first n Fibonacci numbers. Tes
 (d) Division of the numbers
 ```
 Provide separate functions for performing various tasks such as reading, calculating and displaying. Calculating module should call second level modules to perform the individual mathematical operations. The main function should have only function calls.
+- [sadman](solutions/sadman/10/9.c)
 
 10. Develop a modular interactive program using functions that reads the values of three sides of a triangle and displays either its area or its perimeter as per the request of the user. Given the three sides a, b and c.
 ```
@@ -1302,16 +1310,20 @@ Provide separate functions for performing various tasks such as reading, calcula
 		Area      = sqrt ((s-a)*(s-b)*(s-c))
 	where   s 	    - (a+b+c)/2
 ```
+- [sadman](solutions/sadman/10/10.c)
 
 11. Write a function that can be called to find the largest element of an m by n matrix.
+- [sadman](solutions/sadman/10/11.c)
 
 12. Write a function that can be called to compute the product of two matrices of size m by n and n by m. The main function provides the values for m and n and two matrices.
+- [sadman](solutions/sadman/10/12.c)
 
 13. Design and code an interactive modular program
 that will use functions to a matrix of m by n size,
 compute column averages and row averages, and
 then print the entire matrix with averages shown in
 respective rows and columns.
+- [sadman](solutions/sadman/10/13.c)
 
 14. Develop a top-down modular program that will perform the following tasks:
 ```
@@ -1321,6 +1333,7 @@ respective rows and columns.
 (d) Print the sorted list
 ```
 Use functions for carrying out each of the above tasks. The main function should have only function calls.
+- [sadman](solutions/sadman/10/14.c)
 
 15. Develop your own functions for performing following operations on strings:
 ```
@@ -1329,6 +1342,7 @@ Use functions for carrying out each of the above tasks. The main function should
 (c) Adding a string to the end of another string
 ```
 Write a driver program to test your functions.
+- [sadman](solutions/sadman/10/15.c)
 
 16. Write a program that invokes a function called
 find( ) to perform the following tasks:
@@ -1336,18 +1350,22 @@ find( ) to perform the following tasks:
 (a) Receives a character array and a single character.
 (b) Returns 1 if the specified character is found in the array, 0 otherwise.
 ```
+- [sadman](solutions/sadman/10/16.c)
 
 17. Design a function locate ( ) that takes two character arrays s1 and s2 and one integer value m as parameters and inserts the string s2 into s1
 immediately after the index m .
 Write a program to test the function using a real-life situation. (Hint: s2 may be a missing word in s1 that represents a line of text).
 
 18. Write a function that takes an integer parameter m representing the month number of the year and returns the corresponding name of the month. For instance, if m = 3, the month is March. Test your program.
+- [sadman](solutions/sadman/10/18.c)
 
 19. In preparing the calendar for a year we need to know whether that particular year is leap year or not. Design a function leap( ) that receives the year as a parameter and returns an appropriate message.
 What modifications are required if we want to use the function in preparing the actual calendar?
+- [sadman](solutions/sadman/10/19.c)
 
 20. Write a function that receives a floating point value x and returns it as a value rounded to two nearest decimal places. For example, the value
 123.4567 will be rounded to 123.46 (Hint: Seek help of one of the math functions available in math library).
+- [sadman](solutions/sadman/10/20.c)
 
 ## Chapter 11 
 
@@ -1357,10 +1375,12 @@ minute and integer second . Develop a program
 that would assign values to the individual members
 and display the time in the following form:
 		16:40:51
+- [sadman](solutions/sadman/11/1.c)
 
 2. Modify the above program such that a function is
 used to input values to the members and another
 function to display the time.
+- [sadman](solutions/sadman/11/2.c)
 
 3. Design a function update that would accept the
 data structure designed in Exercise 11.1 and
@@ -1371,6 +1391,7 @@ member is incremented by one. Then, if the result is
 60 minutes, the minute member is set to zero and
 the hour member is incremented by one. Finally
 when the hour becomes 24, it is set to zero.)
+- [sadman](solutions/sadman/11/3.c)
 
 4. Define a structure data type named date containing three
  integer members day , month , and year. Develop an interactive
@@ -1385,6 +1406,7 @@ and 2002 corresponding to day, month, and year.
 Examples of invalid data:
 	31, 4, 2002 – April has only 30 days
 	29, 2, 2002 – 2002 is not a leap year
+- [sadman](solutions/sadman/11/4.c)
 
 5. Design a function update that accepts the date
 structure designed in Exercise 11.4 to increment the
@@ -1395,6 +1417,7 @@ following rules are applicable:
 (b) If it is the last day in December, the year should
 be incremented
 (c) There are 29 days in February of a leap year
+- [sadman](solutions/sadman/11/5.c)
 
 6. Modify the input function used in Exercise 11.4 such
 that it reads a value that represents the date in the
@@ -1404,6 +1427,7 @@ values to the members day, month , and year.
 Use suitable algorithm to
 convert the long integer 19450815 into year, month
 and day.
+- [sadman](solutions/sadman/11/6.c)
 
 7. Add a function called nextdate to the program
 designed in Exercise 11.4 to perform the following
@@ -1416,12 +1440,14 @@ added to the present date.
 structure containing the next date correctly.
 Note that the next date may be in the next month or
 even the next year.
+- [sadman](solutions/sadman/11/7.c)
 
 8. Use the date structure defined in Exercise 11.4 to
 store two dates. Develop a function that will take
 these two dates as input and compares them.
 (a) It returns 1, if the date1 is earlier than date2
 (b) It returns 0, if date1 is later date
+- [sadman](solutions/sadman/11/8.c)
 
 9. Define a structure to represent a vector (a series of
 integer values) and write a modular program to
@@ -1431,10 +1457,12 @@ perform the following tasks:
 (c) To multiply by a scalar value
 (d) To display the vector in the form 
 (10, 20, 30, . . . . . ..)
+- [sadman](solutions/sadman/11/9.c)
 
 10. Add a function to the program of Exercise 11.9 that
 accepts two vectors as input parameters and return
 the addition of two vectors.
+- [sadman](solutions/sadman/11/10.c)
 
 11. Create two structures named metric and British which store
 the values of distances. The metric structure stores
@@ -1446,6 +1474,7 @@ of metric to the contents of another variable of
 British. The program should display the result in the
 format of feet and inches or metres and centimetres
 as required.
+- [sadman](solutions/sadman/11/11.c)
 
 12. Define a structure named census with the
 following three members:
@@ -1459,6 +1488,7 @@ array variable
 (c) To sort the list based on literacy level
 (d) To sort the list based on population
 (e) To display sorted lists
+- [sadman](solutions/sadman/11/12.c)
 
 13. Define a structure that can describe an hotel. It
 should have members that include the name,
@@ -1469,6 +1499,7 @@ Write functions to perform the following operations:
 charges.
 (b) To print out hotels with room charges less than a
 given value.
+- [sadman](solutions/sadman/11/13.c)
 
 14. Define a structure called cricket that will describe
 the following information:
@@ -1480,6 +1511,7 @@ elements and write a program to read the
 information about all the 50 players and print a
 team-wise list containing names of players with their
 batting average.
+- [sadman](solutions/sadman/11/14.c)
 
 15. Design a structure student_record to contain
 name, date of birth, and total marks obtained. Use
@@ -1487,16 +1519,20 @@ the date structure designed in Exercise 11.4 to
 represent the date of birth.
 Develop a program to read data for 10 students in a
 class and list them rank-wise.
+- [sadman](solutions/sadman/11/15.c)
 
 16. Write a C program that prints the size of a
 structure data type.
+- [sadman](solutions/sadman/11/16.c)
 
 17. Write a C program that prints the size of a
 structure and union data type that have same
 number and type of members.
+- [sadman](solutions/sadman/11/17.c)
 
 18. Write a C program for demonstrating operations on
 individual structure members using pointer notation.
+- [sadman](solutions/sadman/11/18.c)
 
 ## Chapter 12 
 
