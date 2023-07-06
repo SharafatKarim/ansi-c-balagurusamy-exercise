@@ -1538,6 +1538,7 @@ individual structure members using pointer notation.
 
 1. Write a program using pointers to read in an array of
 integers and print its elements in reverse order.
+- [sadman](solutions/sadman/12/1.c)
 
 2. We know that the roots of a quadratic
 equation of the form
@@ -1549,32 +1550,38 @@ Write a function to calculate the roots. The function
 must use two pointer parameters, one to receive the
 coefficients a, b, and c, and the other to send the
 roots to the calling function.
+- [sadman](solutions/sadman/12/2.c)
 
 3. Write a function that receives a sorted array of
 integers and an integer value, and inserts the value
 in its correct place.
+- [sadman](solutions/sadman/12/3.c)
 
 4. Write a function using pointers to add two matrices
 and to return the resultant matrix to the calling
 function.
+- [sadman](solutions/sadman/12/4.c)
 
 5. Using pointers, write a function that receives a
 character string and a character as argument and
 deletes all occurrences of this character in the string.
 The function should return the corrected string with
 no holes.
+- [sadman](solutions/sadman/12/5.c)
 
 6. Write a function day_name that receives a number
 n and returns a pointer to a character string
 containing the name of the corresponding day. The
 day names should be kept in a static table of
 character strings local to the function.
+- [sadman](solutions/sadman/12/6.c)
 
 7. Write a program to read in an
 array of names and to sort them in alphabetical
 order. Use sort function that receives pointers to the
 functions strcmp and swap.sort in turn should call
 these functions via the pointers.
+- [sadman](solutions/sadman/12/7.c)
 
 8. Given an array of sorted list of integer numbers,
 write a function to search for a particular item, using
@@ -1588,27 +1595,34 @@ all values greater than the middle element can be
 ignored. That is, in one attempt, we eliminate one
 half the list. This search can be applied recursively
 till the target value is found.)
+- [sadman](solutions/sadman/12/8.c)
 
 9. Write a function (using a pointer parameter) that
 reverses the elements of a given array.
+- [sadman](solutions/sadman/12/9.c)
 
 10. Write a function (using pointer
 parameters) that compares two integer arrays to see
 whether they are identical. The function returns 1 if
 they are identical, 0 otherwise.
+- [sadman](solutions/sadman/12/10.c)
 
 11. Write a C program to insert a substring into another
 string by using function and pointers.
+- [sadman](solutions/sadman/12/11.c)
 
 12. Write a C program that uses the pointer increment
 operations to demonstrate the scale factor.
+- [sadman](solutions/sadman/12/12.c)
 
 13. Write a C program that displays the
 addresses and values pointed by an array of
 pointers.
+- [sadman](solutions/sadman/12/13.c)
 
 14. Write a C program that uses pointers to
 demonstrate initialization of structure members.
+- [sadman](solutions/sadman/12/14.c)
 
 ## Chapter 13 
 
