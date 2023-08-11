@@ -75,6 +75,17 @@ void update(struct date *date)
     *date = temp_date;
 }
 
+void nextdate(struct date *date)
+{
+    int days_to_add = 1;
+    printf("Enter number of days to add: ");
+    scanf("%d", &days_to_add);
+    for (int i = 0; i < days_to_add; i++)
+    {
+        update(date);
+    }
+}
+
 void print_date(struct date *date)
 {
     printf("Date: %d/%d/%d\n", date->day, date->month, date->year);
@@ -87,8 +98,8 @@ int main()
     validate_data(&date);
     print_date(&date);
 
+    nextdate(&date);
     printf("Date after incrementing day: \n");
-    update(&date);
     print_date(&date);
     return 0;
 }
