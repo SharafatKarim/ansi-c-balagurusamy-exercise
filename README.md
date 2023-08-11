@@ -1461,6 +1461,7 @@ values to the members day, month , and year.
 convert the long integer 19450815 into year, month
 and day.
 - [sadman](solutions/sadman/11/6.c)
+- [sharafat](solutions/sharafat/11/6.c)
 
 7. Add a function called nextdate to the program
 designed in Exercise 11.4 to perform the following
@@ -1476,6 +1477,7 @@ Note that the next date may be in the next month or
 even the next year.
 ```
 - [sadman](solutions/sadman/11/7.c)
+- [sharafat](solutions/sharafat/11/7.c)
 
 8. Use the *date* structure defined in Exercise 11.4 to
 store two dates. Develop a function that will take
