@@ -45,7 +45,7 @@ int main()
     printf("Enter the year: ");
     scanf("%d", &date.year);
 
-        struct date newDate = incrementDate(date);
+    struct date newDate = incrementDate(date);
 
     printf("The updated date is: %d-%d-%d\n", newDate.day, newDate.month, newDate.year);
 
