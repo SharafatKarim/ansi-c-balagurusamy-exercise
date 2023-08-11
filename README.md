@@ -1398,11 +1398,13 @@ and display the time in the following form:
 		16:40:51
 ```
 - [sadman](solutions/sadman/11/1.c)
+- [sharafat](solutions/sharafat/11/1.c)
 
 2. Modify the above program such that a function is
 used to input values to the members and another
 function to display the time.
 - [sadman](solutions/sadman/11/2.c)
+- [sharafat](solutions/sharafat/11/2.c)
 
 3. Design a function *update* that would accept the
 data structure designed in Exercise 11.1 and
@@ -1414,6 +1416,7 @@ member is incremented by one. Then, if the result is
 the hour member is incremented by one. Finally
 when the hour becomes 24, it is set to zero.)
 - [sadman](solutions/sadman/11/3.c)
+- [sharafat](solutions/sharafat/11/3.c)
 
 4. Define a structure data type named *date* containing three 
 integer members *day* , *month* , and *year*. Develop an interactive
@@ -1433,6 +1436,7 @@ Examples of invalid data:
 	29, 2, 2002 – 2002 is not a leap year
 ```
 - [sadman](solutions/sadman/11/4.c)
+- [sharafat](solutions/sharafat/11/4.c)
 
 5. Design a function *update* that accepts the *date*
 structure designed in Exercise 11.4 to increment the
@@ -1446,6 +1450,7 @@ be incremented
 (c) There are 29 days in February of a leap year
 ```
 - [sadman](solutions/sadman/11/5.c)
+- [sharafat](solutions/sharafat/11/5.c)
 
 6. Modify the input function used in Exercise 11.4 such
 that it reads a value that represents the date in the
