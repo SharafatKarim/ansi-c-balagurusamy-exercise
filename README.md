@@ -1487,6 +1487,7 @@ these two dates as input and compares them.
 (b) It returns 0, if *date1* is later date
 ```
 - [sadman](solutions/sadman/11/8.c)
+- [sharafat](solutions/sharafat/11/8.c)
 
 9. Define a structure to represent a vector (a series of
 integer values) and write a modular program to
