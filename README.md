@@ -1592,6 +1592,7 @@ number and type of members.
 18. Write a C program for demonstrating operations on
 individual structure members using pointer notation.
 - [sadman](solutions/sadman/11/18.c)
+- [sharafat](solutions/sharafat/11/18.c)
 
 ## Chapter 12 
 
