@@ -1506,6 +1506,7 @@ perform the following tasks:
 accepts two vectors as input parameters and return
 the addition of two vectors.
 - [sadman](solutions/sadman/11/10.c)
+- [sharafat](solutions/sharafat/11/10.c)
 
 11. Create two structures named *metric* and *British* which store
 the values of distances. The *metric* structure stores
@@ -1518,6 +1519,7 @@ of *metric* to the contents of another variable of
 format of feet and inches or metres and centimetres
 as required.
 - [sadman](solutions/sadman/11/11.c)
+- [sharafat](solutions/sharafat/11/11.c)
 
 12. Define a structure named *census* with the
 following three members:
@@ -1536,6 +1538,7 @@ array variable
 (e) To display sorted lists
 ```
 - [sadman](solutions/sadman/11/12.c)
+- [sharafat](solutions/sharafat/11/12.c)
 
 13. Define a structure that can describe an hotel. It
 should have members that include the name,
@@ -1549,6 +1552,7 @@ charges.
 given value.
 ```
 - [sadman](solutions/sadman/11/13.c)
+- [sharafat](solutions/sharafat/11/13.c)
 
 14. Define a structure called *cricket* that will describe
 the following information:
@@ -1563,6 +1567,7 @@ information about all the 50 players and print a
 team-wise list containing names of players with their
 batting average.
 - [sadman](solutions/sadman/11/14.c)
+- [sharafat](solutions/sharafat/11/14.c)
 
 15. Design a structure *student_record* to contain
 name, date of birth, and total marks obtained. Use
@@ -1571,15 +1576,18 @@ represent the date of birth.
 Develop a program to read data for 10 students in a
 class and list them rank-wise.
 - [sadman](solutions/sadman/11/15.c)
+- [sharafat](solutions/sharafat/11/15.c)
 
 16. Write a C program that prints the size of a
 structure data type.
 - [sadman](solutions/sadman/11/16.c)
+- [sharafat](solutions/sharafat/11/16.c)
 
 17. Write a C program that prints the size of a
 structure and union data type that have same
 number and type of members.
 - [sadman](solutions/sadman/11/17.c)
+- [sharafat](solutions/sharafat/11/17.c)
 
 18. Write a C program for demonstrating operations on
 individual structure members using pointer notation.
