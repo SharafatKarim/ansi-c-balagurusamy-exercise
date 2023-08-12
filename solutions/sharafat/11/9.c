@@ -6,4 +6,4 @@ struct vector
     int size;
 };
 
-// upcoming
+// upcoming soon
