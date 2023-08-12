@@ -1500,6 +1500,7 @@ perform the following tasks:
 (10, 20, 30, . . . . . ..)
 ```
 - [sadman](solutions/sadman/11/9.c)
+- [sharafat](solutions/sharafat/11/9.c)
 
 10. Add a function to the program of Exercise 11.9 that
 accepts two vectors as input parameters and return
