@@ -1688,21 +1688,26 @@ demonstrate initialization of structure members.
 
 1. Write a program to copy the contents of one file into
 another.
+- [sharafat](solutions/sharafat/13/1.c)
 
 2. Two files DATA1 and DATA2 contain sorted lists of
 integers. Write a program to produce a third file
 DATA which holds a single sorted, merged list of
 these two lists. Use command line arguments to
 specify the file names.
+- [sharafat](solutions/sharafat/13/2.c)
 
 3. Write a program that compares two files and returns
 0 if they are equal and 1 is they are not.
+- [sharafat](solutions/sharafat/13/3.c)
 
 4. Write a program that appends one file at the end of
 another.
+- [sharafat](solutions/sharafat/13/4.c)
 
 5. Write a program that reads a file containing integers
 and appends at its end the sum of all the integers.
+- [sharafat](solutions/sharafat/13/5.c)
 
 6. Write a program that prompts the user
 for two files, one containing a line of text known as
@@ -1712,6 +1717,7 @@ target file.
 Modify the program so that a specified character is
 deleted from the source file as it is copied to the
 target file.
+- [sharafat](solutions/sharafat/13/6.c)
 
 7. Write a program that requests for a file name and
 an integer, known as offset value. The program then
@@ -1723,41 +1729,50 @@ printing skips that many lines. If it is a negative
 number, it prints that many lines from the end of
 the file. An appropriate error message should be
 printed, if anything goes wrong.
+- [sharafat](solutions/sharafat/13/7.c)
 
 8. Write a program to create a sequential file that
 could store details about five products. Details
 include product code, cost and number of items
 available and are provided through keyboard.
+- [sharafat](solutions/sharafat/13/8.c)
 
 9. Write a program to read the file
 created in Exercise 13.8 and compute and print the
 total value of all the five products.
+- [sharafat](solutions/sharafat/13/9.c)
 
 10. Rewrite the program developed in Exercise 13.8 to
 store the details in a random access file and print
 the details of alternate products from the file.
 Modify the program so that it can output the details
 of a product when its code is specified interactively.
+- [sharafat](solutions/sharafat/13/10.c)
 
 11. Write a C program that uses file
 handling methods to store records of mixed data in
 a file.
+- [sharafat](solutions/sharafat/13/11.c)
 
 12. Write a C program that uses getw function to read
 integer values from one file. Subsequently, it uses
 the putw function to write the integer values in
 reverse order in another file.
+- [sharafat](solutions/sharafat/13/12.c)
 
 13. Write a C program that reads characters from a file
 and prints their ASCII codes.
+- [sharafat](solutions/sharafat/13/13.c)
 
-14.Write a C program that concatenates the contents
+14. Write a C program that concatenates the contents
 of two files and writes then in the third file.
+- [sharafat](solutions/sharafat/13/14.c)
 
 15. Write a C program that uses fscanf
 function to read integer values from a file, computes
 the square of each integer value and places the
 resultant values in a different file.
+- [sharafat](solutions/sharafat/13/15.c)
 
 ## Chapter 14 
 
