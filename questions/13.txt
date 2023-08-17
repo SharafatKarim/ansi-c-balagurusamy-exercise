@@ -63,7 +63,7 @@ reverse order in another file.
 13. Write a C program that reads characters from a file
 and prints their ASCII codes.
 
-14.Write a C program that concatenates the contents
+14. Write a C program that concatenates the contents
 of two files and writes then in the third file.
 
 15. Write a C program that uses fscanf
