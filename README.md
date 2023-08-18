@@ -1612,16 +1612,19 @@ must use two pointer parameters, one to receive the
 coefficients a, b, and c, and the other to send the
 roots to the calling function.
 - [sadman](solutions/sadman/12/2.c)
+- [sharafat](solutions/sharafat/12/2.c)
 
 3. Write a function that receives a sorted array of
 integers and an integer value, and inserts the value
 in its correct place.
 - [sadman](solutions/sadman/12/3.c)
+- [sharafat](solutions/sharafat/12/3.c)
 
 4. Write a function using pointers to add two matrices
 and to return the resultant matrix to the calling
 function.
 - [sadman](solutions/sadman/12/4.c)
+- [sharafat](solutions/sharafat/12/4.c)
 
 5. Using pointers, write a function that receives a
 character string and a character as argument and
@@ -1629,6 +1632,7 @@ deletes all occurrences of this character in the string.
 The function should return the corrected string with
 no holes.
 - [sadman](solutions/sadman/12/5.c)
+- [sharafat](solutions/sharafat/12/5.c)
 
 6. Write a function day_name that receives a number
 n and returns a pointer to a character string
