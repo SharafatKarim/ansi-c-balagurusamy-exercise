@@ -90,7 +90,7 @@ square root of 3.9.
 | 101 - 200       | 5%         | 7.5%           |
 | 201 - 300       | 7.5%       | 10%            |
 | Above 300       | 10%        | 15%            |
-
+>
 Write a program using switch and if statements to compute the net amount to be paid by a customer
 
 9. Write a program that will read the value of x and evaluate the following function,
