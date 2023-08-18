@@ -629,14 +629,11 @@ square root of 3.9.
 | 101 - 200       | 5%         | 7.5%           |
 | 201 - 300       | 7.5%       | 10%            |
 | Above 300       | 10%        | 15%            |
+>
+Write a program using switch and if statements to compute the net amount to be paid by a customer
 - [sadman](solutions/sadman/6/8.c)
 - [NAYEMA](solutions/NAYEMA/6/8.c)
 - [sharafat](solutions/sharafat/6/8.c)
-
-Write a program using switch and if statements to compute the net amount to be paid by a customer
-- [sadman](solutions/sadman/6/9.c)
-- [NAYEMA](solutions/NAYEMA/6/9.c)
-- [sharafat](solutions/sharafat/6/9.c)
 
 9. Write a program that will read the value of x and evaluate the following function,
 ```
@@ -650,8 +647,9 @@ using,
 	(b) else if statements, and
 	(c) conditional operator ? :
 ```
-- [sadman](solutions/sadman/6/10.c)
-- [sharafat](solutions/sharafat/6/10.c)
+- [sadman](solutions/sadman/6/9.c)
+- [NAYEMA](solutions/NAYEMA/6/9.c)
+- [sharafat](solutions/sharafat/6/9.c)
 
 10. Write a program to compute the real roots of a quadratic equation
 ```
@@ -673,13 +671,13 @@ constants a, b and c and print the values of x 1 and x 2.
 ```
 Test your program with appropriate data so that all logical paths are working as per your design.
 Incorporate appropriate output messages.
-- [sadman](solutions/sadman/6/11.c)
-- [sharafat](solutions/sharafat/6/11.c)
+- [sadman](solutions/sadman/6/10.c)
+- [sharafat](solutions/sharafat/6/10.c)
 
 11. Write a program to read three integer values from the keyboard and displays the output stating that
 they are the sides of right-angled triangle.
-- [sadman](solutions/sadman/6/12.c)
-- [sharafat](solutions/sharafat/6/12.c)
+- [sadman](solutions/sadman/6/11.c)
+- [sharafat](solutions/sharafat/6/11.c)
 
 12. An electricity board charges the following rates for the use of electricity:
 ```
@@ -691,21 +689,21 @@ All users are charged a minimum of Rs. 100 as meter charge. If the total amount 
 then an additional surcharge of 15% of total amount is charged.
 Write a program to read the names of users and number of units consumed and print out the
 charges with names.
-- [sadman](solutions/sadman/6/13.c)
-- [sharafat](solutions/sharafat/6/13.c)
+- [sadman](solutions/sadman/6/12.c)
+- [sharafat](solutions/sharafat/6/12.c)
 
 13. Write a program to compute and display the sum of all integers that are divisible by 6 but not divisible
 by 4 and lie between 0 and 100. The program should also count and display the number of such
 values.
-- [sadman](solutions/sadman/6/14.c)
-- [sharafat](solutions/sharafat/6/14.c)
+- [sadman](solutions/sadman/6/13.c)
+- [sharafat](solutions/sharafat/6/13.c)
 
 14. Write an interactive program that could read a positive integer number and decide whether the
 number is a prime number and display the output accordingly.
 Modify the program to count all the prime numbers that lie between 100 and 200.
 > NOTE : A prime number is a positive integer that is divisible only by 1 or by itself.
-- [sadman](solutions/sadman/6/15.c)
-- [sharafat](solutions/sharafat/6/15.c)
+- [sadman](solutions/sadman/6/14.c)
+- [sharafat](solutions/sharafat/6/14.c)
 
 15. Write a program to read a double-type value x that represents angle in radians and a character-type
 variable T that represents the type of trigonometric function and display the value of
@@ -715,13 +713,13 @@ variable T that represents the type of trigonometric function and display the va
 (c) tan (x), if t or T is assigned to T
 ```
 using, (i) if......else statement , and (ii) switch statement.
-- [sadman](solutions/sadman/6/16.c)
-- [sharafat](solutions/sharafat/6/16.c)
+- [sadman](solutions/sadman/6/15.c)
+- [sharafat](solutions/sharafat/6/15.c)
 
 16. Write a C program to input the numeric week day value (starting from Monday as 1) and display the
 corresponding name of the week day.
-- [sadman](solutions/sadman/6/17.c)
-- [sharafat](solutions/sharafat/6/17.c)
+- [sadman](solutions/sadman/6/16.c)
+- [sharafat](solutions/sharafat/6/16.c)
 
 17. Write a C program to input two numbers a and b and display whether
 ```
@@ -729,8 +727,8 @@ corresponding name of the week day.
 (b) b is greater than b
 (c) or, a and b are equal
 ```
-- [sadman](solutions/sadman/6/18.c)
-- [sharafat](solutions/sharafat/6/18.c)
+- [sadman](solutions/sadman/6/17.c)
+- [sharafat](solutions/sharafat/6/17.c)
 
 18. Write a C program to input the total percentage of marks of a student and display its Division using
 below rules:
@@ -739,17 +737,19 @@ below rules:
 (b) Greater than or equal to 60 percent and less than 80 per cent - “Second Division”
 (c) Less than 60 percent - “Third Division"
 ```
-- [sadman](solutions/sadman/6/19.c)
-- [sharafat](solutions/sharafat/6/19.c)
+- [sadman](solutions/sadman/6/18.c)
+- [sharafat](solutions/sharafat/6/18.c)
 
 19. Using Switch case block, input the name of the month from the user and display the corresponding
 number of days in that month.
-- [sadman](solutions/sadman/6/20.c)
-- [NAYEMA](solutions/NAYEMA/6/20.c)
-- [sharafat](solutions/sharafat/6/20.c)
+- [sadman](solutions/sadman/6/19.c)
+- [sharafat](solutions/sharafat/6/19.c)
 
 20. Write a C program that inputs a string and counts the number of capital and small alphabets in that
 string.
+- [sadman](solutions/sadman/6/20.c)
+- [NAYEMA](solutions/NAYEMA/6/20.c)
+- [sharafat](solutions/sharafat/6/20.c)
 
 ## Chapter 7 
 
@@ -1640,6 +1640,7 @@ containing the name of the corresponding day. The
 day names should be kept in a static table of
 character strings local to the function.
 - [sadman](solutions/sadman/12/6.c)
+- [sharafat](solutions/sharafat/12/6.c)
 
 7. Write a program to read in an
 array of names and to sort them in alphabetical
@@ -1647,6 +1648,7 @@ order. Use sort function that receives pointers to the
 functions strcmp and swap.sort in turn should call
 these functions via the pointers.
 - [sadman](solutions/sadman/12/7.c)
+- [sharafat](solutions/sharafat/12/7.c)
 
 8. Given an array of sorted list of integer numbers,
 write a function to search for a particular item, using
