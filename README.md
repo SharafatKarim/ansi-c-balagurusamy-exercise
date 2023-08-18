@@ -1599,6 +1599,7 @@ individual structure members using pointer notation.
 1. Write a program using pointers to read in an array of
 integers and print its elements in reverse order.
 - [sadman](solutions/sadman/12/1.c)
+- [sharafat](solutions/sharafat/12/1.c)
 
 2. We know that the roots of a quadratic
 equation of the form
