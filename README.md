@@ -1663,16 +1663,19 @@ ignored. That is, in one attempt, we eliminate one
 half the list. This search can be applied recursively
 till the target value is found.)
 - [sadman](solutions/sadman/12/8.c)
+- [sharafat](solutions/sharafat/12/8.c)
 
 9. Write a function (using a pointer parameter) that
 reverses the elements of a given array.
 - [sadman](solutions/sadman/12/9.c)
+- [sharafat](solutions/sharafat/12/9.c)
 
 10. Write a function (using pointer
 parameters) that compares two integer arrays to see
 whether they are identical. The function returns 1 if
 they are identical, 0 otherwise.
 - [sadman](solutions/sadman/12/10.c)
+- [sharafat](solutions/sharafat/12/10.c)
 
 11. Write a C program to insert a substring into another
 string by using function and pointers.
