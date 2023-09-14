@@ -7,7 +7,7 @@ of a class of students and perform the following
 operations:
 (a) Write out the contents of the list.
 (b) Edit the details of a specified student.
-9c) Count the number of students above a specified
+(c) Count the number of students above a specified
 age and weight.
 Make use of the header file defined in Review
 Question 14.8.
