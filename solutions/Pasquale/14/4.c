@@ -1,8 +1,9 @@
 
 // ---------- list.h -------------------
+#define MAXLEN_STR 15
 typedef struct customer_tag {
-    char name[15];
-    char phone[15];
+    char name[MAXLEN_STR];
+    char phone[MAXLEN_STR];
 } customer;
 
 void print_customer(customer *c);
