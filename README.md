@@ -1815,6 +1815,7 @@ deleting an existing customer.
 5. Modify the above program so that the list is always
 maintained in the alphabetical order of customer
 names.
+- [Pasquale](solutions/Pasquale/14/5.c)
 
 6. Develop a program to combine two sorted lists to
 produce a third sorted lists which contains one
@@ -1840,14 +1841,17 @@ reverse order.
 10. Given two ordered singly linked lists, write a
 function that will merge them into a third ordered
 list.
+- [Pasquale](solutions/Pasquale/14/10.c)
 
 11. Write a function that takes a pointer to the first
 node in a linked list as a parameter and returns a
 pointer to the last node. NULL should be returned if
 the list is empty.
+- [Pasquale](solutions/Pasquale/14/11.c)
 
 12. Write a function that counts and returns the total
 number of nodes in a linked list.
+- [Pasquale](solutions/Pasquale/14/12.c)
 
 13. Write a function that takes a specified node of a
 linked list and makes it as its last node.
