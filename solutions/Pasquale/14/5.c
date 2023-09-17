@@ -1,3 +1,9 @@
+/*
+only the implementation of the function
+void insert_list(list *l);
+in the list.c from 4.c file has been changed.
+<string.h> has been added into list.c
+*/
 
 // ---------- list.h -------------------
 #define MAXLEN_STR 15
@@ -25,6 +31,7 @@ void delete_list(list *l, int index);
 // ----------- list.c -----------------
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 void print_customer(customer *c) {
     printf("Name: %s\n", c->name);   
@@ -67,15 +74,24 @@ void insert_list(list *l) {
     }
     else {
         list copy = *l;
-        while (copy->next != NULL) {
+        list prec = NULL;
+        //creating the new node
+        list last = new_list();
+        last->customer = input_customer();
+
+        // find the right spot to place it
+        // while the left compared name is less than the new customer name
+        while (copy != NULL && strncmp(copy->customer.name, last->customer.name, MAXLEN_STR) < 0) {
+            prec = copy;
             copy = copy->next;
         }
         
-        list last = new_list();
-        last->customer = input_customer();
-        last->next = NULL;
-
-        copy->next = last;
+        // making connections
+        last->next = copy;
+        if (prec != NULL) prec->next = last;
+        else {
+            *l = last;
+        }
     }
 }
 
