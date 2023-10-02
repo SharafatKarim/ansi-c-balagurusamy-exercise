@@ -43,8 +43,8 @@ Excersise solutions for the book "Programming in ANSI C" by E. Balagurusamy (eig
 
 1. Write a program to display the equation of a line in the form `ax + by = c` 
 for `a = 5, b = 8 and c = 18`.
-- [rusni](solutions/rusni/2/1.c)
 - [monir](solutions/monir/2/1.c)
+- [rusni](solutions/rusni/2/1.c)
 
 2. Write a C program that uses an in-built function to draw a 3D bar.
 
@@ -56,8 +56,8 @@ for `a = 5, b = 8 and c = 18`.
 ...
 5 x 10 = 50
 ```
-- [rusni](solutions/rusni/2/3.c)
 - [monir](solutions/monir/2/3.c)
+- [rusni](solutions/rusni/2/3.c)
 
 4. Given the values of three variables a, b and c, write a program to compute and display the value of x,
 where `x = a / ( b - c )` 
@@ -67,13 +67,13 @@ Execute your program for the following values:
 (b) a = 300, b = 70, c = 70
 ```
 Comment on the output in each case.
-- [rusni](solutions/rusni/2/4.c)
 - [monir](solutions/monir/2/4.c)
+- [rusni](solutions/rusni/2/4.c)
 
 5. Write a C program that reads the value of distance travelled by a car and the time taken for the same.
 Next, compute the speed at which the car travelled.
-- [rusni](solutions/rusni/2/5.c)
 - [monir](solutions/monir/2/5.c)
+- [rusni](solutions/rusni/2/5.c)
 
 6. Write a C program to print the current system date.
 - [monir](solutions/monir/2/6.c)
@@ -377,8 +377,8 @@ display the same in the following formats:
 PROCESSING
 (c) W.P.
 ```
-- [NAYEMA](solutions/NAYEMA/5/1.c)
 - [sharafat](solutions/sharafat/5/1.c)
+- [NAYEMA](solutions/NAYEMA/5/1.c)
 - [sadman](solutions/sadman/5/1.c)
 
 2. Write a program to read the values of x and y and
@@ -389,14 +389,14 @@ line:
 (b) (x+y) /2
 (c) (x+y)(x–y)
 ```
-- [NAYEMA](solutions/NAYEMA/5/2.c)
 - [sharafat](solutions/sharafat/5/2.c)
+- [NAYEMA](solutions/NAYEMA/5/2.c)
 - [sadman](solutions/sadman/5/2.c)
 
 3. Write a program to read the following numbers, round them off to the nearest integers and print out
 the results in integer form: 35.7 50.21 – 23.73 – 46.45
-- [NAYEMA](solutions/NAYEMA/5/3.c)
 - [sharafat](solutions/sharafat/5/3.c)
+- [NAYEMA](solutions/NAYEMA/5/3.c)
 - [sadman](solutions/sadman/5/3.c)
 
 4. Write a program that reads 4 floating point values in the range, 0.0 to 20.0, and prints a horizontal bar
@@ -409,8 +409,8 @@ represented as follows.
             *      *     *        *
 ```
 > Note that the actual values are shown at the end of each bar.
-- [NAYEMA](solutions/NAYEMA/5/4.c)
 - [sharafat](solutions/sharafat/5/4.c)
+- [NAYEMA](solutions/NAYEMA/5/4.c)
 - [sadman](solutions/sadman/5/4.c)
 
 5. Write an interactive program to demonstrate the process of multiplication. The program should ask
@@ -425,8 +425,8 @@ the user to enter two two-digit integers and print the product of integers as sh
      Add them       1665
             _______________
 ```
-- [NAYEMA](solutions/NAYEMA/5/5.c)
 - [sharafat](solutions/sharafat/5/5.c)
+- [NAYEMA](solutions/NAYEMA/5/5.c)
 - [sadman](solutions/sadman/5/5.c)
 
 6. Write a program to read three integers from the keyboard using one scanf statement and output
@@ -436,8 +436,8 @@ them on one line using:
 (b) only one printf with conversion specifiers, and
 (c) only one printf without conversion specifiers.
 ```
-- [NAYEMA](solutions/NAYEMA/5/6.c)
 - [sharafat](solutions/sharafat/5/6.c)
+- [NAYEMA](solutions/NAYEMA/5/6.c)
 - [sadman](solutions/sadman/5/6.c)
 
 7. Write a program that prints the value 10.45678 in exponential format with the following specifications:
@@ -446,8 +446,8 @@ them on one line using:
 (b) correct to four decimal places; and
 (c) correct to eight decimal places.
 ```
-- [NAYEMA](solutions/NAYEMA/5/7.c)
 - [sharafat](solutions/sharafat/5/7.c)
+- [NAYEMA](solutions/NAYEMA/5/7.c)
 - [sadman](solutions/sadman/5/7.c)
 
 8. Write a program to print the value 345.6789 in fixed-point format with the following specifications:
@@ -456,8 +456,8 @@ them on one line using:
 (b) correct to five decimal places; and
 (c) correct to zero decimal places.
 ```
-- [NAYEMA](solutions/NAYEMA/5/8.c)
 - [sharafat](solutions/sharafat/5/8.c)
+- [NAYEMA](solutions/NAYEMA/5/8.c)
 - [sadman](solutions/sadman/5/8.c)
 
 9. Write a program to read the name ANIL KUMAR GUPTA in three parts using the scanf statement and
@@ -467,8 +467,8 @@ to display the same in the following format using the printf statement.
 (b) A.K. GUPTA
 (c) GUPTA A.K.
 ```
-- [NAYEMA](solutions/NAYEMA/5/9.c)
 - [sharafat](solutions/sharafat/5/9.c)
+- [NAYEMA](solutions/NAYEMA/5/9.c)
 - [sadman](solutions/sadman/5/9.c)
 
 10. Write a program to read and display the following table of data.
@@ -478,25 +478,25 @@ to display the same in the following format using the printf statement.
           Motor           450              5786.70
 ```
 > The name and code must be left-justified and price must be right justified.
-- [NAYEMA](solutions/NAYEMA/5/10.c)
 - [sharafat](solutions/sharafat/5/10.c)
+- [NAYEMA](solutions/NAYEMA/5/10.c)
 - [sadman](solutions/sadman/5/10.c)
 
 11. Write a C program to print inventory stock report using some sample data. The report should show
 item code, quantity and inventory location as formatted output.
-- [NAYEMA](solutions/NAYEMA/5/11.c)
 - [sharafat](solutions/sharafat/5/11.c)
+- [NAYEMA](solutions/NAYEMA/5/11.c)
 - [sadman](solutions/sadman/5/11.c)
 
 12. Write a C program to display the Pascal’s triangle.
-- [NAYEMA](solutions/NAYEMA/5/12.c)
 - [sharafat](solutions/sharafat/5/12.c)
+- [NAYEMA](solutions/NAYEMA/5/12.c)
 - [sadman](solutions/sadman/5/12.c)
 
 13. Write a C program to input a currency value in Dollars and display its equivalent Euro and
 INR amounts. You may use current exchange rate for conversion purpose.
-- [NAYEMA](solutions/NAYEMA/5/13.c)
 - [sharafat](solutions/sharafat/5/13.c)
+- [NAYEMA](solutions/NAYEMA/5/13.c)
 - [sadman](solutions/sadman/5/13.c)
 
 14. Write a C program to display the following pattern.
@@ -512,8 +512,8 @@ INR amounts. You may use current exchange rate for conversion purpose.
 
 15. Write a C program to input an investment amount and compute its fixed deposit cumulative return
 after 10 years at arate of interest of 8.75%.
-- [NAYEMA](solutions/NAYEMA/5/15.c)
 - [sharafat](solutions/sharafat/5/15.c)
+- [NAYEMA](solutions/NAYEMA/5/15.c)
 - [sadman](solutions/sadman/5/15.c)
 
 ## Chapter 6 
@@ -531,8 +531,8 @@ NUMBER IS ODD
 
 2. Write a program to find the number of and sum of all integers greater than 100 and less than 200 that
 are divisible by 7.
-- [NAYEMA](solutions/NAYEMA/6/2.c)
 - [sharafat](solutions/sharafat/6/2.c)
+- [NAYEMA](solutions/NAYEMA/6/2.c)
 - [sadman](solutions/sadman/6/2.c)
 
 3. A set of two linear equations with two unknowns x1 and x2 is given below:
@@ -547,8 +547,8 @@ The set has a unique solution
 ```
 provided the denominator `ad – cb` is not equal to zero.
 Write a program that will read the values of constants a, b, c, d, m, and n and compute the values of x 1 and x 2. An appropriate message should be printed if ad – cb = 0.
-- [NAYEMA](solutions/NAYEMA/6/3.c)
 - [sharafat](solutions/sharafat/6/3.c)
+- [NAYEMA](solutions/NAYEMA/6/3.c)
 
 4. Given a list of marks ranging from 0 to 100, write a program to compute and print the number of
 students:
@@ -563,8 +563,8 @@ students:
 (h) in the range 0 to 40.
 ```
 The program should use a minimum number of if statements.
-- [NAYEMA](solutions/NAYEMA/6/4.c)
 - [sharafat](solutions/sharafat/6/4.c)
+- [NAYEMA](solutions/NAYEMA/6/4.c)
 - [sadman](solutions/sadman/6/4.c)
 
 5. Admission to a professional course is subject to the following conditions:
@@ -577,8 +577,8 @@ The program should use a minimum number of if statements.
 or,
 Total in Mathematics and Physics >= 150 Given the marks in the three subjects, write a
 program to process the applications to list the eligible candidates.
-- [NAYEMA](solutions/NAYEMA/6/5.c)
 - [sharafat](solutions/sharafat/6/5.c)
+- [NAYEMA](solutions/NAYEMA/6/5.c)
 - [sadman](solutions/sadman/6/5.c)
 
 6. Write a program to print a two-dimensional Square Root Table as shown below, to provide the square
@@ -594,8 +594,8 @@ square root of 3.9.
 | 0.3    |     |     |  x  |     |  y  |
 | ...    |     |     |     |     |     |
 | 0.9    |     |     |     |     |     |
-- [NAYEMA](solutions/NAYEMA/6/6.c)
 - [sharafat](solutions/sharafat/6/6.c)
+- [NAYEMA](solutions/NAYEMA/6/6.c)
 - [sadman](solutions/sadman/6/6.c)
 
 7. Shown below is a Floyd’s triangle.
@@ -616,8 +616,8 @@ square root of 3.9.
 		0 1 0 1
 		1 0 1 0 1
 ```
-- [NAYEMA](solutions/NAYEMA/6/7.c)
 - [sharafat](solutions/sharafat/6/7.c)
+- [NAYEMA](solutions/NAYEMA/6/7.c)
 - [sadman](solutions/sadman/6/7.c)
 
 8. A cloth showroom has announced the following seasonal discounts on purchase of items:
@@ -631,8 +631,8 @@ square root of 3.9.
 | Above 300       | 10%        | 15%            |
 >
 Write a program using switch and if statements to compute the net amount to be paid by a customer
-- [NAYEMA](solutions/NAYEMA/6/8.c)
 - [sharafat](solutions/sharafat/6/8.c)
+- [NAYEMA](solutions/NAYEMA/6/8.c)
 - [sadman](solutions/sadman/6/8.c)
 
 9. Write a program that will read the value of x and evaluate the following function,
@@ -647,8 +647,8 @@ using,
 	(b) else if statements, and
 	(c) conditional operator ? :
 ```
-- [NAYEMA](solutions/NAYEMA/6/9.c)
 - [sharafat](solutions/sharafat/6/9.c)
+- [NAYEMA](solutions/NAYEMA/6/9.c)
 - [sadman](solutions/sadman/6/9.c)
 
 10. Write a program to compute the real roots of a quadratic equation
@@ -747,8 +747,8 @@ number of days in that month.
 
 20. Write a C program that inputs a string and counts the number of capital and small alphabets in that
 string.
-- [NAYEMA](solutions/NAYEMA/6/20.c)
 - [sharafat](solutions/sharafat/6/20.c)
+- [NAYEMA](solutions/NAYEMA/6/20.c)
 - [sadman](solutions/sadman/6/20.c)
 
 ## Chapter 7 
@@ -1129,8 +1129,8 @@ Check digit is the remainder when sum is divided by 11. Write a program that rea
 ## Chapter 9 
 
 1. Write a program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.
-- [NAYEMA](solutions/NAYEMA/9/1.c)
 - [sharafat](solutions/sharafat/9/1.c)
+- [NAYEMA](solutions/NAYEMA/9/1.c)
 - [sadman](solutions/sadman/9/1.c)
 
 2. Write a program to do the following:
@@ -1141,28 +1141,28 @@ Check digit is the remainder when sum is divided by 11. Write a program that rea
 (d) To output the message ‘try again’, if the answer is wrong.
 (e) To display the correct answer when the answer is wrong even at the third attempt and stop.
 ```
-- [NAYEMA](solutions/NAYEMA/9/2.c)
 - [sharafat](solutions/sharafat/9/2.c)
+- [NAYEMA](solutions/NAYEMA/9/2.c)
 - [sadman](solutions/sadman/9/2.c)
 
 3. Write a program to extract a portion of a character string and print the extracted string. Assume that m characters are extracted, starting with the nth character.
-- [NAYEMA](solutions/NAYEMA/9/3.c)
 - [sharafat](solutions/sharafat/9/3.c)
+- [NAYEMA](solutions/NAYEMA/9/3.c)
 - [sadman](solutions/sadman/9/3.c)
 
 4. Write a program which will read a text and count all occurrences of a particular word.
-- [NAYEMA](solutions/NAYEMA/9/4.c)
 - [sharafat](solutions/sharafat/9/4.c)
+- [NAYEMA](solutions/NAYEMA/9/4.c)
 - [sadman](solutions/sadman/9/4.c)
 
 5. Write a program which will read a string and rewrite it in the alphabetical order. For example, the word STRING should be written as GINRST.
-- [NAYEMA](solutions/NAYEMA/9/5.c)
 - [sharafat](solutions/sharafat/9/5.c)
+- [NAYEMA](solutions/NAYEMA/9/5.c)
 - [sadman](solutions/sadman/9/5.c)
 
 6. Write a program to replace a particular word by another word in a given string. For example, the word “PASCAL” should be replaced by “C” in the text “It is good to program in PASCAL language.”
-- [NAYEMA](solutions/NAYEMA/9/6.c)
 - [sharafat](solutions/sharafat/9/6.c)
+- [NAYEMA](solutions/NAYEMA/9/6.c)
 - [sadman](solutions/sadman/9/6.c)
 
 7. A Maruti car dealer maintains a record of
