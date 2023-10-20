@@ -2,7 +2,6 @@
 int main()
 {
     float num;
-    printf("ID:2102020\n");
     printf("Enter a floating-point number: ");
     scanf("%f", &num);
     int integral = (int)num;
