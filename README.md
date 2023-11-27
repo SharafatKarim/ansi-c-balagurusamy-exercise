@@ -43,8 +43,8 @@ Excersise solutions for the book "Programming in ANSI C" by E. Balagurusamy (eig
 
 1. Write a program to display the equation of a line in the form `ax + by = c` 
 for `a = 5, b = 8 and c = 18`.
-- [rusni](solutions/rusni/2/1.c)
 - [monir](solutions/monir/2/1.c)
+- [rusni](solutions/rusni/2/1.c)
 
 2. Write a C program that uses an in-built function to draw a 3D bar.
 
@@ -56,8 +56,8 @@ for `a = 5, b = 8 and c = 18`.
 ...
 5 x 10 = 50
 ```
-- [rusni](solutions/rusni/2/3.c)
 - [monir](solutions/monir/2/3.c)
+- [rusni](solutions/rusni/2/3.c)
 
 4. Given the values of three variables a, b and c, write a program to compute and display the value of x,
 where `x = a / ( b - c )` 
@@ -67,13 +67,13 @@ Execute your program for the following values:
 (b) a = 300, b = 70, c = 70
 ```
 Comment on the output in each case.
-- [rusni](solutions/rusni/2/4.c)
 - [monir](solutions/monir/2/4.c)
+- [rusni](solutions/rusni/2/4.c)
 
 5. Write a C program that reads the value of distance travelled by a car and the time taken for the same.
 Next, compute the speed at which the car travelled.
-- [rusni](solutions/rusni/2/5.c)
 - [monir](solutions/monir/2/5.c)
+- [rusni](solutions/rusni/2/5.c)
 
 6. Write a C program to print the current system date.
 - [monir](solutions/monir/2/6.c)
