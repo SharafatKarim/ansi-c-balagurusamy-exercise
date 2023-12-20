@@ -526,11 +526,13 @@ NUMBER IS ODD
 	(a) without using else option and
 	(b) with else option.
 ```
+- [Mobin](solutions/Mobin/6/1.c)
 - [sadman](solutions/sadman/6/1.c)
 - [sharafat](solutions/sharafat/6/1.c)
 
 2. Write a program to find the number of and sum of all integers greater than 100 and less than 200 that
 are divisible by 7.
+- [Mobin](solutions/Mobin/6/2.c)
 - [sadman](solutions/sadman/6/2.c)
 - [NAYEMA](solutions/NAYEMA/6/2.c)
 - [sharafat](solutions/sharafat/6/2.c)
