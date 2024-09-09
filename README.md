@@ -527,15 +527,15 @@ NUMBER IS ODD
 	(b) with else option.
 ```
 - [sadman](solutions/sadman/6/1.c)
-- [sharafat](solutions/sharafat/6/1.c)
 - [Mobin](solutions/Mobin/6/1.c)
+- [sharafat](solutions/sharafat/6/1.c)
 
 2. Write a program to find the number of and sum of all integers greater than 100 and less than 200 that
 are divisible by 7.
 - [sadman](solutions/sadman/6/2.c)
+- [Mobin](solutions/Mobin/6/2.c)
 - [sharafat](solutions/sharafat/6/2.c)
 - [NAYEMA](solutions/NAYEMA/6/2.c)
-- [Mobin](solutions/Mobin/6/2.c)
 
 3. A set of two linear equations with two unknowns x1 and x2 is given below:
 ```
