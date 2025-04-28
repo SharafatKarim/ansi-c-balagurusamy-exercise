@@ -43,8 +43,8 @@ Excersise solutions for the book "Programming in ANSI C" by E. Balagurusamy (eig
 
 1. Write a program to display the equation of a line in the form `ax + by = c` 
 for `a = 5, b = 8 and c = 18`.
-- [rusni](solutions/rusni/2/1.c)
 - [monir](solutions/monir/2/1.c)
+- [rusni](solutions/rusni/2/1.c)
 
 2. Write a C program that uses an in-built function to draw a 3D bar.
 
@@ -56,8 +56,8 @@ for `a = 5, b = 8 and c = 18`.
 ...
 5 x 10 = 50
 ```
-- [rusni](solutions/rusni/2/3.c)
 - [monir](solutions/monir/2/3.c)
+- [rusni](solutions/rusni/2/3.c)
 
 4. Given the values of three variables a, b and c, write a program to compute and display the value of x,
 where `x = a / ( b - c )` 
@@ -67,13 +67,13 @@ Execute your program for the following values:
 (b) a = 300, b = 70, c = 70
 ```
 Comment on the output in each case.
-- [rusni](solutions/rusni/2/4.c)
 - [monir](solutions/monir/2/4.c)
+- [rusni](solutions/rusni/2/4.c)
 
 5. Write a C program that reads the value of distance travelled by a car and the time taken for the same.
 Next, compute the speed at which the car travelled.
-- [rusni](solutions/rusni/2/5.c)
 - [monir](solutions/monir/2/5.c)
+- [rusni](solutions/rusni/2/5.c)
 
 6. Write a C program to print the current system date.
 - [monir](solutions/monir/2/6.c)
@@ -527,15 +527,15 @@ NUMBER IS ODD
 	(b) with else option.
 ```
 - [sharafat](solutions/sharafat/6/1.c)
-- [Mobin](solutions/Mobin/6/1.c)
 - [sadman](solutions/sadman/6/1.c)
+- [Mobin](solutions/Mobin/6/1.c)
 
 2. Write a program to find the number of and sum of all integers greater than 100 and less than 200 that
 are divisible by 7.
 - [sharafat](solutions/sharafat/6/2.c)
 - [NAYEMA](solutions/NAYEMA/6/2.c)
-- [Mobin](solutions/Mobin/6/2.c)
 - [sadman](solutions/sadman/6/2.c)
+- [Mobin](solutions/Mobin/6/2.c)
 
 3. A set of two linear equations with two unknowns x1 and x2 is given below:
 ```
